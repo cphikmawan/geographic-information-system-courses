@@ -68,9 +68,27 @@
 
 ### Geo-referencing with Siteplan Maps
 ![Gambar](assets/img/)
+Step for geo-referencing with siteplan same with 5 step before.
+#### Step 1 - Open QGIS georeference on Raster Menu
+#### Step 2 - Open the siteplan TIF images
+#### Step 3 - Tag points
+#### Step 4 - Start Georeferencing
+FYI : Because the siteplan is perfectly detailed and has differrent rotation, nn this part i need to crop and rotate the siteplan image like this:
+
+![Gambar](assets/img/images-crop.png)
+
+#### Step 5 - geo-referencing get mean error *__0.938882__*. with 3 tags. Done
+
+![Gambar](assets/img/images-crop.png)
 
 ### Siteplan Digitizing
 ![Gambar](assets/img/)
+How to digitizing?
+#### Step 1 - Create New Layer
+#### Step 2 - Toggle Edit on Layer
+#### Step 3 - Save
+#### Step 4 - Done
+
 
 ##### Best Documentation on https://github.com/cphikmawan/geographic-information-system-courses
 ###### Created with <3 by Cloudy
