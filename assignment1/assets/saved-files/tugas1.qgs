@@ -104,10 +104,10 @@
   <mapcanvas>
     <units>degrees</units>
     <extent>
-      <xmin>0</xmin>
-      <ymin>-357</ymin>
-      <xmax>376</xmax>
-      <ymax>0</ymax>
+      <xmin>688192.76130822068080306</xmin>
+      <ymin>9179725.34249340370297432</ymin>
+      <xmax>689036.49137451825663447</xmax>
+      <ymax>9180652.09766558557748795</ymax>
     </extent>
     <rotation>0</rotation>
     <projections>0</projections>
@@ -1627,8 +1627,12 @@ def my_form_open(dialog, layer, feature):
         <value>as_jalan_kec_buduran20180922063503570</value>
         <value>jalan_kec_buduran20180922061330571</value>
         <value>kcmt_buduran20180922061323656</value>
+        <value>siteplan_layer20180922142528946</value>
+        <value>siteplan_layers20180922150439974</value>
       </LayerSnappingList>
       <LayerSnappingEnabledList type="QStringList">
+        <value>disabled</value>
+        <value>disabled</value>
         <value>disabled</value>
         <value>disabled</value>
         <value>disabled</value>
@@ -1639,8 +1643,12 @@ def my_form_open(dialog, layer, feature):
         <value>2</value>
         <value>2</value>
         <value>2</value>
+        <value>2</value>
+        <value>2</value>
       </LayerSnappingToleranceUnitList>
       <LayerSnapToList type="QStringList">
+        <value>to_vertex_and_segment</value>
+        <value>to_vertex_and_segment</value>
         <value>to_vertex_and_segment</value>
         <value>to_vertex_and_segment</value>
         <value>to_vertex_and_segment</value>
@@ -1648,6 +1656,8 @@ def my_form_open(dialog, layer, feature):
       <DefaultSnapType type="QString">off</DefaultSnapType>
       <DefaultSnapTolerance type="double">0</DefaultSnapTolerance>
       <LayerSnappingToleranceList type="QStringList">
+        <value>0.000000</value>
+        <value>0.000000</value>
         <value>0.000000</value>
         <value>0.000000</value>
         <value>0.000000</value>
