@@ -64,7 +64,7 @@
 
 3. Open screenshot images from **Step 3**, also use **WGS 84**.
 
-![Gambar](assets/img/open-raster-images.png)
+![Gambar](assets/img/gmaps-points.png)
 
 4. Tag a point on **Raster Image** and **Vector Image**, in this case i just tagged 4 points (miminum 3 points). and get mean error *__0.595726__*, when tag point in this step, get minimum mean error.
     - After tag points, then start Georeferencing
