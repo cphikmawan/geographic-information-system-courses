@@ -1,0 +1,8150 @@
+/3.1
+(ODB.1
+	Dependencies:	"$AVEXT/jfif.avx\n$AVEXT/cadrg.avx\n$AVEXT/nitf.avx\n$AVEXT/dbaccess.avx\n$AVEXT/cadview.avx\n"
+	FirstRootClassName:	"Project"
+	Roots:	2
+	Version:	31
+)
+
+(Project.2
+	Name:	"kepadatan.apr"
+	CreationDate:	"Saturday, June 09, 2001 03:48:44"
+	GUIName:	"Project"
+	Win:	3
+	CSMgr:	4
+	DocExts:	5
+	VisGUIWidth:	70
+	Doc:	6
+	Doc:	22
+	Doc:	235
+	Buttons:	640
+	Buttons:	641
+	Buttons:	642
+	Dependencies:	643
+	Dependencies:	644
+	Dependencies:	645
+	Dependencies:	646
+	Dependencies:	647
+	Scripts:	648
+	Prefs:	649
+	GUI:	669
+	GUI:	930
+	GUI:	1435
+	WorkDir:	1504
+	WinX:	-4
+	WinY:	-3
+	WinW:	1032
+	WinH:	747
+	SerialNumber:	"798481103576"
+	SelColor:	1505
+	GUINames:	1506
+	GUINames:	1507
+	GUINames:	1508
+	GUINames:	1509
+	GUINames:	1510
+	GUINames:	1511
+	GUINames:	1512
+	TocWidthScale:	1.00000000000000
+)
+
+(DocWin.3
+	Owner:	2
+	Open:	1
+	X:	513
+	Y:	317
+	W:	513
+	H:	317
+)
+
+(CSMgr.4
+)
+
+(DocAct.5
+	Doc:	2
+)
+
+(Table.6
+	Name:	"Attributes of KECAMATAN"
+	CreationDate:	"Tuesday, August 28, 2001 08:12:45"
+	GUIName:	"Table"
+	Win:	7
+	CSMgr:	8
+	DocExts:	9
+	VTab:	10
+)
+
+(DocWin.7
+	Owner:	6
+	Open:	1
+	X:	513
+	W:	513
+	H:	317
+)
+
+(CSMgr.8
+)
+
+(DocAct.9
+	Doc:	6
+)
+
+(FTab.10
+	Name:	"kecamatan.dbf"
+	BTab:	11
+	Fields:	17
+	Fields:	13
+	Fields:	12
+	Fields:	14
+	Fields:	15
+	SelBits:	18
+	FSrc:	19
+)
+
+(dBASE.11
+	Name:	"kecamatan.dbf"
+	Fields:	12
+	Fields:	13
+	Fields:	14
+	Fields:	15
+	FileName:	16
+)
+
+(Field.12
+	Name:	"Color"
+	Btab:	11
+	Alias:	"Color"
+	Visible:	1
+	Type:	9
+	Order:	-1
+	Pixels:	41
+)
+
+(Field.13
+	Name:	"Id"
+	Btab:	11
+	Alias:	"Id"
+	Visible:	1
+	Type:	9
+	Order:	-1
+	Pixels:	17
+)
+
+(Field.14
+	Name:	"Entity"
+	Btab:	11
+	Alias:	"Entity"
+	Visible:	1
+	Type:	4
+	Order:	-1
+	Pixels:	89
+)
+
+(Field.15
+	Name:	"Layer"
+	Btab:	11
+	Alias:	"Layer"
+	Visible:	1
+	Type:	4
+	Order:	-1
+	Pixels:	150
+)
+
+(FN.16
+	Path:	"d:/tg-its/stal-komp.3/arcview/kecamatan.dbf"
+)
+
+(Field.17
+	Name:	"Shape"
+	Alias:	"Shape"
+	Visible:	1
+	Type:	19
+	Order:	-1
+	Pixels:	53
+)
+
+(Bitmap.18
+	NumBits:	39
+	Bits:	00000000 00000000 
+)
+
+(ShpSrc.19
+	Name:	20
+	FTab:	10
+)
+
+(SrcName.20
+	FileName:	21
+	Name:	"kecamatan.shp"
+	SubName:	"Polygon"
+	OwnerClass:	"ShpSrc"
+)
+
+(FN.21
+	Path:	"d:/tg-its/stal-komp.3/arcview/kecamatan.shp"
+)
+
+(View.22
+	Name:	"BATAS ADMNISTRASI/KECAMATAN"
+	CreationDate:	"Saturday, June 09, 2001 03:48:57"
+	GUIName:	"View"
+	Win:	23
+	CSMgr:	24
+	DocExts:	26
+	DocExts:	58
+	Graphics:	59
+	Theme:	66
+	Theme:	124
+	Theme:	179
+	LastScale:	481211052.47681063000000
+	Dpy:	60
+	TOCWidth:	190
+	CoordPrecision:	2
+)
+
+(DocWin.23
+	Owner:	22
+	Open:	1
+	Y:	317
+	W:	513
+	H:	317
+)
+
+(CSMgr.24
+	Client:	25
+	Client:	27
+)
+
+(CSClient.25
+	Client:	26
+	ReqName:	"ClientNfy"
+)
+
+(PanMgr.26
+	Doc:	22
+)
+
+(CSClient.27
+	Client:	28
+	ReqName:	"ViewChangedCB"
+)
+
+(GView.28
+	Name:	"ViewFrame1"
+	Bounds:	29
+	Sym:	30
+	Flags:	0x01
+	UserBounds:	34
+	Refresh:	2
+	Quality:	1
+	View:	22
+	LiveLink:	1
+	MapDpy:	35
+	CSMgr:	40
+)
+
+(RectD.29
+	Left:	745.37739177898607
+	Top:	753.27880793803729
+	Right:	752.20854681405876
+	Bottom:	747.91539003570165
+)
+
+(BShSym.30
+	Color:	31
+	OutlineColor:	32
+	BgColor:	33
+	Style:	0x01
+)
+
+(TClr.31
+)
+
+(TClr.32
+)
+
+(TClr.33
+	Red:	0xffff
+	Green:	0xffff
+	Blue:	0xffff
+)
+
+(RectD.34
+	Left:	745.37739177898607
+	Top:	753.27880793803729
+	Right:	752.20854681405876
+	Bottom:	747.91539003570165
+)
+
+(MapDpy.35
+	Left:	675357.58330144396000
+	Bottom:	9184202.22820805010000
+	Top:	9206789.29201708920000
+	Right:	704125.75640975859000
+	Scale:	36
+	FrameLeft:	745.37739177898607
+	FrameBottom:	747.91539003570165
+	FrameTop:	753.27880793803729
+	FrameRight:	752.20854681405876
+	PageDpy:	37
+	MouseLoc:	39
+)
+
+(Numb.36
+	N:	0.00023745529511
+)
+
+(PageDpy.37
+	Left:	-6.26338754045310
+	Bottom:	1.69280744336572
+	Top:	1501.69280744336580
+	Right:	1493.73661245954690
+	ReportUnits:	1
+	Units:	1
+	Scale:	38
+	Type:	1
+	ZoomLeft:	743.57049999999992
+	ZoomRight:	756.42950000000008
+	ZoomTop:	754.54850000000010
+	ZoomBottom:	745.45150000000012
+	PageLeft:	744.15499999999997
+	PageRight:	755.84500000000003
+	PageTop:	754.13500000000010
+	PageBottom:	745.86500000000012
+	GridSpacingX:	0.25000000196750
+	GridSpacingY:	0.25000000196750
+	MarginLeft:	0.40666666666667
+	MarginRight:	0.33666666666667
+	MarginTop:	0.16666666666667
+	MarginBottom:	0.25000000000000
+	UsePrtMargins:	72
+	UsePrtPageSize:	72
+	Options:	55
+)
+
+(Numb.38
+	N:	32.09849400901403
+)
+
+(PointD.39
+)
+
+(CSMgr.40
+	Client:	41
+)
+
+(CSClient.41
+	Client:	42
+	ReqName:	"RespondViewFrameChanged"
+)
+
+(GLegend.42
+	Name:	"LegendFrame1"
+	Bounds:	43
+	Sym:	44
+	Flags:	0x01
+	UserBounds:	48
+	Refresh:	2
+	Quality:	1
+	GView:	28
+	TextSym:	49
+)
+
+(RectD.43
+	Left:	753.00274200275453
+	Top:	751.49531020190091
+	Right:	754.49707947613945
+	Bottom:	749.49907417558381
+)
+
+(BShSym.44
+	Color:	45
+	OutlineColor:	46
+	BgColor:	47
+	Style:	0x01
+)
+
+(TClr.45
+)
+
+(TClr.46
+)
+
+(TClr.47
+	Red:	0xffff
+	Green:	0xffff
+	Blue:	0xffff
+)
+
+(RectD.48
+	Left:	753.00274200275453
+	Top:	751.49381746328902
+	Right:	754.49292071197397
+	Bottom:	749.49907417558381
+)
+
+(TxSym.49
+	Color:	50
+	Font:	51
+	BgColor:	56
+	OlColor:	57
+	Size:	9.55526625965522
+)
+
+(TClr.50
+)
+
+(NFont.51
+	Family:	52
+	Name:	53
+	Style:	54
+	CommonFamily:	55
+	Weight:	1
+	Wideness:	1
+)
+
+(AVStr.52
+	S:	"Arial"
+)
+
+(AVStr.53
+	S:	"Arial"
+)
+
+(AVStr.54
+	S:	"Normal"
+)
+
+(AVStr.55
+	S:	"Helvetica"
+)
+
+(TClr.56
+	Red:	0xff
+	Green:	0xff
+	Blue:	0xff
+)
+
+(TClr.57
+	Red:	0xff
+	Green:	0xff
+	Blue:	0xff
+)
+
+(DocAct.58
+	Doc:	22
+)
+
+(GList.59
+	Dpy:	60
+	FormatNumb:	65
+)
+
+(MapDpy.60
+	Left:	670137.52461817663000
+	Bottom:	9180972.09657745250000
+	Top:	9209943.61047584000000
+	Right:	709352.29373247095000
+	ReportUnits:	8
+	Units:	8
+	Scale:	61
+	FrameTop:	2.97916666666667
+	FrameRight:	3.20833333333333
+	PageDpy:	62
+	FitToPage:	1
+	MouseLoc:	64
+)
+
+(Numb.61
+	N:	0.00008181441344
+)
+
+(PageDpy.62
+	Top:	2.97916666666667
+	Right:	3.20833333333333
+	ReportUnits:	1
+	Units:	1
+	Scale:	63
+	ZoomRight:	3.20833333333333
+	ZoomTop:	2.97916666666667
+	GridSpacingX:	0.25000000000000
+	GridSpacingY:	0.25000000000000
+)
+
+(Numb.63
+	N:	96.00000000000000
+)
+
+(PointD.64
+	x:	708461.04897987330000
+	y:	9211500.25907340270000
+)
+
+(Numb.65
+)
+
+(FTheme.66
+	Name:	"TEXT"
+	Source:	67
+	Flags:	0x06
+	Legend:	87
+	Threshold:	121
+	View:	22
+	GSet:	122
+	LegEditScript:	"View.EditLegend"
+	TxPos:	123
+	LabelField:	72
+	SnapTolCursor:	1
+)
+
+(DwgSrc.67
+	Name:	68
+	FTab:	70
+)
+
+(SrcName.68
+	FileName:	69
+	Name:	"text-admin.dwg"
+	SubName:	"annotation"
+	OwnerClass:	"DwgSrc"
+)
+
+(FN.69
+	Path:	"d:/proyek_stal/admnistrasi/cad/text-admin.dwg"
+)
+
+(FTab.70
+	Name:	"text-admin.dwg"
+	BTab:	71
+	Fields:	85
+	Fields:	72
+	Fields:	73
+	Fields:	74
+	Fields:	75
+	Fields:	76
+	Fields:	77
+	Fields:	78
+	Fields:	79
+	Fields:	80
+	Fields:	81
+	SelBits:	86
+	FSrc:	67
+)
+
+(DwgTbl.71
+	Name:	"text-admin.dwg"
+	Fields:	72
+	Fields:	73
+	Fields:	74
+	Fields:	75
+	Fields:	76
+	Fields:	77
+	Fields:	78
+	Fields:	79
+	Fields:	80
+	Fields:	81
+	Drawing:	82
+)
+
+(Field.72
+	Name:	"Entity"
+	Btab:	71
+	Alias:	"Entity"
+	Visible:	1
+	Type:	4
+	Order:	-1
+)
+
+(Field.73
+	Name:	"Handle"
+	Btab:	71
+	Alias:	"Handle"
+	Type:	4
+	Order:	-1
+)
+
+(Field.74
+	Name:	"Layer"
+	Btab:	71
+	Alias:	"Layer"
+	Visible:	1
+	Type:	4
+	Order:	-1
+)
+
+(Field.75
+	Name:	"Elevation"
+	Btab:	71
+	Alias:	"Elevation"
+	Visible:	1
+	Type:	7
+	Order:	-1
+)
+
+(Field.76
+	Name:	"Thickness"
+	Btab:	71
+	Alias:	"Thickness"
+	Visible:	1
+	Type:	7
+	Order:	-1
+)
+
+(Field.77
+	Name:	"Color"
+	Btab:	71
+	Alias:	"Color"
+	Visible:	1
+	Type:	2
+	Order:	-1
+)
+
+(Field.78
+	Name:	"Linetype"
+	Btab:	71
+	Alias:	"Linetype"
+	Type:	4
+	Order:	-1
+)
+
+(Field.79
+	Name:	"Linewidth"
+	Btab:	71
+	Alias:	"Linewidth"
+	Type:	7
+	Order:	-1
+)
+
+(Field.80
+	Name:	"Style"
+	Btab:	71
+	Alias:	"Style"
+	Type:	4
+	Order:	-1
+)
+
+(Field.81
+	Name:	"Text"
+	Btab:	71
+	Alias:	"Text"
+	Type:	4
+	Order:	-1
+)
+
+(DwgFile.82
+	FName:	83
+	SelectedLayers:	84
+	Blocks:	1
+	RootClass:	0x04
+)
+
+(FN.83
+	Path:	"d:/proyek_stal/admnistrasi/cad/text-admin.dwg"
+)
+
+(AVStr.84
+	S:	"text"
+)
+
+(Field.85
+	Name:	"Shape"
+	Alias:	"Shape"
+	Visible:	1
+	Type:	18
+	Order:	-1
+)
+
+(Bitmap.86
+	NumBits:	30
+
+)
+
+(Legend.87
+	SymType:	0x03
+	LegType:	0x08
+	ClassType:	0x03
+	FieldNames:	88
+	Symbols:	89
+	Class:	108
+	Class:	109
+	StdDevs:	1.00000000000000
+	NullSym:	110
+	NullValues:	119
+	StatValues:	120
+	Precision:	-3
+)
+
+(AVStr.88
+	S:	"Color"
+)
+
+(SymList.89
+	Child:	90
+	Child:	99
+)
+
+(TxSym.90
+	Color:	91
+	Font:	92
+	BgColor:	97
+	OlColor:	98
+	Size:	12.00000000000000
+)
+
+(TClr.91
+)
+
+(NFont.92
+	Family:	93
+	Name:	94
+	Style:	95
+	CommonFamily:	96
+	Weight:	1
+	Wideness:	1
+)
+
+(AVStr.93
+	S:	"Arial"
+)
+
+(AVStr.94
+	S:	"Arial"
+)
+
+(AVStr.95
+	S:	"Normal"
+)
+
+(AVStr.96
+	S:	"Helvetica"
+)
+
+(TClr.97
+	Red:	0xff
+	Green:	0xff
+	Blue:	0xff
+)
+
+(TClr.98
+	Red:	0xff
+	Green:	0xff
+	Blue:	0xff
+)
+
+(TxSym.99
+	Color:	100
+	Font:	101
+	BgColor:	106
+	OlColor:	107
+	Size:	12.00000000000000
+)
+
+(TClr.100
+	Name:	"Transparent"
+)
+
+(NFont.101
+	Family:	102
+	Name:	103
+	Style:	104
+	CommonFamily:	105
+	Weight:	1
+	Wideness:	1
+)
+
+(AVStr.102
+	S:	"Arial"
+)
+
+(AVStr.103
+	S:	"Arial"
+)
+
+(AVStr.104
+	S:	"Normal"
+)
+
+(AVStr.105
+	S:	"Helvetica"
+)
+
+(TClr.106
+	Red:	0xff
+	Green:	0xff
+	Blue:	0xff
+)
+
+(TClr.107
+	Red:	0xff
+	Green:	0xff
+	Blue:	0xff
+)
+
+(LClass.108
+	Label:	"7"
+	MinNum:	7.00000000000000
+	MaxNum:	7.00000000000000
+	Precision:	-3
+)
+
+(LClass.109
+	IsNoData:	1
+	Label:	"No Data"
+	MaxNum:	-1.00000000000000
+	Precision:	-3
+)
+
+(TxSym.110
+	Color:	111
+	Font:	112
+	BgColor:	117
+	OlColor:	118
+	Size:	12.00000000000000
+)
+
+(TClr.111
+	Name:	"Transparent"
+)
+
+(NFont.112
+	Family:	113
+	Name:	114
+	Style:	115
+	CommonFamily:	116
+	Weight:	1
+	Wideness:	1
+)
+
+(AVStr.113
+	S:	"Arial"
+)
+
+(AVStr.114
+	S:	"Arial"
+)
+
+(AVStr.115
+	S:	"Normal"
+)
+
+(AVStr.116
+	S:	"Helvetica"
+)
+
+(TClr.117
+	Red:	0xff
+	Green:	0xff
+	Blue:	0xff
+)
+
+(TClr.118
+	Red:	0xff
+	Green:	0xff
+	Blue:	0xff
+)
+
+(NameDict.119
+)
+
+(NameDict.120
+)
+
+(Thresh.121
+)
+
+(GSet.122
+)
+
+(TxPosArc.123
+	HAlign:	3
+	VAlign:	1
+)
+
+(FTheme.124
+	Name:	"BATAS ADMINISTRASI"
+	Source:	125
+	Flags:	0x07
+	Legend:	139
+	Threshold:	170
+	View:	22
+	GSet:	171
+	LegEditScript:	"View.EditLegend"
+	TxPos:	172
+	LabelField:	130
+	AttrRules:	173
+	AttrRules:	174
+	AttrRules:	175
+	AttrRules:	176
+	AttrRules:	177
+	AttrRules:	178
+	SnapTolCursor:	1
+)
+
+(ShpSrc.125
+	Name:	126
+	FTab:	128
+)
+
+(SrcName.126
+	FileName:	127
+	Name:	"administrasi.shp"
+	SubName:	"Arc"
+	OwnerClass:	"ShpSrc"
+)
+
+(FN.127
+	Path:	"d:/tg-its/stal-komp.3/arcview/administrasi.shp"
+)
+
+(FTab.128
+	Name:	"administrasi.dbf"
+	BTab:	129
+	Fields:	137
+	Fields:	130
+	Fields:	131
+	Fields:	132
+	Fields:	133
+	Fields:	134
+	Fields:	135
+	SelBits:	138
+	FSrc:	125
+)
+
+(dBASE.129
+	Name:	"administrasi.dbf"
+	Fields:	130
+	Fields:	131
+	Fields:	132
+	Fields:	133
+	Fields:	134
+	Fields:	135
+	FileName:	136
+)
+
+(Field.130
+	Name:	"Entity"
+	Btab:	129
+	Alias:	"Entity"
+	Visible:	1
+	Type:	4
+	Order:	-1
+)
+
+(Field.131
+	Name:	"Layer"
+	Btab:	129
+	Alias:	"Layer"
+	Visible:	1
+	Type:	4
+	Order:	-1
+)
+
+(Field.132
+	Name:	"Elevation"
+	Btab:	129
+	Alias:	"Elevation"
+	Visible:	1
+	Type:	9
+	Order:	-1
+)
+
+(Field.133
+	Name:	"Thickness"
+	Btab:	129
+	Alias:	"Thickness"
+	Visible:	1
+	Type:	9
+	Order:	-1
+)
+
+(Field.134
+	Name:	"Color"
+	Btab:	129
+	Alias:	"Color"
+	Visible:	1
+	Type:	9
+	Order:	-1
+)
+
+(Field.135
+	Name:	"Id"
+	Btab:	129
+	Alias:	"Id"
+	Visible:	1
+	Type:	9
+	Order:	-1
+)
+
+(FN.136
+	Path:	"d:/tg-its/stal-komp.3/arcview/administrasi.dbf"
+)
+
+(Field.137
+	Name:	"Shape"
+	Alias:	"Shape"
+	Visible:	1
+	Type:	18
+	Order:	-1
+)
+
+(Bitmap.138
+	NumBits:	530
+
+)
+
+(Legend.139
+	SymType:	0x01
+	LegType:	0x08
+	ClassType:	0x03
+	FieldNames:	140
+	Symbols:	141
+	Class:	158
+	Class:	159
+	Class:	160
+	Class:	161
+	Class:	162
+	Class:	163
+	Class:	164
+	Class:	165
+	StdDevs:	1.00000000000000
+	NullSym:	166
+	NullValues:	168
+	StatValues:	169
+	Precision:	-3
+)
+
+(AVStr.140
+	S:	"Color"
+)
+
+(SymList.141
+	Child:	142
+	Child:	144
+	Child:	146
+	Child:	148
+	Child:	150
+	Child:	152
+	Child:	154
+	Child:	156
+)
+
+(BLnSym.142
+	Color:	143
+	Width:	0.10000000000000
+	Pattern:	1.00000000000000
+	Pattern:	1.00000000000000
+	Pattern:	1.00000000000000
+	Pattern:	2.00000000000000
+	Pattern:	8.00000000000000
+	Pattern:	2.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+)
+
+(TClr.143
+	Red:	0xefff
+	Green:	0xef
+	Blue:	0xef
+)
+
+(BLnSym.144
+	Color:	145
+	Width:	0.10000000000000
+	Pattern:	1.00000000000000
+	Pattern:	1.00000000000000
+	Pattern:	1.00000000000000
+	Pattern:	2.00000000000000
+	Pattern:	3.00000000000000
+	Pattern:	2.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+)
+
+(TClr.145
+	Red:	0xffff
+)
+
+(BLnSym.146
+	Color:	147
+	Width:	0.10000000000000
+	Pattern:	2.00000000000000
+	Pattern:	2.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+)
+
+(TClr.147
+	Green:	0xffff
+)
+
+(BLnSym.148
+	Color:	149
+	Width:	0.10000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+)
+
+(TClr.149
+	Green:	0xffff
+	Blue:	0xffff
+)
+
+(BLnSym.150
+	Color:	151
+	Width:	0.10000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+)
+
+(TClr.151
+	Blue:	0xffff
+)
+
+(BLnSym.152
+	Color:	153
+	Width:	1.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+)
+
+(TClr.153
+)
+
+(BLnSym.154
+	Color:	155
+	Width:	0.10000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+)
+
+(TClr.155
+	Red:	0x7878
+	Green:	0x7878
+	Blue:	0x7878
+)
+
+(BLnSym.156
+	Color:	157
+	Width:	0.10000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+)
+
+(TClr.157
+	Name:	"Transparent"
+)
+
+(LClass.158
+	Label:	"Batas Kota"
+	MinNum:	1.00000000000000
+	MaxNum:	1.00000000000000
+	Precision:	-3
+)
+
+(LClass.159
+	Label:	"Batas Kecamatan"
+	MinNum:	2.00000000000000
+	MaxNum:	2.00000000000000
+	Precision:	-3
+)
+
+(LClass.160
+	Label:	"Rel Kereta Api"
+	MinNum:	3.00000000000000
+	MaxNum:	3.00000000000000
+	Precision:	-3
+)
+
+(LClass.161
+	Label:	"Sungai"
+	MinNum:	4.00000000000000
+	MaxNum:	4.00000000000000
+	Precision:	-3
+)
+
+(LClass.162
+	Label:	"Garis Pantai"
+	MinNum:	5.00000000000000
+	MaxNum:	5.00000000000000
+	Precision:	-3
+)
+
+(LClass.163
+	Label:	"Jalan Tol"
+	MinNum:	6.00000000000000
+	MaxNum:	6.00000000000000
+	Precision:	-3
+)
+
+(LClass.164
+	Label:	"Jalan"
+	MinNum:	9.00000000000000
+	MaxNum:	9.00000000000000
+	Precision:	-3
+)
+
+(LClass.165
+	IsNoData:	1
+	Label:	"No Data"
+	MaxNum:	-1.00000000000000
+	Precision:	-3
+)
+
+(BLnSym.166
+	Color:	167
+	Width:	0.10000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+)
+
+(TClr.167
+	Name:	"Transparent"
+)
+
+(NameDict.168
+)
+
+(NameDict.169
+)
+
+(Thresh.170
+)
+
+(GSet.171
+)
+
+(TxPosArc.172
+	HAlign:	3
+	VAlign:	1
+)
+
+(AttrSingle.173
+	FTab:	128
+	Field:	130
+	UnionRule:	1
+	SplitRule:	1
+)
+
+(AttrSingle.174
+	FTab:	128
+	Field:	131
+	UnionRule:	1
+	SplitRule:	1
+)
+
+(AttrSingle.175
+	FTab:	128
+	Field:	132
+	UnionRule:	1
+	SplitRule:	1
+)
+
+(AttrSingle.176
+	FTab:	128
+	Field:	133
+	UnionRule:	1
+	SplitRule:	1
+)
+
+(AttrSingle.177
+	FTab:	128
+	Field:	134
+	UnionRule:	1
+	SplitRule:	1
+)
+
+(AttrSingle.178
+	FTab:	128
+	Field:	135
+	UnionRule:	1
+	SplitRule:	1
+)
+
+(FTheme.179
+	Name:	"KEPADATAN PENDUDUK"
+	Source:	180
+	Flags:	0x06
+	Legend:	193
+	Threshold:	227
+	View:	22
+	GSet:	228
+	LegEditScript:	"View.EditLegend"
+	TxPos:	229
+	LabelField:	185
+	AttrRules:	230
+	AttrRules:	231
+	AttrRules:	232
+	AttrRules:	233
+	AttrRules:	234
+	SnapTolCursor:	1
+)
+
+(ShpSrc.180
+	Name:	181
+	FTab:	183
+)
+
+(SrcName.181
+	FileName:	182
+	Name:	"kepadatan.shp"
+	SubName:	"Polygon"
+	OwnerClass:	"ShpSrc"
+)
+
+(FN.182
+	Path:	"d:/proyek_stal/kepadatan_penduduk/view/kepadatan.shp"
+)
+
+(FTab.183
+	Name:	"kepadatan.dbf"
+	BTab:	184
+	Fields:	191
+	Fields:	185
+	Fields:	186
+	Fields:	187
+	Fields:	188
+	Fields:	189
+	SelBits:	192
+	FSrc:	180
+)
+
+(dBASE.184
+	Name:	"kepadatan.dbf"
+	Fields:	185
+	Fields:	186
+	Fields:	187
+	Fields:	188
+	Fields:	189
+	FileName:	190
+)
+
+(Field.185
+	Name:	"Entity"
+	Btab:	184
+	Alias:	"Entity"
+	Visible:	1
+	Type:	4
+	Order:	-1
+)
+
+(Field.186
+	Name:	"Layer"
+	Btab:	184
+	Alias:	"Layer"
+	Visible:	1
+	Type:	4
+	Order:	-1
+)
+
+(Field.187
+	Name:	"Elevation"
+	Btab:	184
+	Alias:	"Elevation"
+	Visible:	1
+	Type:	9
+	Order:	-1
+)
+
+(Field.188
+	Name:	"Thickness"
+	Btab:	184
+	Alias:	"Thickness"
+	Visible:	1
+	Type:	9
+	Order:	-1
+)
+
+(Field.189
+	Name:	"Color"
+	Btab:	184
+	Alias:	"Color"
+	Visible:	1
+	Type:	9
+	Order:	-1
+)
+
+(FN.190
+	Path:	"d:/proyek_stal/kepadatan_penduduk/view/kepadatan.dbf"
+)
+
+(Field.191
+	Name:	"Shape"
+	Alias:	"Shape"
+	Visible:	1
+	Type:	19
+	Order:	-1
+)
+
+(Bitmap.192
+	NumBits:	39
+
+)
+
+(Legend.193
+	SymType:	0x02
+	LegType:	0x08
+	ClassType:	0x03
+	FieldNames:	194
+	Symbols:	195
+	Class:	216
+	Class:	217
+	Class:	218
+	Class:	219
+	Class:	220
+	StdDevs:	1.00000000000000
+	NullSym:	221
+	NullValues:	225
+	StatValues:	226
+	Precision:	-3
+)
+
+(AVStr.194
+	S:	"Layer"
+)
+
+(SymList.195
+	Child:	196
+	Child:	200
+	Child:	204
+	Child:	208
+	Child:	212
+)
+
+(BShSym.196
+	Color:	197
+	Outline:	1
+	OutlineColor:	198
+	OutlineWidth:	0.10000000000000
+	BgColor:	199
+)
+
+(TClr.197
+	Red:	0xfeff
+	Green:	0x7218
+	Blue:	0xfe
+)
+
+(TClr.198
+)
+
+(TClr.199
+	Red:	0xffff
+	Green:	0xffff
+	Blue:	0xffff
+)
+
+(BShSym.200
+	Color:	201
+	Outline:	1
+	OutlineColor:	202
+	OutlineWidth:	0.10000000000000
+	BgColor:	203
+)
+
+(TClr.201
+	Red:	0xfeff
+	Green:	0x46b8
+	Blue:	0x46b8
+)
+
+(TClr.202
+)
+
+(TClr.203
+	Red:	0xffff
+	Green:	0xffff
+	Blue:	0xffff
+)
+
+(BShSym.204
+	Color:	205
+	Outline:	1
+	OutlineColor:	206
+	OutlineWidth:	0.10000000000000
+	BgColor:	207
+)
+
+(TClr.205
+	Red:	0xfeff
+	Green:	0xe7a4
+	Blue:	0x6995
+)
+
+(TClr.206
+)
+
+(TClr.207
+	Red:	0xffff
+	Green:	0xffff
+	Blue:	0xffff
+)
+
+(BShSym.208
+	Color:	209
+	Outline:	1
+	OutlineColor:	210
+	OutlineWidth:	0.10000000000000
+	BgColor:	211
+)
+
+(TClr.209
+	Red:	0xfeff
+	Green:	0x8832
+	Blue:	0x28d6
+)
+
+(TClr.210
+)
+
+(TClr.211
+	Red:	0xffff
+	Green:	0xffff
+	Blue:	0xffff
+)
+
+(BShSym.212
+	Color:	213
+	Outline:	1
+	OutlineColor:	214
+	OutlineWidth:	0.10000000000000
+	BgColor:	215
+)
+
+(TClr.213
+	Name:	"Transparent"
+)
+
+(TClr.214
+	Name:	"Transparent"
+)
+
+(TClr.215
+	Red:	0xffff
+	Green:	0xffff
+	Blue:	0xffff
+)
+
+(LClass.216
+	IsText:	1
+	Label:	"150 - 250 Jiwa/Ha"
+	MinStr:	"150-250-JIWA"
+	MaxStr:	"150-250-JIWA"
+	Precision:	-3
+)
+
+(LClass.217
+	IsText:	1
+	Label:	"350 -450 Jiwa/Ha"
+	MinStr:	"350-450-JIWA"
+	MaxStr:	"350-450-JIWA"
+	Precision:	-3
+)
+
+(LClass.218
+	IsText:	1
+	Label:	"50 -150 Jiwa/Ha"
+	MinStr:	"50-150-JIWA"
+	MaxStr:	"50-150-JIWA"
+	Precision:	-3
+)
+
+(LClass.219
+	IsText:	1
+	Label:	"Lebih dari 450 Jiwa/Ha"
+	MinStr:	"LEBIHDARI450"
+	MaxStr:	"LEBIHDARI450"
+	Precision:	-3
+)
+
+(LClass.220
+	IsNoData:	1
+	IsText:	1
+	Label:	"No Data"
+	Precision:	-3
+)
+
+(BShSym.221
+	Color:	222
+	Outline:	1
+	OutlineColor:	223
+	OutlineWidth:	0.10000000000000
+	BgColor:	224
+)
+
+(TClr.222
+	Name:	"Transparent"
+)
+
+(TClr.223
+	Name:	"Transparent"
+)
+
+(TClr.224
+	Red:	0xffff
+	Green:	0xffff
+	Blue:	0xffff
+)
+
+(NameDict.225
+)
+
+(NameDict.226
+)
+
+(Thresh.227
+)
+
+(GSet.228
+)
+
+(TxPosPly.229
+	HAlign:	3
+	VAlign:	3
+)
+
+(AttrSingle.230
+	FTab:	183
+	Field:	185
+	UnionRule:	1
+	SplitRule:	1
+)
+
+(AttrSingle.231
+	FTab:	183
+	Field:	186
+	UnionRule:	1
+	SplitRule:	1
+)
+
+(AttrSingle.232
+	FTab:	183
+	Field:	187
+	UnionRule:	1
+	SplitRule:	1
+)
+
+(AttrSingle.233
+	FTab:	183
+	Field:	188
+	UnionRule:	1
+	SplitRule:	1
+)
+
+(AttrSingle.234
+	FTab:	183
+	Field:	189
+	UnionRule:	1
+	SplitRule:	1
+)
+
+(Layout.235
+	Name:	"Kepadatan Penduduk"
+	CreationDate:	"Monday, September 17, 2001 01:38:34"
+	GUIName:	"Layout"
+	Win:	236
+	CSMgr:	237
+	DocExts:	239
+	DocExts:	240
+	Graphics:	241
+	Dpy:	37
+)
+
+(DocWin.236
+	Owner:	235
+	Open:	1
+	W:	513
+	H:	317
+)
+
+(CSMgr.237
+	Client:	238
+)
+
+(CSClient.238
+	Client:	239
+	ReqName:	"ClientNfy"
+)
+
+(PanMgr.239
+	Doc:	235
+)
+
+(DocAct.240
+	Doc:	235
+)
+
+(GList.241
+	Child:	242
+	Child:	256
+	Child:	263
+	Child:	274
+	Child:	285
+	Child:	296
+	Child:	307
+	Child:	318
+	Child:	323
+	Child:	334
+	Child:	345
+	Child:	356
+	Child:	367
+	Child:	372
+	Child:	377
+	Child:	382
+	Child:	387
+	Child:	392
+	Child:	397
+	Child:	402
+	Child:	407
+	Child:	417
+	Child:	422
+	Child:	427
+	Child:	432
+	Child:	437
+	Child:	442
+	Child:	447
+	Child:	452
+	Child:	457
+	Child:	42
+	Child:	28
+	Child:	465
+	Child:	588
+	Child:	595
+	Child:	606
+	Child:	617
+	Child:	628
+	Dpy:	37
+	FormatNumb:	639
+)
+
+(GPict.242
+	Name:	"PictureFrame1"
+	Bounds:	243
+	Sym:	244
+	Flags:	0x01
+	UserBounds:	248
+	Refresh:	1
+	Quality:	1
+	Pict:	249
+)
+
+(RectD.243
+	Left:	752.97554100442744
+	Top:	753.57799202820229
+	Right:	753.32381871989776
+	Bottom:	753.16086308417050
+)
+
+(BShSym.244
+	Color:	245
+	OutlineColor:	246
+	BgColor:	247
+	Style:	0x01
+)
+
+(TClr.245
+)
+
+(TClr.246
+)
+
+(TClr.247
+	Red:	0xffff
+	Green:	0xffff
+	Blue:	0xffff
+)
+
+(RectD.248
+	Left:	752.97554100442744
+	Top:	753.57799202820229
+	Right:	753.32381871989776
+	Bottom:	753.16086308417050
+)
+
+(ImgPict.249
+	Fn:	250
+	ISrc:	251
+)
+
+(FN.250
+	Path:	"g:/proyek_stal/logokm~1.tif"
+)
+
+(ISrc.251
+	Name:	252
+	MapBox:	254
+	BandStats:	255
+)
+
+(SrcName.252
+	FileName:	253
+	Name:	"logokm~1.tif"
+	OwnerClass:	"ISrc"
+)
+
+(FN.253
+	Path:	"d:/proyek_stal/logokm~1.tif"
+)
+
+(RectD.254
+	Left:	-0.00138888888889
+	Top:	0.00138888888889
+	Right:	0.84305555555556
+	Bottom:	-1.06805555555556
+)
+
+(BStat.255
+	Max:	1.00000000000000
+	Mean:	0.50000000000000
+	StDv:	0.25000000000000
+)
+
+(GShape.256
+	Bounds:	257
+	Sym:	258
+	Shape:	262
+)
+
+(RectD.257
+	Left:	752.90406851512182
+	Top:	751.53006316839731
+	Right:	753.58168036904635
+	Bottom:	751.23529291716522
+)
+
+(BShSym.258
+	Color:	259
+	OutlineColor:	260
+	OutlineWidth:	0.10000000000000
+	BgColor:	261
+)
+
+(TClr.259
+	Red:	0xffff
+	Green:	0xffff
+	Blue:	0xffff
+)
+
+(TClr.260
+)
+
+(TClr.261
+	Name:	"Transparent"
+)
+
+(RectD.262
+	Left:	752.90406851512182
+	Top:	751.53006316839731
+	Right:	753.58168036904635
+	Bottom:	751.23529291716522
+)
+
+(GText.263
+	Name:	"GraphicText5"
+	Bounds:	264
+	Sym:	265
+	Text:	"KEPADATAN PENDUDUK"
+	Alignment:	0x01
+	Spacing:	1.00000000000000
+)
+
+(RectD.264
+	Left:	753.22193770596027
+	Top:	751.96175513773983
+	Right:	754.58481587824383
+	Bottom:	751.83220398067863
+)
+
+(TxSym.265
+	Color:	266
+	Font:	267
+	BgColor:	272
+	OlColor:	273
+	Size:	9.32768330840475
+)
+
+(TClr.266
+)
+
+(NFont.267
+	Family:	268
+	Name:	269
+	Style:	270
+	CommonFamily:	271
+	Bold:	1
+	Weight:	1
+	Wideness:	1
+)
+
+(AVStr.268
+	S:	"Arial"
+)
+
+(AVStr.269
+	S:	"Arial Bold"
+)
+
+(AVStr.270
+	S:	"Bold"
+)
+
+(AVStr.271
+	S:	"Helvetica"
+)
+
+(TClr.272
+	Red:	0xff
+	Green:	0xff
+	Blue:	0xff
+)
+
+(TClr.273
+	Red:	0xff
+	Green:	0xff
+	Blue:	0xff
+)
+
+(GText.274
+	Name:	"GraphicText7"
+	Bounds:	275
+	Sym:	276
+	Selected:	0x01
+	Text:	"4.19"
+	Alignment:	0x01
+	Spacing:	1.00000000000000
+)
+
+(RectD.275
+	Left:	753.75913324035514
+	Top:	746.92609995225769
+	Right:	753.99246657368849
+	Bottom:	746.78721106336877
+)
+
+(TxSym.276
+	Color:	277
+	Font:	278
+	BgColor:	283
+	OlColor:	284
+	Size:	10.00000000000000
+)
+
+(TClr.277
+)
+
+(NFont.278
+	Family:	279
+	Name:	280
+	Style:	281
+	CommonFamily:	282
+	Bold:	1
+	Weight:	1
+	Wideness:	1
+)
+
+(AVStr.279
+	S:	"Arial"
+)
+
+(AVStr.280
+	S:	"Arial Bold"
+)
+
+(AVStr.281
+	S:	"Bold"
+)
+
+(AVStr.282
+	S:	"Helvetica"
+)
+
+(TClr.283
+	Red:	0xff
+	Green:	0xff
+	Blue:	0xff
+)
+
+(TClr.284
+	Red:	0xff
+	Green:	0xff
+	Blue:	0xff
+)
+
+(GText.285
+	Name:	"GraphicText6"
+	Bounds:	286
+	Sym:	287
+	Text:	"Keterangan"
+	Alignment:	0x01
+	Spacing:	1.00000000000000
+)
+
+(RectD.286
+	Left:	753.60138319194937
+	Top:	751.51802977062289
+	Right:	754.06513319194937
+	Bottom:	751.42080754840072
+)
+
+(TxSym.287
+	Color:	288
+	Font:	289
+	BgColor:	294
+	OlColor:	295
+	Size:	7.00000000000000
+)
+
+(TClr.288
+)
+
+(NFont.289
+	Family:	290
+	Name:	291
+	Style:	292
+	CommonFamily:	293
+	Bold:	1
+	Weight:	1
+	Wideness:	1
+)
+
+(AVStr.290
+	S:	"Arial"
+)
+
+(AVStr.291
+	S:	"Arial Bold"
+)
+
+(AVStr.292
+	S:	"Bold"
+)
+
+(AVStr.293
+	S:	"Helvetica"
+)
+
+(TClr.294
+	Red:	0xff
+	Green:	0xff
+	Blue:	0xff
+)
+
+(TClr.295
+	Red:	0xff
+	Green:	0xff
+	Blue:	0xff
+)
+
+(GText.296
+	Name:	"GraphicText7"
+	Bounds:	297
+	Sym:	298
+	Text:	"PENGEMBANGAN PUSAT DATA\nPERENCANAAN DAN PENGENDALIAN\nPEMBANGUNAN DI KOTA SURABAYA\nPENYUSUNAN BASIS DATA DIGITAL\n( G I S )"
+	Alignment:	0x01
+	Spacing:	1.00000000000000
+)
+
+(RectD.297
+	Left:	753.01264579879626
+	Top:	752.99335686021357
+	Right:	754.65846369810254
+	Bottom:	752.47515223196854
+)
+
+(TxSym.298
+	Color:	299
+	Font:	300
+	BgColor:	305
+	OlColor:	306
+	Size:	7.46214664672860
+)
+
+(TClr.299
+)
+
+(NFont.300
+	Family:	301
+	Name:	302
+	Style:	303
+	CommonFamily:	304
+	Bold:	1
+	Weight:	1
+	Wideness:	1
+)
+
+(AVStr.301
+	S:	"Arial"
+)
+
+(AVStr.302
+	S:	"Arial Bold"
+)
+
+(AVStr.303
+	S:	"Bold"
+)
+
+(AVStr.304
+	S:	"Helvetica"
+)
+
+(TClr.305
+	Red:	0xff
+	Green:	0xff
+	Blue:	0xff
+)
+
+(TClr.306
+	Red:	0xff
+	Green:	0xff
+	Blue:	0xff
+)
+
+(GText.307
+	Name:	"GraphicText6"
+	Bounds:	308
+	Sym:	309
+	Text:	"PETA"
+	Alignment:	0x01
+	Spacing:	1.00000000000000
+)
+
+(RectD.308
+	Left:	753.61239363655773
+	Top:	752.29693072042073
+	Right:	754.05378252544665
+	Bottom:	752.10248627597628
+)
+
+(TxSym.309
+	Color:	310
+	Font:	311
+	BgColor:	316
+	OlColor:	317
+	Size:	14.00000000000000
+)
+
+(TClr.310
+)
+
+(NFont.311
+	Family:	312
+	Name:	313
+	Style:	314
+	CommonFamily:	315
+	Bold:	1
+	Weight:	1
+	Wideness:	1
+)
+
+(AVStr.312
+	S:	"Arial"
+)
+
+(AVStr.313
+	S:	"Arial Bold"
+)
+
+(AVStr.314
+	S:	"Bold"
+)
+
+(AVStr.315
+	S:	"Helvetica"
+)
+
+(TClr.316
+	Red:	0xff
+	Green:	0xff
+	Blue:	0xff
+)
+
+(TClr.317
+	Red:	0xff
+	Green:	0xff
+	Blue:	0xff
+)
+
+(GShape.318
+	Bounds:	319
+	Sym:	320
+	Shape:	322
+)
+
+(RectD.319
+	Left:	752.86961312185690
+	Top:	747.70233503556608
+	Right:	754.87834425317010
+	Bottom:	747.70233503556608
+)
+
+(BLnSym.320
+	Color:	321
+	Width:	2.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+)
+
+(TClr.321
+)
+
+(LineD.322
+	X1:	752.86961312185690
+	Y1:	747.70233503556608
+	X2:	754.87834425317010
+	Y2:	747.70233503556608
+)
+
+(GText.323
+	Name:	"GraphicText3"
+	Bounds:	324
+	Sym:	325
+	Text:	"1. Peta Data Pokok\n2. Surabaya Dalam Angka 1999\n3. Hasil Survey"
+	Spacing:	1.00000000000000
+)
+
+(RectD.324
+	Left:	753.24874043996590
+	Top:	747.54141520254791
+	Right:	754.64207377329922
+	Bottom:	747.20808186921454
+)
+
+(TxSym.325
+	Color:	326
+	Font:	327
+	BgColor:	332
+	OlColor:	333
+	Size:	8.00000000000000
+)
+
+(TClr.326
+)
+
+(NFont.327
+	Family:	328
+	Name:	329
+	Style:	330
+	CommonFamily:	331
+	Weight:	1
+	Wideness:	1
+)
+
+(AVStr.328
+	S:	"Arial"
+)
+
+(AVStr.329
+	S:	"Arial"
+)
+
+(AVStr.330
+	S:	"Normal"
+)
+
+(AVStr.331
+	S:	"Helvetica"
+)
+
+(TClr.332
+	Red:	0xff
+	Green:	0xff
+	Blue:	0xff
+)
+
+(TClr.333
+	Red:	0xff
+	Green:	0xff
+	Blue:	0xff
+)
+
+(GText.334
+	Name:	"GraphicText4"
+	Bounds:	335
+	Sym:	336
+	Text:	"No. Peta"
+	Spacing:	1.00000000000000
+)
+
+(RectD.335
+	Left:	752.93125562908415
+	Top:	746.96671330206459
+	Right:	753.41320007352863
+	Bottom:	746.82782441317568
+)
+
+(TxSym.336
+	Color:	337
+	Font:	338
+	BgColor:	343
+	OlColor:	344
+	Size:	10.00000000000000
+)
+
+(TClr.337
+)
+
+(NFont.338
+	Family:	339
+	Name:	340
+	Style:	341
+	CommonFamily:	342
+	Bold:	1
+	Weight:	1
+	Wideness:	1
+)
+
+(AVStr.339
+	S:	"Arial"
+)
+
+(AVStr.340
+	S:	"Arial Bold"
+)
+
+(AVStr.341
+	S:	"Bold"
+)
+
+(AVStr.342
+	S:	"Helvetica"
+)
+
+(TClr.343
+	Red:	0xff
+	Green:	0xff
+	Blue:	0xff
+)
+
+(TClr.344
+	Red:	0xff
+	Green:	0xff
+	Blue:	0xff
+)
+
+(GText.345
+	Name:	"GraphicText4"
+	Bounds:	346
+	Sym:	347
+	Text:	"Sumber"
+	Spacing:	1.00000000000000
+)
+
+(RectD.346
+	Left:	752.92486579610443
+	Top:	747.68552211620386
+	Right:	753.23889357388225
+	Bottom:	747.58829989398168
+)
+
+(TxSym.347
+	Color:	348
+	Font:	349
+	BgColor:	354
+	OlColor:	355
+	Size:	7.00000000000000
+)
+
+(TClr.348
+)
+
+(NFont.349
+	Family:	350
+	Name:	351
+	Style:	352
+	CommonFamily:	353
+	Bold:	1
+	Weight:	1
+	Wideness:	1
+)
+
+(AVStr.350
+	S:	"Arial"
+)
+
+(AVStr.351
+	S:	"Arial Bold"
+)
+
+(AVStr.352
+	S:	"Bold"
+)
+
+(AVStr.353
+	S:	"Helvetica"
+)
+
+(TClr.354
+	Red:	0xff
+	Green:	0xff
+	Blue:	0xff
+)
+
+(TClr.355
+	Red:	0xff
+	Green:	0xff
+	Blue:	0xff
+)
+
+(GText.356
+	Name:	"GraphicText2"
+	Bounds:	357
+	Sym:	358
+	Text:	"PEMERINTAH KOTA\nSURABAYA"
+	Alignment:	0x01
+	Spacing:	1.00000000000000
+)
+
+(RectD.357
+	Left:	753.38018720275397
+	Top:	753.51862608581928
+	Right:	754.68139902427697
+	Bottom:	753.20770330887228
+)
+
+(TxSym.358
+	Color:	359
+	Font:	360
+	BgColor:	365
+	OlColor:	366
+	Size:	11.19321997009056
+)
+
+(TClr.359
+)
+
+(NFont.360
+	Family:	361
+	Name:	362
+	Style:	363
+	CommonFamily:	364
+	Bold:	1
+	Weight:	1
+	Wideness:	1
+)
+
+(AVStr.361
+	S:	"Arial"
+)
+
+(AVStr.362
+	S:	"Arial Bold"
+)
+
+(AVStr.363
+	S:	"Bold"
+)
+
+(AVStr.364
+	S:	"Helvetica"
+)
+
+(TClr.365
+	Red:	0xff
+	Green:	0xff
+	Blue:	0xff
+)
+
+(TClr.366
+	Red:	0xff
+	Green:	0xff
+	Blue:	0xff
+)
+
+(GShape.367
+	Bounds:	368
+	Sym:	369
+	Shape:	371
+)
+
+(RectD.368
+	Left:	752.87249399067446
+	Top:	747.02397641146888
+	Right:	754.88191075885925
+	Bottom:	747.02397641146888
+)
+
+(BLnSym.369
+	Color:	370
+	Width:	2.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+)
+
+(TClr.370
+)
+
+(LineD.371
+	X1:	752.87249399067446
+	Y1:	747.02397641146888
+	X2:	754.88191075885925
+	Y2:	747.02397641146888
+)
+
+(GShape.372
+	Bounds:	373
+	Sym:	374
+	Shape:	376
+)
+
+(RectD.373
+	Left:	752.87249399067446
+	Top:	751.55167657946947
+	Right:	754.88191075885925
+	Bottom:	751.55167657946947
+)
+
+(BLnSym.374
+	Color:	375
+	Width:	2.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+)
+
+(TClr.375
+)
+
+(LineD.376
+	X1:	752.87249399067446
+	Y1:	751.55167657946947
+	X2:	754.88191075885925
+	Y2:	751.55167657946947
+)
+
+(GShape.377
+	Bounds:	378
+	Sym:	379
+	Shape:	381
+)
+
+(RectD.378
+	Left:	752.87249399067446
+	Top:	752.40062036096958
+	Right:	754.88191075885925
+	Bottom:	752.40062036096958
+)
+
+(BLnSym.379
+	Color:	380
+	Width:	2.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+)
+
+(TClr.380
+)
+
+(LineD.381
+	X1:	752.87249399067446
+	Y1:	752.40062036096958
+	X2:	754.88191075885925
+	Y2:	752.40062036096958
+)
+
+(GShape.382
+	Bounds:	383
+	Sym:	384
+	Shape:	386
+)
+
+(RectD.383
+	Left:	752.87249399067446
+	Top:	753.07977538616967
+	Right:	754.88191075885925
+	Bottom:	753.07977538616967
+)
+
+(BLnSym.384
+	Color:	385
+	Width:	2.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+)
+
+(TClr.385
+)
+
+(LineD.386
+	X1:	752.87249399067446
+	Y1:	753.07977538616967
+	X2:	754.88191075885925
+	Y2:	753.07977538616967
+)
+
+(GShape.387
+	Bounds:	388
+	Sym:	389
+	Shape:	391
+)
+
+(RectD.388
+	Left:	752.88301242026012
+	Top:	746.24999260421703
+	Right:	754.87930649959185
+	Bottom:	746.24546500802921
+)
+
+(BLnSym.389
+	Color:	390
+	Width:	4.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+)
+
+(TClr.390
+)
+
+(LineD.391
+	X1:	752.88301242026012
+	Y1:	746.24546500802921
+	X2:	754.87930649959185
+	Y2:	746.24999260421703
+)
+
+(GShape.392
+	Bounds:	393
+	Sym:	394
+	Shape:	396
+)
+
+(RectD.393
+	Left:	754.87924757281553
+	Top:	753.64573790716940
+	Right:	754.88191075885891
+	Bottom:	746.27856472491919
+)
+
+(BLnSym.394
+	Color:	395
+	Width:	4.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+)
+
+(TClr.395
+)
+
+(LineD.396
+	X1:	754.88191075885891
+	Y1:	753.64573790716940
+	X2:	754.87924757281553
+	Y2:	746.27856472491919
+)
+
+(GShape.397
+	Bounds:	398
+	Sym:	399
+	Shape:	401
+)
+
+(RectD.398
+	Left:	752.88556309632281
+	Top:	753.64641094563319
+	Right:	754.88191075885925
+	Bottom:	753.64573790716963
+)
+
+(BLnSym.399
+	Color:	400
+	Width:	4.00000000000000
+	JoinStyle:	0x02
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+)
+
+(TClr.400
+)
+
+(LineD.401
+	X1:	752.88556309632281
+	Y1:	753.64641094563319
+	X2:	754.88191075885925
+	Y2:	753.64573790716963
+)
+
+(GShape.402
+	Bounds:	403
+	Sym:	404
+	Shape:	406
+)
+
+(RectD.403
+	Left:	752.87689671243493
+	Top:	753.64929974026245
+	Right:	752.88216019417473
+	Bottom:	746.26343527508106
+)
+
+(BLnSym.404
+	Color:	405
+	Width:	4.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+)
+
+(TClr.405
+)
+
+(LineD.406
+	X1:	752.87689671243493
+	Y1:	753.64929974026245
+	X2:	752.88216019417473
+	Y2:	746.26343527508106
+)
+
+(GText.407
+	Name:	"GraphicText1"
+	Bounds:	408
+	Sym:	409
+	Text:	"K O T A   S U R A B A Y A"
+	Alignment:	0x01
+	Spacing:	1.00000000000000
+)
+
+(RectD.408
+	Left:	746.93155305772086
+	Top:	746.74870571401607
+	Right:	750.81808776955836
+	Bottom:	746.36005224283235
+)
+
+(TxSym.409
+	Color:	410
+	Font:	411
+	BgColor:	415
+	OlColor:	416
+	Size:	27.98304992523008
+)
+
+(TClr.410
+)
+
+(NFont.411
+	Family:	412
+	Name:	413
+	Style:	414
+	Bold:	1
+	Weight:	1
+	Wideness:	1
+)
+
+(AVStr.412
+	S:	"Tahoma"
+)
+
+(AVStr.413
+	S:	"Tahoma Bold"
+)
+
+(AVStr.414
+	S:	"Bold"
+)
+
+(TClr.415
+	Red:	0xff
+	Green:	0xff
+	Blue:	0xff
+)
+
+(TClr.416
+	Red:	0xff
+	Green:	0xff
+	Blue:	0xff
+)
+
+(GShape.417
+	Bounds:	418
+	Sym:	419
+	Shape:	421
+)
+
+(RectD.418
+	Left:	752.58789357886315
+	Top:	746.78149582894468
+	Right:	752.58789357886315
+	Bottom:	746.21553330794472
+)
+
+(BLnSym.419
+	Color:	420
+	Width:	4.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+)
+
+(TClr.420
+)
+
+(LineD.421
+	X1:	752.58789357886315
+	Y1:	746.78149582894468
+	X2:	752.58789357886315
+	Y2:	746.21553330794472
+)
+
+(GShape.422
+	Bounds:	423
+	Sym:	424
+	Shape:	426
+)
+
+(RectD.423
+	Left:	745.01393806801366
+	Top:	746.78149582894468
+	Right:	745.01393806801366
+	Bottom:	746.21553330794472
+)
+
+(BLnSym.424
+	Color:	425
+	Width:	4.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+)
+
+(TClr.425
+)
+
+(LineD.426
+	X1:	745.01393806801366
+	Y1:	746.78149582894468
+	X2:	745.01393806801366
+	Y2:	746.21553330794472
+)
+
+(GShape.427
+	Bounds:	428
+	Sym:	429
+	Shape:	431
+)
+
+(RectD.428
+	Left:	745.01393806801343
+	Top:	746.21553330794450
+	Right:	752.58789357886315
+	Bottom:	746.21553330794450
+)
+
+(BLnSym.429
+	Color:	430
+	Width:	4.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+)
+
+(TClr.430
+)
+
+(LineD.431
+	X1:	745.01393806801343
+	Y1:	746.21553330794450
+	X2:	752.58789357886315
+	Y2:	746.21553330794450
+)
+
+(GShape.432
+	Bounds:	433
+	Sym:	434
+	Shape:	436
+)
+
+(RectD.433
+	Left:	745.01393806801343
+	Top:	746.78149582894457
+	Right:	752.58789357886315
+	Bottom:	746.78149582894457
+)
+
+(BLnSym.434
+	Color:	435
+	Width:	4.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+)
+
+(TClr.435
+)
+
+(LineD.436
+	X1:	745.01393806801343
+	Y1:	746.78149582894457
+	X2:	752.58789357886315
+	Y2:	746.78149582894457
+)
+
+(GShape.437
+	Bounds:	438
+	Sym:	439
+	Shape:	441
+)
+
+(RectD.438
+	Left:	745.01393806801343
+	Top:	747.10650063087917
+	Right:	752.58789357886315
+	Bottom:	747.10650063087917
+)
+
+(BLnSym.439
+	Color:	440
+	Width:	4.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+)
+
+(TClr.440
+)
+
+(LineD.441
+	X1:	745.01393806801343
+	Y1:	747.10650063087917
+	X2:	752.58789357886315
+	Y2:	747.10650063087917
+)
+
+(GShape.442
+	Bounds:	443
+	Sym:	444
+	Shape:	446
+)
+
+(RectD.443
+	Left:	752.58789357886315
+	Top:	753.61506962238013
+	Right:	752.58789357886315
+	Bottom:	747.10650063087928
+)
+
+(BLnSym.444
+	Color:	445
+	Width:	4.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+)
+
+(TClr.445
+)
+
+(LineD.446
+	X1:	752.58789357886315
+	Y1:	753.61506962238013
+	X2:	752.58789357886315
+	Y2:	747.10650063087928
+)
+
+(GShape.447
+	Bounds:	448
+	Sym:	449
+	Shape:	451
+)
+
+(RectD.448
+	Left:	745.01393806801366
+	Top:	753.61506962238013
+	Right:	745.01393806801366
+	Bottom:	747.10650063087928
+)
+
+(BLnSym.449
+	Color:	450
+	Width:	4.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+)
+
+(TClr.450
+)
+
+(LineD.451
+	X1:	745.01393806801366
+	Y1:	753.61506962238013
+	X2:	745.01393806801366
+	Y2:	747.10650063087928
+)
+
+(GShape.452
+	Bounds:	453
+	Sym:	454
+	Shape:	456
+)
+
+(RectD.453
+	Left:	745.01393806801343
+	Top:	753.61506962237991
+	Right:	752.58789357886315
+	Bottom:	753.61506962237991
+)
+
+(BLnSym.454
+	Color:	455
+	Width:	4.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+)
+
+(TClr.455
+)
+
+(LineD.456
+	X1:	745.01393806801343
+	Y1:	753.61506962237991
+	X2:	752.58789357886315
+	Y2:	753.61506962237991
+)
+
+(GShape.457
+	Bounds:	458
+	Sym:	459
+	Shape:	464
+)
+
+(RectD.458
+	Left:	752.87249399067446
+	Top:	753.07977538616967
+	Right:	754.88191075885925
+	Bottom:	752.40062036096958
+)
+
+(BShSym.459
+	Color:	460
+	OutlineColor:	461
+	OutlineWidth:	1.00000000000000
+	BgColor:	462
+	Style:	0x01
+	Stipple:	463
+)
+
+(TClr.460
+)
+
+(TClr.461
+)
+
+(TClr.462
+	Name:	"Transparent"
+)
+
+(Stipple.463
+	Columns:	8
+	Rows:	8
+	Bits:	00000000 00000000 
+)
+
+(RectD.464
+	Left:	752.87249399067446
+	Top:	753.07977538616967
+	Right:	754.88191075885925
+	Bottom:	752.40062036096958
+)
+
+(GNorth.465
+	Name:	"NorthArrow5"
+	Bounds:	466
+	Graphic:	467
+	UserBounds:	587
+	Index:	1
+)
+
+(RectD.466
+	Left:	751.62656715210358
+	Top:	748.06772528249178
+	Right:	752.51178420636302
+	Bottom:	747.11317794815989
+)
+
+(GNorth.467
+	Bounds:	468
+	Selected:	0x01
+	Graphic:	469
+	Graphic:	541
+	Graphic:	553
+	Graphic:	564
+	Graphic:	575
+	UserBounds:	586
+	Index:	-1
+)
+
+(RectD.468
+	Left:	751.62656715210358
+	Top:	748.06772528249178
+	Right:	752.51178420636302
+	Bottom:	747.11317794815989
+)
+
+(GGroup.469
+	Bounds:	470
+	Selected:	0x01
+	Graphic:	471
+	Graphic:	477
+	Graphic:	485
+	Graphic:	493
+	Graphic:	501
+	Graphic:	509
+	Graphic:	517
+	Graphic:	525
+	Graphic:	533
+)
+
+(RectD.470
+	Left:	751.77728723276073
+	Top:	747.86676993487981
+	Right:	752.38015866598255
+	Bottom:	747.26389580646548
+)
+
+(GShape.471
+	Bounds:	472
+	Sym:	473
+	Selected:	0x01
+	Shape:	475
+)
+
+(RectD.472
+	Left:	751.77728723276050
+	Top:	747.86676993487981
+	Right:	752.38015866598232
+	Bottom:	747.26389580646548
+)
+
+(BLnSym.473
+	Color:	474
+	Width:	1.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+)
+
+(TClr.474
+)
+
+(ArcD.475
+	Box:	476
+	Points:	751.77728723276050	747.56533152307634
+	Points:	751.97824347877042	747.61557260597328
+	Points:	751.92800509106598	747.71605207657433
+	Points:	752.02848186647464	747.66581099367750
+	Points:	752.07872294937147	747.86676993487981
+	Points:	752.12896133707579	747.66581099367750
+	Points:	752.22944080767684	747.71605207657433
+	Points:	752.17920241997251	747.61557260597328
+	Points:	752.38015866598232	747.56533152307634
+	Points:	752.17920241997251	747.51509313537213
+	Points:	752.22944080767684	747.41461366477085
+	Points:	752.12896133707579	747.46485474766769
+	Points:	752.07872294937147	747.26389580646548
+	Points:	752.02848186647464	747.46485474766769
+	Points:	751.92800509106598	747.41461366477085
+	Points:	751.97824347877042	747.51509313537213
+	Points:	751.77728723276050	747.56533152307634
+	Parts:	00000000 
+)
+
+(RectD.476
+	Left:	751.77728723276050
+	Top:	747.86676993487981
+	Right:	752.38015866598232
+	Bottom:	747.26389580646548
+)
+
+(GShape.477
+	Bounds:	478
+	Sym:	479
+	Selected:	0x01
+	Shape:	483
+)
+
+(RectD.478
+	Left:	752.07872294937169
+	Top:	747.86676993488015
+	Right:	752.12896133707602
+	Bottom:	747.56533152307679
+)
+
+(BShSym.479
+	Color:	480
+	Outline:	1
+	OutlineColor:	481
+	OutlineWidth:	1.00000000000000
+	BgColor:	482
+)
+
+(TClr.480
+)
+
+(TClr.481
+)
+
+(TClr.482
+	Name:	"Transparent"
+)
+
+(PolyD.483
+	Box:	484
+	Points:	752.07872294937169	747.86676993488015
+	Points:	752.07872294937169	747.56533152307679
+	Points:	752.12896133707602	747.66581099367784
+	Points:	752.07872294937169	747.86676993488015
+	Parts:	00000000 
+	RingTypes:	00000000 
+)
+
+(RectD.484
+	Left:	752.07872294937169
+	Top:	747.86676993488015
+	Right:	752.12896133707602
+	Bottom:	747.56533152307679
+)
+
+(GShape.485
+	Bounds:	486
+	Sym:	487
+	Selected:	0x01
+	Shape:	491
+)
+
+(RectD.486
+	Left:	752.07872294937158
+	Top:	747.56533152307645
+	Right:	752.38015866598244
+	Bottom:	747.51509313537213
+)
+
+(BShSym.487
+	Color:	488
+	Outline:	1
+	OutlineColor:	489
+	OutlineWidth:	1.00000000000000
+	BgColor:	490
+)
+
+(TClr.488
+)
+
+(TClr.489
+)
+
+(TClr.490
+	Name:	"Transparent"
+)
+
+(PolyD.491
+	Box:	492
+	Points:	752.07872294937158	747.56533152307645
+	Points:	752.38015866598244	747.56533152307645
+	Points:	752.17920241997274	747.51509313537213
+	Points:	752.07872294937158	747.56533152307645
+	Parts:	00000000 
+	RingTypes:	00000000 
+)
+
+(RectD.492
+	Left:	752.07872294937158
+	Top:	747.56533152307645
+	Right:	752.38015866598244
+	Bottom:	747.51509313537213
+)
+
+(GShape.493
+	Bounds:	494
+	Sym:	495
+	Selected:	0x01
+	Shape:	499
+)
+
+(RectD.494
+	Left:	752.02848186647498
+	Top:	747.56533152307657
+	Right:	752.07872294937169
+	Bottom:	747.26389580646560
+)
+
+(BShSym.495
+	Color:	496
+	Outline:	1
+	OutlineColor:	497
+	OutlineWidth:	1.00000000000000
+	BgColor:	498
+)
+
+(TClr.496
+)
+
+(TClr.497
+)
+
+(TClr.498
+	Name:	"Transparent"
+)
+
+(PolyD.499
+	Box:	500
+	Points:	752.07872294937169	747.56533152307657
+	Points:	752.07872294937169	747.26389580646560
+	Points:	752.02848186647498	747.46485474766791
+	Points:	752.07872294937169	747.56533152307657
+	Parts:	00000000 
+	RingTypes:	00000000 
+)
+
+(RectD.500
+	Left:	752.02848186647498
+	Top:	747.56533152307657
+	Right:	752.07872294937169
+	Bottom:	747.26389580646560
+)
+
+(GShape.501
+	Bounds:	502
+	Sym:	503
+	Selected:	0x01
+	Shape:	507
+)
+
+(RectD.502
+	Left:	751.77728723276107
+	Top:	747.61557260597340
+	Right:	752.07872294937204
+	Bottom:	747.56533152307668
+)
+
+(BShSym.503
+	Color:	504
+	Outline:	1
+	OutlineColor:	505
+	OutlineWidth:	1.00000000000000
+	BgColor:	506
+)
+
+(TClr.504
+)
+
+(TClr.505
+)
+
+(TClr.506
+	Name:	"Transparent"
+)
+
+(PolyD.507
+	Box:	508
+	Points:	752.07872294937204	747.56533152307668
+	Points:	751.77728723276107	747.56533152307668
+	Points:	751.97824347877076	747.61557260597340
+	Points:	752.07872294937204	747.56533152307668
+	Parts:	00000000 
+	RingTypes:	00000000 
+)
+
+(RectD.508
+	Left:	751.77728723276107
+	Top:	747.61557260597340
+	Right:	752.07872294937204
+	Bottom:	747.56533152307668
+)
+
+(GShape.509
+	Bounds:	510
+	Sym:	511
+	Selected:	0x01
+	Shape:	515
+)
+
+(RectD.510
+	Left:	752.07872294937158
+	Top:	747.71605207657421
+	Right:	752.22944080767718
+	Bottom:	747.56533152307622
+)
+
+(BShSym.511
+	Color:	512
+	Outline:	1
+	OutlineColor:	513
+	OutlineWidth:	1.00000000000000
+	BgColor:	514
+)
+
+(TClr.512
+)
+
+(TClr.513
+)
+
+(TClr.514
+	Name:	"Transparent"
+)
+
+(PolyD.515
+	Box:	516
+	Points:	752.07872294937158	747.56533152307622
+	Points:	752.22944080767718	747.71605207657421
+	Points:	752.17920241997285	747.61557260597317
+	Points:	752.07872294937158	747.56533152307622
+	Parts:	00000000 
+	RingTypes:	00000000 
+)
+
+(RectD.516
+	Left:	752.07872294937158
+	Top:	747.71605207657421
+	Right:	752.22944080767718
+	Bottom:	747.56533152307622
+)
+
+(GShape.517
+	Bounds:	518
+	Sym:	519
+	Selected:	0x01
+	Shape:	523
+)
+
+(RectD.518
+	Left:	752.07872294937158
+	Top:	747.56533152307657
+	Right:	752.22944080767718
+	Bottom:	747.41461366477108
+)
+
+(BShSym.519
+	Color:	520
+	Outline:	1
+	OutlineColor:	521
+	OutlineWidth:	1.00000000000000
+	BgColor:	522
+)
+
+(TClr.520
+)
+
+(TClr.521
+)
+
+(TClr.522
+	Name:	"Transparent"
+)
+
+(PolyD.523
+	Box:	524
+	Points:	752.07872294937158	747.56533152307657
+	Points:	752.22944080767718	747.41461366477108
+	Points:	752.12896133707591	747.46485474766791
+	Points:	752.07872294937158	747.56533152307657
+	Parts:	00000000 
+	RingTypes:	00000000 
+)
+
+(RectD.524
+	Left:	752.07872294937158
+	Top:	747.56533152307657
+	Right:	752.22944080767718
+	Bottom:	747.41461366477108
+)
+
+(GShape.525
+	Bounds:	526
+	Sym:	527
+	Selected:	0x01
+	Shape:	531
+)
+
+(RectD.526
+	Left:	751.92800509106610
+	Top:	747.56533152307657
+	Right:	752.07872294937169
+	Bottom:	747.41461366477108
+)
+
+(BShSym.527
+	Color:	528
+	Outline:	1
+	OutlineColor:	529
+	OutlineWidth:	1.00000000000000
+	BgColor:	530
+)
+
+(TClr.528
+)
+
+(TClr.529
+)
+
+(TClr.530
+	Name:	"Transparent"
+)
+
+(PolyD.531
+	Box:	532
+	Points:	752.07872294937169	747.56533152307657
+	Points:	751.92800509106610	747.41461366477108
+	Points:	751.97824347877042	747.51509313537213
+	Points:	752.07872294937169	747.56533152307657
+	Parts:	00000000 
+	RingTypes:	00000000 
+)
+
+(RectD.532
+	Left:	751.92800509106610
+	Top:	747.56533152307657
+	Right:	752.07872294937169
+	Bottom:	747.41461366477108
+)
+
+(GShape.533
+	Bounds:	534
+	Sym:	535
+	Selected:	0x01
+	Shape:	539
+)
+
+(RectD.534
+	Left:	751.92800509106610
+	Top:	747.71605207657421
+	Right:	752.07872294937169
+	Bottom:	747.56533152307622
+)
+
+(BShSym.535
+	Color:	536
+	Outline:	1
+	OutlineColor:	537
+	OutlineWidth:	1.00000000000000
+	BgColor:	538
+)
+
+(TClr.536
+)
+
+(TClr.537
+)
+
+(TClr.538
+	Name:	"Transparent"
+)
+
+(PolyD.539
+	Box:	540
+	Points:	752.07872294937169	747.56533152307622
+	Points:	751.92800509106610	747.71605207657421
+	Points:	752.02848186647498	747.66581099367750
+	Points:	752.07872294937169	747.56533152307622
+	Parts:	00000000 
+	RingTypes:	00000000 
+)
+
+(RectD.540
+	Left:	751.92800509106610
+	Top:	747.71605207657421
+	Right:	752.07872294937169
+	Bottom:	747.56533152307622
+)
+
+(GText.541
+	Name:	"GText1"
+	Bounds:	542
+	Sym:	543
+	Selected:	0x01
+	Text:	"N"
+	Spacing:	1.00000000000000
+)
+
+(RectD.542
+	Left:	752.03049191589332
+	Top:	748.06772528249178
+	Right:	752.12695143599410
+	Bottom:	747.91700728233423
+)
+
+(TxSym.543
+	Color:	544
+	Scale:	545
+	Font:	546
+	BgColor:	551
+	OlColor:	552
+	Size:	10.85169601134383
+)
+
+(TClr.544
+)
+
+(Numb.545
+	N:	1.00000000000000
+)
+
+(NFont.546
+	Family:	547
+	Name:	548
+	Style:	549
+	CommonFamily:	550
+	Serif:	1
+	Weight:	1
+	Wideness:	1
+)
+
+(AVStr.547
+	S:	"Times New Roman"
+)
+
+(AVStr.548
+	S:	"Times New Roman"
+)
+
+(AVStr.549
+	S:	"Normal"
+)
+
+(AVStr.550
+	S:	"Times"
+)
+
+(TClr.551
+	Red:	0xff
+	Green:	0xff
+	Blue:	0xff
+)
+
+(TClr.552
+	Red:	0xff
+	Green:	0xff
+	Blue:	0xff
+)
+
+(GText.553
+	Name:	"GText1"
+	Bounds:	554
+	Sym:	555
+	Selected:	0x01
+	Text:	"E"
+	Spacing:	1.00000000000000
+)
+
+(RectD.554
+	Left:	752.43039648627780
+	Top:	747.64069087479788
+	Right:	752.51178420636290
+	Bottom:	747.48997287464033
+)
+
+(TxSym.555
+	Color:	556
+	Scale:	545
+	Font:	557
+	BgColor:	562
+	OlColor:	563
+	Size:	10.85169601134385
+)
+
+(TClr.556
+)
+
+(NFont.557
+	Family:	558
+	Name:	559
+	Style:	560
+	CommonFamily:	561
+	Serif:	1
+	Weight:	1
+	Wideness:	1
+)
+
+(AVStr.558
+	S:	"Times New Roman"
+)
+
+(AVStr.559
+	S:	"Times New Roman"
+)
+
+(AVStr.560
+	S:	"Normal"
+)
+
+(AVStr.561
+	S:	"Times"
+)
+
+(TClr.562
+	Red:	0xff
+	Green:	0xff
+	Blue:	0xff
+)
+
+(TClr.563
+	Red:	0xff
+	Green:	0xff
+	Blue:	0xff
+)
+
+(GText.564
+	Name:	"GText1"
+	Bounds:	565
+	Sym:	566
+	Selected:	0x01
+	Text:	"W"
+	Spacing:	1.00000000000000
+)
+
+(RectD.565
+	Left:	751.62656715210358
+	Top:	747.64069087479788
+	Right:	751.75166309223437
+	Bottom:	747.48997287464033
+)
+
+(TxSym.566
+	Color:	567
+	Scale:	545
+	Font:	568
+	BgColor:	573
+	OlColor:	574
+	Size:	10.85169601134385
+)
+
+(TClr.567
+)
+
+(NFont.568
+	Family:	569
+	Name:	570
+	Style:	571
+	CommonFamily:	572
+	Serif:	1
+	Weight:	1
+	Wideness:	1
+)
+
+(AVStr.569
+	S:	"Times New Roman"
+)
+
+(AVStr.570
+	S:	"Times New Roman"
+)
+
+(AVStr.571
+	S:	"Normal"
+)
+
+(AVStr.572
+	S:	"Times"
+)
+
+(TClr.573
+	Red:	0xff
+	Green:	0xff
+	Blue:	0xff
+)
+
+(TClr.574
+	Red:	0xff
+	Green:	0xff
+	Blue:	0xff
+)
+
+(GText.575
+	Name:	"GText1"
+	Bounds:	576
+	Sym:	577
+	Selected:	0x01
+	Text:	"S"
+	Spacing:	1.00000000000000
+)
+
+(RectD.576
+	Left:	752.04179576590514
+	Top:	747.26389594831744
+	Right:	752.11564758598229
+	Bottom:	747.11317794815989
+)
+
+(TxSym.577
+	Color:	578
+	Scale:	545
+	Font:	579
+	BgColor:	584
+	OlColor:	585
+	Size:	10.85169601134385
+)
+
+(TClr.578
+)
+
+(NFont.579
+	Family:	580
+	Name:	581
+	Style:	582
+	CommonFamily:	583
+	Serif:	1
+	Weight:	1
+	Wideness:	1
+)
+
+(AVStr.580
+	S:	"Times New Roman"
+)
+
+(AVStr.581
+	S:	"Times New Roman"
+)
+
+(AVStr.582
+	S:	"Normal"
+)
+
+(AVStr.583
+	S:	"Times"
+)
+
+(TClr.584
+	Red:	0xff
+	Green:	0xff
+	Blue:	0xff
+)
+
+(TClr.585
+	Red:	0xff
+	Green:	0xff
+	Blue:	0xff
+)
+
+(RectD.586
+	Left:	751.62656715210358
+	Top:	748.06772528249178
+	Right:	752.51178420636302
+	Bottom:	747.11317794815989
+)
+
+(RectD.587
+	Left:	751.62656715210358
+	Top:	748.06772528249178
+	Right:	752.51178420636302
+	Bottom:	747.11317794815989
+)
+
+(GShape.588
+	Bounds:	589
+	Sym:	590
+	Shape:	594
+)
+
+(RectD.589
+	Left:	752.94283416639553
+	Top:	751.49947818040368
+	Right:	753.41479345019889
+	Bottom:	751.20883658755304
+)
+
+(BShSym.590
+	Color:	591
+	OutlineColor:	592
+	OutlineWidth:	0.10000000000000
+	BgColor:	593
+)
+
+(TClr.591
+	Red:	0xffff
+	Green:	0xffff
+	Blue:	0xffff
+)
+
+(TClr.592
+)
+
+(TClr.593
+	Name:	"Transparent"
+)
+
+(RectD.594
+	Left:	752.94283416639553
+	Top:	751.49947818040368
+	Right:	753.41479345019889
+	Bottom:	751.20883658755304
+)
+
+(GText.595
+	Name:	"GraphicText3"
+	Bounds:	596
+	Sym:	597
+	Text:	"4.2.19.KEPADATAN PENDUDUK"
+	Angle:	270.00000000000000
+	Spacing:	1.00000000000000
+)
+
+(RectD.596
+	Left:	755.04530609492781
+	Top:	753.61210652642944
+	Right:	755.23975053937602
+	Bottom:	751.02793985976245
+)
+
+(TxSym.597
+	Color:	598
+	Font:	599
+	BgColor:	604
+	OlColor:	605
+	Size:	14.00000000000000
+)
+
+(TClr.598
+)
+
+(NFont.599
+	Family:	600
+	Name:	601
+	Style:	602
+	CommonFamily:	603
+	Weight:	1
+	Wideness:	1
+)
+
+(AVStr.600
+	S:	"Arial"
+)
+
+(AVStr.601
+	S:	"Arial"
+)
+
+(AVStr.602
+	S:	"Normal"
+)
+
+(AVStr.603
+	S:	"Helvetica"
+)
+
+(TClr.604
+	Red:	0xff
+	Green:	0xff
+	Blue:	0xff
+)
+
+(TClr.605
+	Red:	0xff
+	Green:	0xff
+	Blue:	0xff
+)
+
+(GText.606
+	Name:	"GraphicText4"
+	Bounds:	607
+	Sym:	608
+	Text:	"IV - 24"
+	Angle:	270.00000000000000
+	Spacing:	1.00000000000000
+)
+
+(RectD.607
+	Left:	744.80923948220038
+	Top:	746.78385059331197
+	Right:	745.00368392664552
+	Bottom:	746.27440614886723
+)
+
+(TxSym.608
+	Color:	609
+	Font:	610
+	BgColor:	615
+	OlColor:	616
+	Size:	14.00000000000000
+)
+
+(TClr.609
+)
+
+(NFont.610
+	Family:	611
+	Name:	612
+	Style:	613
+	CommonFamily:	614
+	Weight:	1
+	Wideness:	1
+)
+
+(AVStr.611
+	S:	"Arial"
+)
+
+(AVStr.612
+	S:	"Arial"
+)
+
+(AVStr.613
+	S:	"Normal"
+)
+
+(AVStr.614
+	S:	"Helvetica"
+)
+
+(TClr.615
+	Red:	0xff
+	Green:	0xff
+	Blue:	0xff
+)
+
+(TClr.616
+	Red:	0xff
+	Green:	0xff
+	Blue:	0xff
+)
+
+(GText.617
+	Name:	"GraphicText1"
+	Bounds:	618
+	Sym:	619
+	Text:	"Skala"
+	Spacing:	1.00000000000000
+)
+
+(RectD.618
+	Left:	752.96609304207129
+	Top:	746.62079341963329
+	Right:	753.27442637540457
+	Bottom:	746.48190453074437
+)
+
+(TxSym.619
+	Color:	620
+	Font:	621
+	BgColor:	626
+	OlColor:	627
+	Size:	10.00000000000000
+)
+
+(TClr.620
+)
+
+(NFont.621
+	Family:	622
+	Name:	623
+	Style:	624
+	CommonFamily:	625
+	Weight:	1
+	Wideness:	1
+)
+
+(AVStr.622
+	S:	"Arial"
+)
+
+(AVStr.623
+	S:	"Arial"
+)
+
+(AVStr.624
+	S:	"Normal"
+)
+
+(AVStr.625
+	S:	"Helvetica"
+)
+
+(TClr.626
+	Red:	0xff
+	Green:	0xff
+	Blue:	0xff
+)
+
+(TClr.627
+	Red:	0xff
+	Green:	0xff
+	Blue:	0xff
+)
+
+(GText.628
+	Name:	"GraphicText2"
+	Bounds:	629
+	Sym:	630
+	Text:	"1 : 50.000"
+	Spacing:	1.00000000000000
+)
+
+(RectD.629
+	Left:	753.73153640776707
+	Top:	746.60607335490852
+	Right:	754.27320307443370
+	Bottom:	746.46718446601960
+)
+
+(TxSym.630
+	Color:	631
+	Font:	632
+	BgColor:	637
+	OlColor:	638
+	Size:	10.00000000000000
+)
+
+(TClr.631
+)
+
+(NFont.632
+	Family:	633
+	Name:	634
+	Style:	635
+	CommonFamily:	636
+	Bold:	1
+	Weight:	1
+	Wideness:	1
+)
+
+(AVStr.633
+	S:	"Arial"
+)
+
+(AVStr.634
+	S:	"Arial Bold"
+)
+
+(AVStr.635
+	S:	"Bold"
+)
+
+(AVStr.636
+	S:	"Helvetica"
+)
+
+(TClr.637
+	Red:	0xff
+	Green:	0xff
+	Blue:	0xff
+)
+
+(TClr.638
+	Red:	0xff
+	Green:	0xff
+	Blue:	0xff
+)
+
+(Numb.639
+)
+
+(LButn.640
+	HelpTopic:	"New_button"
+	Update:	"Doc.NewUpdate"
+	Label:	"&New"
+	Click:	"View.New"
+)
+
+(LButn.641
+	HelpTopic:	"Open_button"
+	Update:	"Doc.OpenUpdate"
+	Label:	"&Open"
+	Click:	"Doc.Open"
+)
+
+(LButn.642
+	HelpTopic:	"Print_button"
+	Update:	"Doc.ActionUpdate"
+	Label:	"P&rint"
+	Click:	"Doc.Action"
+)
+
+(FN.643
+	Path:	"$AVEXT/jfif.avx"
+)
+
+(FN.644
+	Path:	"$AVEXT/cadrg.avx"
+)
+
+(FN.645
+	Path:	"$AVEXT/nitf.avx"
+)
+
+(FN.646
+	Path:	"$AVEXT/dbaccess.avx"
+)
+
+(FN.647
+	Path:	"$AVEXT/cadview.avx"
+)
+
+(NameDict.648
+)
+
+(NameDict.649
+	Obj:	650
+	Obj:	663
+	Obj:	664
+)
+
+(AVDict.650
+	InternalName:	"Table of Contents Defaults Dialog"
+	Key:	651
+	Value:	652
+)
+
+(AVStr.651
+	S:	"TocDefs"
+)
+
+(List.652
+	Child:	653
+	Child:	654
+	Child:	655
+)
+
+(AVStr.653
+	S:	"Strong zigzag"
+)
+
+(AVStr.654
+	S:	"Normal"
+)
+
+(TxSym.655
+	Color:	656
+	Font:	657
+	BgColor:	661
+	OlColor:	662
+	Size:	10.00000000000000
+)
+
+(TClr.656
+)
+
+(NFont.657
+	Family:	658
+	Name:	659
+	Style:	660
+	Weight:	1
+	Wideness:	1
+)
+
+(AVStr.658
+	S:	"Tahoma"
+)
+
+(AVStr.659
+	S:	"Tahoma"
+)
+
+(AVStr.660
+	S:	"Normal"
+)
+
+(TClr.661
+	Red:	0xff
+	Green:	0xff
+	Blue:	0xff
+)
+
+(TClr.662
+	Red:	0xff
+	Green:	0xff
+	Blue:	0xff
+)
+
+(AVDict.663
+	InternalName:	"_Thor_"
+)
+
+(AVDict.664
+	InternalName:	"Database Access"
+	Key:	665
+	Key:	666
+	Value:	667
+	Value:	668
+)
+
+(AVStr.665
+	S:	"Loaded"
+)
+
+(AVStr.666
+	S:	"Version"
+)
+
+(Bool.667
+	Truth:	1
+)
+
+(Numb.668
+	N:	1100.00000000000000
+)
+
+(DocGUI.669
+	Name:	"View"
+	Type:	"View"
+	Modified:	1
+	Visible:	1
+	MenuBar:	670
+	ButnBar:	789
+	Popups:	830
+	ToolBar:	852
+	NewScript:	"View.New"
+	OpenScript:	"Doc.Open"
+	ActionScript:	"Doc.Action"
+	NewUpdateScript:	"Doc.NewUpdate"
+	OpenUpdateScript:	"Doc.OpenUpdate"
+	ActionUpdateScript:	"Doc.ActionUpdate"
+	Title:	"Views"
+	Icon:	929
+)
+
+(MenuBar.670
+	Child:	671
+	Child:	688
+	Child:	708
+	Child:	732
+	Child:	756
+	Child:	772
+	Child:	784
+)
+
+(PMenu.671
+	InternalName:	"File"
+	Child:	672
+	Child:	673
+	Child:	674
+	Child:	675
+	Child:	676
+	Child:	677
+	Child:	678
+	Child:	679
+	Child:	680
+	Child:	681
+	Child:	682
+	Child:	683
+	Child:	684
+	Child:	685
+	Child:	686
+	Child:	687
+	Label:	"&File"
+)
+
+(Choice.672
+	Help:	"Closes the active component"
+	HelpTopic:	"Close"
+	Label:	"&Close"
+	Click:	"Project.CloseDoc"
+	Shortcut:	"Keys.None"
+)
+
+(Choice.673
+	Help:	"Closes all components"
+	HelpTopic:	"Close_All"
+	Label:	"Close &All"
+	Click:	"Project.CloseAll"
+	Shortcut:	"Keys.None"
+)
+
+(Space.674
+)
+
+(Choice.675
+	Help:	"Allows you to specify the current working directory"
+	HelpTopic:	"Set_Working_Directory"
+	Label:	"Set &Working Directory..."
+	Click:	"Project.SetProjectWorkDir"
+	Shortcut:	"Keys.None"
+)
+
+(Choice.676
+	Help:	"Saves the current project"
+	HelpTopic:	"Save_Project"
+	Label:	"&Save Project"
+	Click:	"Project.Save"
+	Shortcut:	"Keys.Ctrl+S"
+)
+
+(Choice.677
+	Help:	"Saves the current project with a new name"
+	HelpTopic:	"Save_Project_As"
+	Label:	"Save Project As..."
+	Click:	"Project.SaveAs"
+	Shortcut:	"Keys.None"
+)
+
+(Space.678
+)
+
+(Choice.679
+	Help:	"Displays the Extensions dialog"
+	HelpTopic:	"Extensions"
+	Label:	"Extensions..."
+	Click:	"Appl.GetExtensionWin"
+	Shortcut:	"Keys.None"
+)
+
+(Space.680
+)
+
+(Choice.681
+	Help:	"Prints the view"
+	HelpTopic:	"Print"
+	Label:	"&Print..."
+	Click:	"View.Print"
+	Shortcut:	"Keys.None"
+)
+
+(Choice.682
+	Help:	"Edits the printer and the printing options"
+	HelpTopic:	"Print_Setup"
+	Label:	"P&rint Setup..."
+	Click:	"Project.PrintSetup"
+	Shortcut:	"Keys.None"
+)
+
+(Choice.683
+	Help:	"Exports the view"
+	HelpTopic:	"Export"
+	Update:	"View.HasThemesUpdate"
+	Label:	"&Export..."
+	Click:	"View.ExportDisp"
+	Shortcut:	"Keys.None"
+)
+
+(Space.684
+)
+
+(Choice.685
+	Help:	"Displays the dialog box to delete, edit, and copy data sources"
+	HelpTopic:	"Manage_Sources"
+	Label:	"&Manage Data Sources..."
+	Click:	"View.ManageSources"
+	Shortcut:	"Keys.None"
+)
+
+(Space.686
+)
+
+(Choice.687
+	Help:	"Exits ArcView"
+	HelpTopic:	"Exit"
+	Label:	"E&xit"
+	Click:	"Project.Exit"
+	Shortcut:	"Keys.None"
+)
+
+(PMenu.688
+	InternalName:	"Edit"
+	Child:	689
+	Child:	690
+	Child:	691
+	Child:	692
+	Child:	693
+	Child:	694
+	Child:	695
+	Child:	696
+	Child:	697
+	Child:	698
+	Child:	699
+	Child:	700
+	Child:	701
+	Child:	702
+	Child:	703
+	Child:	704
+	Child:	705
+	Child:	706
+	Child:	707
+	Label:	"&Edit"
+)
+
+(Choice.689
+	Help:	"Cuts the active themes to the clipboard"
+	HelpTopic:	"Cut_Themes"
+	Update:	"View.ActiveDeletableThemesUpdate"
+	Label:	"Cut T&hemes"
+	Click:	"View.CutThemes"
+	Shortcut:	"Keys.None"
+)
+
+(Choice.690
+	Help:	"Copies the active themes to the clipboard"
+	HelpTopic:	"Copy_Themes"
+	Update:	"View.ActiveThemesUpdate"
+	Label:	"Cop&y Themes"
+	Click:	"View.CopyThemes"
+	Shortcut:	"Keys.None"
+)
+
+(Choice.691
+	Help:	"Removes the active themes from the view"
+	HelpTopic:	"Delete_Themes"
+	Update:	"View.ActiveDeletableThemesUpdate"
+	Label:	"De&lete Themes"
+	Click:	"View.DeleteThemes"
+	Shortcut:	"Keys.None"
+)
+
+(Space.692
+)
+
+(Choice.693
+	Disabled:	1
+	Help:	"Undo the last edit to graphics on a view"
+	HelpTopic:	"Undo_Graphic_Edit_on_a_view"
+	Update:	"View.UndoEditUpdate"
+	Label:	"&Undo Graphic Edit"
+	Click:	"View.UndoEdit"
+	Shortcut:	"Keys.Ctrl+Z"
+)
+
+(Choice.694
+	Disabled:	1
+	Invisible:	1
+	Help:	"Redo the last edit operation on a theme that was undone"
+	HelpTopic:	"Redo_Feature_Edit_on_a_view"
+	Update:	"View.RedoEditUpdate"
+	Label:	"&Redo Feature Edit"
+	Click:	"View.RedoEdit"
+	Shortcut:	"Keys.Ctrl+Y"
+)
+
+(Space.695
+)
+
+(Choice.696
+	Disabled:	1
+	Help:	"Cuts the selected graphics to the clipboard"
+	HelpTopic:	"Cut_Graphics"
+	Update:	"View.CutUpdate"
+	Label:	"Cu&t Graphics"
+	Click:	"View.CutGraphics"
+	Shortcut:	"Keys.Ctrl+X"
+)
+
+(Choice.697
+	Disabled:	1
+	Help:	"Copies the selected graphics to the clipboard"
+	HelpTopic:	"Copy_Graphics"
+	Update:	"View.CopyUpdate"
+	Label:	"&Copy Graphics"
+	Click:	"View.CopyGraphics"
+	Shortcut:	"Keys.Ctrl+C"
+)
+
+(Choice.698
+	Disabled:	1
+	Help:	"Removes the selected graphics from the view"
+	HelpTopic:	"Delete_Graphics"
+	Update:	"View.DeleteUpdate"
+	Label:	"&Delete Graphics"
+	Click:	"View.DeleteGraphics"
+	Shortcut:	"Keys.Del"
+)
+
+(Space.699
+)
+
+(Choice.700
+	Disabled:	1
+	Help:	"Combines the selected polygons"
+	HelpTopic:	"Combine_Graphics"
+	Update:	"View.CombineUpdate"
+	Label:	"Com&bine Graphics"
+	Click:	"View.CombineGraphics"
+	Shortcut:	"Keys.None"
+)
+
+(Choice.701
+	Disabled:	1
+	Help:	"Unions the selected graphics to create a new graphic"
+	HelpTopic:	"Union_Graphics"
+	Update:	"View.UnionUpdate"
+	Label:	"U&nion Graphics"
+	Click:	"View.UnionGraphics"
+	Shortcut:	"Keys.None"
+)
+
+(Choice.702
+	Disabled:	1
+	Help:	"Subtracts one selected polygon from the other selected polygon"
+	HelpTopic:	"Subtract_Graphics"
+	Update:	"View.SubtractUpdate"
+	Label:	"&Subtract Graphics"
+	Click:	"View.SubtractGraphics"
+	Shortcut:	"Keys.None"
+)
+
+(Choice.703
+	Disabled:	1
+	Help:	"Creates a new polygon from the area  of overlap between the selected polygons"
+	HelpTopic:	"Intersect_Graphics"
+	Update:	"View.IntersectUpdate"
+	Label:	"&Intersect Graphics"
+	Click:	"View.IntersectGraphics"
+	Shortcut:	"Keys.None"
+)
+
+(Space.704
+)
+
+(Choice.705
+	Disabled:	1
+	Help:	"Inserts the contents of the clipboard"
+	HelpTopic:	"Paste"
+	Update:	"View.PasteUpdate"
+	Label:	"&Paste"
+	Click:	"View.Paste"
+	Shortcut:	"Keys.Ctrl+V"
+)
+
+(Space.706
+)
+
+(Choice.707
+	Disabled:	1
+	Help:	"Selects all graphics in the view"
+	HelpTopic:	"Select_All_Graphics"
+	Update:	"View.HasGraphicsUpdate"
+	Label:	"Select &All Graphics"
+	Click:	"Graphic.SelectAll"
+	Shortcut:	"Keys.None"
+)
+
+(PMenu.708
+	InternalName:	"View"
+	Child:	709
+	Child:	710
+	Child:	711
+	Child:	712
+	Child:	713
+	Child:	714
+	Child:	715
+	Child:	716
+	Child:	717
+	Child:	718
+	Child:	719
+	Child:	720
+	Child:	721
+	Child:	722
+	Child:	723
+	Child:	724
+	Child:	725
+	Child:	726
+	Child:	727
+	Child:	728
+	Child:	729
+	Child:	730
+	Child:	731
+	Label:	"&View"
+)
+
+(Choice.709
+	Help:	"Displays the dialog box to edit properties of the view"
+	HelpTopic:	"View_Properties"
+	Label:	"&Properties..."
+	Click:	"View.Properties"
+	Shortcut:	"Keys.None"
+)
+
+(Space.710
+)
+
+(Choice.711
+	Help:	"Inserts themes into the view"
+	HelpTopic:	"Add_Theme"
+	Label:	"&Add Theme..."
+	Click:	"View.Add"
+	Shortcut:	"Keys.Ctrl+T"
+)
+
+(Choice.712
+	InternalName:	"DB"
+	Help:	"Adds a database theme to your view"
+	HelpTopic:	"Add_Database_Theme@dbaccess.hlp"
+	Label:	"Add &Database Theme..."
+	Click:	"DB.AddTheme"
+	Shortcut:	"Keys.None"
+)
+
+(Choice.713
+	Disabled:	1
+	Help:	"Displays a dialog box to create a geocoded theme"
+	HelpTopic:	"Geocode_Addresses"
+	Update:	"View.GeocodeUpdate"
+	Label:	"&Geocode Addresses..."
+	Click:	"View.Geocode"
+	Shortcut:	"Keys.None"
+)
+
+(Choice.714
+	Help:	"Displays a dialog box to create an XY or dynamic segmentation event-based theme "
+	HelpTopic:	"Add_Event_Theme"
+	Update:	"View.AddEventUpdate"
+	Label:	"Add &Event Theme..."
+	Click:	"View.AddEvent"
+	Shortcut:	"Keys.None"
+)
+
+(Choice.715
+	Help:	"Creates a new theme"
+	HelpTopic:	"New_Theme"
+	Label:	"&New Theme..."
+	Click:	"View.NewTheme"
+	Shortcut:	"Keys.None"
+)
+
+(Choice.716
+	Help:	"Makes all themes visible"
+	HelpTopic:	"Themes_On_Themes_Off"
+	Update:	"View.HasThemesUpdate"
+	Label:	"&Themes On"
+	Click:	"View.ThemesOn"
+	Shortcut:	"Keys.None"
+)
+
+(Choice.717
+	Help:	"Makes all themes invisible"
+	HelpTopic:	"Themes_On_Themes_Off"
+	Update:	"View.HasThemesUpdate"
+	Label:	"T&hemes Off"
+	Click:	"View.ThemesOff"
+	Shortcut:	"Keys.None"
+)
+
+(Space.718
+)
+
+(Choice.719
+	Help:	"Create a Layout from the View"
+	HelpTopic:	"Layout_menu_choice"
+	Update:	"View.HasThemesUpdate"
+	Label:	"La&yout..."
+	Click:	"View.Layout"
+	Shortcut:	"Keys.None"
+)
+
+(Space.720
+)
+
+(Choice.721
+	Help:	"Shows a dialog where you can change the style of the TOC"
+	HelpTopic:	"TOC_Defaults"
+	Update:	"TocDefs.ShowUpdate"
+	Label:	"TOC Style..."
+	Click:	"TocDefs.Show"
+	Shortcut:	"Keys.None"
+)
+
+(Space.722
+)
+
+(Choice.723
+	Help:	"Zooms to the extent of all themes"
+	HelpTopic:	"Zoom_to_Full_Extent"
+	Update:	"View.HasDataUpdate"
+	Label:	"Full E&xtent"
+	Click:	"View.ZoomFullExtent"
+	Shortcut:	"Keys.None"
+)
+
+(Choice.724
+	Help:	"Zooms in on the center of the display"
+	HelpTopic:	"Zoom_In"
+	Update:	"View.HasDataUpdate"
+	Label:	"Zoom &In"
+	Click:	"View.ZoomIn"
+	Shortcut:	"Keys.None"
+)
+
+(Choice.725
+	Help:	"Zooms out from the center of the display"
+	HelpTopic:	"Zoom_Out"
+	Update:	"View.HasDataUpdate"
+	Label:	"Zoom &Out"
+	Click:	"View.ZoomOut"
+	Shortcut:	"Keys.None"
+)
+
+(Choice.726
+	Help:	"Zooms to the extent of active themes"
+	HelpTopic:	"Zoom_to_Active_Theme"
+	Update:	"View.ActiveThemesUpdate"
+	Label:	"&Zoom To Themes"
+	Click:	"View.ZoomToThemes"
+	Shortcut:	"Keys.None"
+)
+
+(Choice.727
+	Help:	"Zooms to the extent of the selected features"
+	HelpTopic:	"Zoom_to_Selected"
+	Update:	"View.SelectableThemesUpdate"
+	Label:	"Zoom To &Selected"
+	Click:	"View.ZoomToSelected"
+	Shortcut:	"Keys.None"
+)
+
+(Choice.728
+	Disabled:	1
+	Help:	"Goes back to the previous extent you were viewing"
+	HelpTopic:	"Zoom_Previous"
+	Update:	"View.UndoZoomUpdate"
+	Label:	"Zoom Pre&vious"
+	Click:	"View.UndoZoom"
+	Shortcut:	"Keys.None"
+)
+
+(Space.729
+)
+
+(Choice.730
+	Help:	"Finds features in the active themes using the text you enter"
+	HelpTopic:	"Find"
+	Update:	"View.TabularThemesUpdate"
+	Label:	"&Find..."
+	Click:	"View.Find"
+	Shortcut:	"Keys.Ctrl+F"
+)
+
+(Choice.731
+	Disabled:	1
+	Help:	"Locates an address in the active, matchable theme"
+	HelpTopic:	"Locate_Address"
+	Update:	"View.LocateUpdate"
+	Label:	"&Locate Address..."
+	Click:	"View.Locate"
+	Shortcut:	"Keys.None"
+)
+
+(PMenu.732
+	InternalName:	"Theme"
+	Child:	733
+	Child:	734
+	Child:	735
+	Child:	736
+	Child:	737
+	Child:	738
+	Child:	739
+	Child:	740
+	Child:	741
+	Child:	742
+	Child:	743
+	Child:	744
+	Child:	745
+	Child:	746
+	Child:	747
+	Child:	748
+	Child:	749
+	Child:	750
+	Child:	751
+	Child:	752
+	Child:	753
+	Child:	754
+	Child:	755
+	Label:	"&Theme"
+)
+
+(Choice.733
+	Help:	"Displays the dialog box to edit properties of the active theme"
+	HelpTopic:	"Theme_Properties"
+	Update:	"View.ActiveThemesUpdate"
+	Label:	"&Properties..."
+	Click:	"View.ThemeProperties"
+	Shortcut:	"Keys.None"
+)
+
+(Space.734
+)
+
+(Choice.735
+	Help:	"Starts or stops editing of shapefile"
+	HelpTopic:	"Start_Stop_Editing_in_a_view"
+	Update:	"View.ToggleEditingUpdate"
+	Label:	"Start &Editing"
+	Click:	"View.ToggleEditing"
+	Shortcut:	"Keys.None"
+)
+
+(Choice.736
+	Disabled:	1
+	Help:	"Save edits to the source shapefile"
+	HelpTopic:	"Save_edits_theme"
+	Update:	"View.SaveEditsUpdate"
+	Label:	"Save Ed&its"
+	Click:	"View.SaveEdits"
+	Shortcut:	"Keys.None"
+)
+
+(Choice.737
+	Disabled:	1
+	Help:	"Saves edits to a new shapefile"
+	HelpTopic:	"Save_edits_as_theme"
+	Update:	"View.SaveEditsUpdate"
+	Label:	"Save E&dits As..."
+	Click:	"View.SaveEditsAs"
+	Shortcut:	"Keys.None"
+)
+
+(Choice.738
+	Help:	"Converts a theme to a shapefile"
+	HelpTopic:	"Convert_to_Shapefile"
+	Update:	"View.ExportUpdate"
+	Label:	"Convert to &Shapefile..."
+	Click:	"View.Export"
+	Shortcut:	"Keys.None"
+)
+
+(Choice.739
+	InternalName:	"DB"
+	Disabled:	1
+	Help:	"Exports the attributes of selected database theme features to a table"
+	HelpTopic:	"Export_to_Table@dbaccess.hlp"
+	Update:	"DB.ExportTableUpdate"
+	Label:	"E&xport to Table..."
+	Click:	"DB.ExportTable"
+	Shortcut:	"Keys.None"
+)
+
+(Space.740
+)
+
+(Choice.741
+	Help:	"Displays the legends of the active themes"
+	HelpTopic:	"Edit_Legend"
+	Update:	"View.ActiveThemesUpdate"
+	Label:	"Edit &Legend..."
+	Click:	"View.EditLegendClick"
+	Shortcut:	"Keys.None"
+)
+
+(Choice.742
+	Help:	"Shows or hides the active themes' legends"
+	HelpTopic:	"Hide_show_Legend"
+	Update:	"View.ActiveThemesUpdate"
+	Label:	"&Hide/Show Legend"
+	Click:	"View.ToggleLegend"
+	Shortcut:	"Keys.None"
+)
+
+(Space.743
+)
+
+(Choice.744
+	Disabled:	1
+	Help:	"Displays the Re-match dialog for re-matching addresses"
+	HelpTopic:	"Re_match_Addresses"
+	Update:	"View.EditMatchUpdate"
+	Label:	"&Re-match Addresses..."
+	Click:	"View.EditMatch"
+	Shortcut:	"Keys.None"
+)
+
+(Space.745
+)
+
+(Choice.746
+	Help:	"Labels features in active, visible themes"
+	HelpTopic:	"Auto_label"
+	Update:	"View.LabelThemesUpdate"
+	Label:	"&Auto-label..."
+	Click:	"View.LabelThemes"
+	Shortcut:	"Keys.Ctrl+L"
+)
+
+(Choice.747
+	Disabled:	1
+	Help:	"Removes any labels from active themes"
+	HelpTopic:	"Remove_Labels"
+	Update:	"View.RemoveThemeLabelsUpdate"
+	Label:	"Rem&ove Labels"
+	Click:	"View.RemoveThemeLabels"
+	Shortcut:	"Keys.Ctrl+R"
+)
+
+(Choice.748
+	Disabled:	1
+	Help:	"Removes the overlapping labels from active themes, if they are still green."
+	HelpTopic:	"Remove_Overlapping_Labels"
+	Update:	"View.RemoveOverlapThemeLabelsUpdate"
+	Label:	"Remove Overlappi&ng Labels"
+	Click:	"View.RemoveOverlapThemeLabels"
+	Shortcut:	"Keys.None"
+)
+
+(Choice.749
+	Disabled:	1
+	Help:	"Converts selected overlapping labels to symbol of selected good label"
+	HelpTopic:	"Convert_Overlapping_Labels"
+	Update:	"View.ConvertOverlapLabelsUpdate"
+	Label:	"&Convert Overlapping Labels"
+	Click:	"View.ConvertOverlapLabels"
+	Shortcut:	"Keys.Ctrl+O"
+)
+
+(Space.750
+)
+
+(Choice.751
+	Help:	"Opens the tables of the active themes"
+	HelpTopic:	"Open_Theme_Table"
+	Update:	"DB.TabularThemesUpdate"
+	Label:	"&Table..."
+	Click:	"DB.ShowTable"
+	Shortcut:	"Keys.None"
+)
+
+(Choice.752
+	Help:	"Displays the Query Builder to select features with a logical expression"
+	HelpTopic:	"Query_Builder"
+	Update:	"View.AttributeThemesUpdate"
+	Label:	"&Query..."
+	Click:	"View.Query"
+	Shortcut:	"Keys.Ctrl+Q"
+)
+
+(Choice.753
+	Help:	"Selects features in the active themes using another theme's features"
+	HelpTopic:	"Select_By_Theme"
+	Update:	"View.SelectableThemesUpdate"
+	Label:	"Select &By Theme..."
+	Click:	"View.SelectByTheme"
+	Shortcut:	"Keys.None"
+)
+
+(Choice.754
+	Help:	"Creates buffers around features"
+	HelpTopic:	"Create_Buffer_Choice"
+	Update:	"WizardBuffer.OpenDialogUpdate"
+	Label:	"Create Buffers..."
+	Click:	"WizardBuffer.OpenDialog"
+	Shortcut:	"Keys.None"
+)
+
+(Choice.755
+	Help:	"Unselects the selected features of all active themes"
+	HelpTopic:	"Clear_Selected_Features"
+	Update:	"View.AttributeThemesUpdate"
+	Label:	"Clear Selected &Features"
+	Click:	"View.ClearSelect"
+	Shortcut:	"Keys.None"
+)
+
+(PMenu.756
+	InternalName:	"Graphics"
+	Child:	757
+	Child:	758
+	Child:	759
+	Child:	760
+	Child:	761
+	Child:	762
+	Child:	763
+	Child:	764
+	Child:	765
+	Child:	766
+	Child:	767
+	Child:	768
+	Child:	769
+	Child:	770
+	Child:	771
+	Label:	"&Graphics"
+)
+
+(Choice.757
+	Disabled:	1
+	Help:	"Displays the property editor for the selected graphic"
+	HelpTopic:	"Graphic_Properties"
+	Update:	"Graphic.HasSelectionUpdate"
+	Label:	"&Properties..."
+	Click:	"Graphic.Edit"
+	Shortcut:	"Keys.None"
+)
+
+(Space.758
+)
+
+(Choice.759
+	Help:	"Shows a dialog where you can set the default values for the label and text tools"
+	HelpTopic:	"Default_settings_for_text_and_label_tools"
+	Label:	"&Text and Label Defaults..."
+	Click:	"Graphic.Label Defaults Show"
+	Shortcut:	"Keys.None"
+)
+
+(Space.760
+)
+
+(Choice.761
+	Disabled:	1
+	Help:	"Displays a dialog box to adjust size and position of selected graphic"
+	HelpTopic:	"Size_and_Position"
+	Update:	"Graphic.SingleSelectionUpdate"
+	Label:	"&Size and Position..."
+	Click:	"Graphic.SizePos"
+	Shortcut:	"Keys.None"
+)
+
+(Choice.762
+	Disabled:	1
+	Help:	"Aligns the selected graphics"
+	HelpTopic:	"Align"
+	Update:	"Graphic.HasSelectionUpdate"
+	Label:	"&Align..."
+	Click:	"Graphic.Align"
+	Shortcut:	"Keys.Ctrl+A"
+)
+
+(Space.763
+)
+
+(Choice.764
+	Disabled:	1
+	Help:	"Moves selected graphics in front of other graphics"
+	HelpTopic:	"Bring_to_Front_on_a_view"
+	Update:	"Graphic.HasSelectionUpdate"
+	Label:	"Bring to &Front"
+	Click:	"Graphic.ToFront"
+	Shortcut:	"Keys.None"
+)
+
+(Choice.765
+	Disabled:	1
+	Help:	"Moves selected graphics behind other graphics"
+	HelpTopic:	"Send_to_Back_on_a_view"
+	Update:	"Graphic.HasSelectionUpdate"
+	Label:	"Send to &Back "
+	Click:	"Graphic.ToBack"
+	Shortcut:	"Keys.None"
+)
+
+(Choice.766
+	Disabled:	1
+	Help:	"Groups selected graphics"
+	HelpTopic:	"Group_on_a_view"
+	Update:	"Graphic.GroupUpdate"
+	Label:	"&Group"
+	Click:	"Graphic.Group"
+	Shortcut:	"Keys.Ctrl+G"
+)
+
+(Choice.767
+	Disabled:	1
+	Help:	"Ungroups selected graphics"
+	HelpTopic:	"Ungroup_on_a_view"
+	Update:	"Graphic.UngroupUpdate"
+	Label:	"&Ungroup"
+	Click:	"Graphic.Ungroup"
+	Shortcut:	"Keys.Ctrl+U"
+)
+
+(Space.768
+)
+
+(Choice.769
+	Disabled:	1
+	Help:	"Associates selected graphics with active themes"
+	HelpTopic:	"Attach_Graphics"
+	Update:	"View.AddGraphicsUpdate"
+	Label:	"A&ttach Graphics"
+	Click:	"View.AddGraphics"
+	Shortcut:	"Keys.None"
+)
+
+(Choice.770
+	Disabled:	1
+	Help:	"Removes association between graphics and active themes"
+	HelpTopic:	"Detach_Graphics"
+	Update:	"View.ClearGraphicsUpdate"
+	Label:	"&Detach Graphics"
+	Click:	"View.ClearGraphics"
+	Shortcut:	"Keys.None"
+)
+
+(Space.771
+)
+
+(PMenu.772
+	InternalName:	"Window"
+	Child:	773
+	Child:	774
+	Child:	775
+	Child:	776
+	Child:	777
+	Child:	778
+	Child:	780
+	Child:	781
+	Child:	782
+	Child:	783
+	Label:	"&Window"
+)
+
+(Choice.773
+	Help:	"Arranges windows as non-overlapping tiles"
+	HelpTopic:	"Tile"
+	Label:	"&Tile"
+	Click:	"Project.Tile"
+	Shortcut:	"Keys.None"
+)
+
+(Choice.774
+	Help:	"Arranges windows"
+	HelpTopic:	"Cascade"
+	Label:	"&Cascade"
+	Click:	"Project.Cascade"
+	Shortcut:	"Keys.None"
+)
+
+(Choice.775
+	Help:	"Arranges iconified windows"
+	HelpTopic:	"Arrange_Icons"
+	Label:	"&Arrange Icons"
+	Click:	"Project.ArrangeIcons"
+	Shortcut:	"Keys.None"
+)
+
+(Space.776
+)
+
+(Choice.777
+	Help:	"Shows the symbol window"
+	HelpTopic:	"Show_Symbol_Window"
+	Label:	"Show Symbol Window..."
+	Click:	"Project.ShowHideSymWin"
+	Shortcut:	"Keys.Ctrl+P"
+)
+
+(Space.778
+	ObjectTag:	779
+	Update:	"WindowMenuUpdate"
+)
+
+(AVStr.779
+	S:	"kepadatan.apr Attributes of KECAMATAN BATAS ADMNISTRASI/KECAMATAN Kepadatan Penduduk"
+)
+
+(Choice.780
+	Help:	"Activates kepadatan.apr"
+	Label:	"&1 kepadatan.apr"
+	Click:	"WindowActivate"
+	Shortcut:	"Keys.None"
+)
+
+(Choice.781
+	Help:	"Activates Attributes of KECAMATAN"
+	Label:	"&2 Attributes of KECAMATAN"
+	Click:	"WindowActivate"
+	Shortcut:	"Keys.None"
+)
+
+(Choice.782
+	Help:	"Activates BATAS ADMNISTRASI/KECAMATAN"
+	Label:	"&3 BATAS ADMNISTRASI/KECAMATAN"
+	Click:	"WindowActivate"
+	Shortcut:	"Keys.None"
+)
+
+(Choice.783
+	Help:	"Activates Kepadatan Penduduk"
+	Label:	"&4 Kepadatan Penduduk"
+	Click:	"WindowActivate"
+	Shortcut:	"Keys.None"
+)
+
+(PMenu.784
+	InternalName:	"Help"
+	Child:	785
+	Child:	786
+	Child:	787
+	Child:	788
+	Label:	"&Help"
+)
+
+(Choice.785
+	Help:	"Displays the dialog for browsing and searching ArcView's help system"
+	HelpTopic:	"Help_on_Help_Topics"
+	Label:	"Help &Topics..."
+	Click:	"Project.HelpTopics"
+	Shortcut:	"Keys.None"
+)
+
+(Choice.786
+	Help:	"Provides instructions for how to obtain help from ArcView"
+	HelpTopic:	"Help_on_How_to_Get_Help"
+	Label:	"&How to Get Help..."
+	Click:	"Project.HelpHelp"
+	Shortcut:	"Keys.None"
+)
+
+(Space.787
+)
+
+(Choice.788
+	Help:	"Provides information about ArcView"
+	HelpTopic:	"About"
+	Label:	"&About ArcView..."
+	Click:	"Project.About"
+	Shortcut:	"Keys.None"
+)
+
+(ButnBar.789
+	Child:	790
+	Child:	792
+	Child:	793
+	Child:	795
+	Child:	796
+	Child:	798
+	Child:	800
+	Child:	802
+	Child:	803
+	Child:	805
+	Child:	807
+	Child:	809
+	Child:	810
+	Child:	812
+	Child:	814
+	Child:	816
+	Child:	818
+	Child:	820
+	Child:	822
+	Child:	823
+	Child:	825
+	Child:	827
+	Child:	828
+)
+
+(Butn.790
+	Help:	"Save Project//Saves the current project"
+	HelpTopic:	"Save_Project"
+	Icon:	791
+	Click:	"Project.Save"
+)
+
+(AVIcon.791
+	Name:	"Save"
+	Res:	"Icons.Save"
+
+)
+
+(Space.792
+)
+
+(Butn.793
+	Help:	"Add Theme//Inserts themes into the view"
+	HelpTopic:	"Add_Theme"
+	Icon:	794
+	Click:	"View.Add"
+)
+
+(AVIcon.794
+	Name:	"AddTheme"
+	Res:	"Icons.AddTheme"
+
+)
+
+(Space.795
+)
+
+(Butn.796
+	Help:	"Theme Properties//Displays the dialog box to edit properties of the active theme"
+	HelpTopic:	"Theme_Properties"
+	Update:	"View.ActiveThemesUpdate"
+	Icon:	797
+	Click:	"View.ThemeProperties"
+)
+
+(AVIcon.797
+	Name:	"Props"
+	Res:	"Icons.Props"
+
+)
+
+(Butn.798
+	Help:	"Edit Legend//Displays the legends of the active themes"
+	HelpTopic:	"Edit_Legend"
+	Update:	"View.ActiveThemesUpdate"
+	Icon:	799
+	Click:	"View.EditLegendClick"
+)
+
+(AVIcon.799
+	Name:	"Legend"
+	Res:	"Icons.Legend"
+
+)
+
+(Butn.800
+	Help:	"Open Theme Table//Opens the tables of the active themes"
+	HelpTopic:	"Open_Theme_Table"
+	Update:	"DB.TabularThemesUpdate"
+	Icon:	801
+	Click:	"DB.ShowTable"
+)
+
+(AVIcon.801
+	Name:	"Table"
+	Res:	"Icons.Table"
+
+)
+
+(Space.802
+)
+
+(Butn.803
+	Help:	"Find//Finds features in the active themes using the text you enter"
+	HelpTopic:	"Find"
+	Update:	"View.TabularThemesUpdate"
+	Icon:	804
+	Click:	"View.Find"
+)
+
+(AVIcon.804
+	Name:	"Find"
+	Res:	"Icons.Find"
+
+)
+
+(Butn.805
+	Disabled:	1
+	Help:	"Locate Address//Locates an address in the active, matchable theme"
+	HelpTopic:	"Locate_Address"
+	Update:	"View.LocateUpdate"
+	Icon:	806
+	Click:	"View.Locate"
+)
+
+(AVIcon.806
+	Name:	"AddMatch"
+	Res:	"Icons.AddMatch"
+
+)
+
+(Butn.807
+	Help:	"Query Builder//Displays the Query Builder to select features with a logical expression"
+	HelpTopic:	"Query_Builder"
+	Update:	"View.AttributeThemesUpdate"
+	Icon:	808
+	Click:	"View.Query"
+)
+
+(AVIcon.808
+	Name:	"QueryBuilder"
+	Res:	"Icons.QueryBuilder"
+
+)
+
+(Space.809
+)
+
+(Butn.810
+	Help:	"Zoom to Full Extent//Zooms to the extent of all themes"
+	HelpTopic:	"Zoom_to_Full_Extent"
+	Update:	"View.HasDataUpdate"
+	Icon:	811
+	Click:	"View.ZoomFullExtent"
+)
+
+(AVIcon.811
+	Name:	"ZoomView"
+	Res:	"Icons.ZoomView"
+
+)
+
+(Butn.812
+	Help:	"Zoom to Active Theme(s)//Zooms to the extent of active themes"
+	HelpTopic:	"Zoom_to_Active_Theme"
+	Update:	"View.ActiveThemesUpdate"
+	Icon:	813
+	Click:	"View.ZoomToThemes"
+)
+
+(AVIcon.813
+	Name:	"ZoomTheme"
+	Res:	"Icons.ZoomTheme"
+
+)
+
+(Butn.814
+	Help:	"Zoom to Selected//Zooms to the extent of the selected features"
+	HelpTopic:	"Zoom_to_Selected"
+	Update:	"View.SelectableThemesUpdate"
+	Icon:	815
+	Click:	"View.ZoomToSelected"
+)
+
+(AVIcon.815
+	Name:	"ZoomToSelected"
+	Res:	"Icons.ZoomToSelected"
+
+)
+
+(Butn.816
+	Help:	"Zoom In//Zooms in on the center of the display"
+	HelpTopic:	"Zoom_In"
+	Update:	"View.HasDataUpdate"
+	Icon:	817
+	Click:	"View.ZoomIn"
+)
+
+(AVIcon.817
+	Name:	"ZoomIn"
+	Res:	"Icons.ZoomIn"
+
+)
+
+(Butn.818
+	Help:	"Zoom Out//Zooms out from the center of the display"
+	HelpTopic:	"Zoom_Out"
+	Update:	"View.HasDataUpdate"
+	Icon:	819
+	Click:	"View.ZoomOut"
+)
+
+(AVIcon.819
+	Name:	"ZoomOut"
+	Res:	"Icons.ZoomOut"
+
+)
+
+(Butn.820
+	Disabled:	1
+	Help:	"Zoom to Previous Extent//Goes back to the previous extent you were viewing"
+	HelpTopic:	"Zoom_Previous"
+	Update:	"View.UndoZoomUpdate"
+	Icon:	821
+	Click:	"View.UndoZoom"
+)
+
+(AVIcon.821
+	Name:	"ZoomPrevious"
+	Res:	"Icons.ZoomPrevious"
+
+)
+
+(Space.822
+)
+
+(Butn.823
+	Disabled:	1
+	Help:	"Select Features Using Graphic//Selects features in active themes using selected graphics"
+	HelpTopic:	"Select_Features_Using_Graphic"
+	Update:	"View.SpatialSelectUpdate"
+	Icon:	824
+	Click:	"View.SpatialSelect"
+)
+
+(AVIcon.824
+	Name:	"SpatialSelect"
+	Res:	"Icons.SpatialSelect"
+
+)
+
+(Butn.825
+	Help:	"Clear Selected Features//Unselects the selected features of all active themes"
+	HelpTopic:	"Clear_Selected_Features"
+	Update:	"View.AttributeThemesUpdate"
+	Icon:	826
+	Click:	"View.ClearSelect"
+)
+
+(AVIcon.826
+	Name:	"SelectNone"
+	Res:	"Icons.SelectNone"
+
+)
+
+(Space.827
+)
+
+(Butn.828
+	Help:	"Help//Gets help about the next button, tool, or menu choice you click"
+	HelpTopic:	"Help_button"
+	Icon:	829
+	Click:	"Help.Tool"
+)
+
+(AVIcon.829
+	Name:	"HelpTool"
+	Res:	"Icons.HelpTool"
+
+)
+
+(PopupSet.830
+	Child:	831
+)
+
+(Popup.831
+	Child:	832
+	Child:	833
+	Child:	834
+	Child:	835
+	Child:	836
+	Child:	837
+	Child:	838
+	Child:	839
+	Child:	840
+	Child:	841
+	Child:	842
+	Child:	843
+	Child:	844
+	Child:	845
+	Child:	846
+	Child:	847
+	Child:	848
+	Child:	849
+	Child:	850
+	Child:	851
+	Label:	"Menu"
+)
+
+(Choice.832
+	Disabled:	1
+	Invisible:	1
+	Help:	"Deletes the last entered point on the line or polygon being drawn"
+	Update:	"View.DelLastPointUpdate"
+	Label:	"Delete Last Point"
+	Click:	"View.DeleteLastPoint"
+	Shortcut:	"Keys.None"
+)
+
+(Choice.833
+	Disabled:	1
+	Help:	"Undo the last edit to graphics on a view"
+	HelpTopic:	"Undo_Graphic_Edit_on_a_view"
+	Update:	"View.UndoEditUpdate"
+	Label:	"Undo Graphic Edit"
+	Click:	"View.UndoEdit"
+	Shortcut:	"Keys.None"
+)
+
+(Choice.834
+	Disabled:	1
+	Invisible:	1
+	Help:	"Redo the last edit operation on a theme that was undone"
+	Update:	"View.RedoEditUpdate"
+	Label:	"Redo Feature Edit"
+	Click:	"View.RedoEdit"
+	Shortcut:	"Keys.None"
+)
+
+(Space.835
+)
+
+(Choice.836
+	Disabled:	1
+	Invisible:	1
+	Help:	"Turns general snapping on"
+	Update:	"View.ToggleGeneralSnapUpdate"
+	Label:	"Enable General Snapping"
+	Click:	"View.ToggleGeneralSnap"
+	Shortcut:	"Keys.None"
+)
+
+(Choice.837
+	Disabled:	1
+	Invisible:	1
+	Help:	"Turns interactive snapping on"
+	Update:	"View.ToggleInteractiveSnapUpdate"
+	Label:	"Enable Interactive Snapping"
+	Click:	"View.ToggleInteractiveSnap"
+	Shortcut:	"Keys.None"
+)
+
+(Choice.838
+	Help:	"Turns snap tolerance cursor on"
+	Update:	"View.ToggleTolCursorUpdate"
+	Label:	"Show Snap Tolerance Cursor"
+	Click:	"View.ToggleTolCursor"
+	Shortcut:	"Keys.None"
+)
+
+(Space.839
+)
+
+(Choice.840
+	Disabled:	1
+	Invisible:	1
+	Help:	"Snaps the next entered point to the nearest vertex within the user tolerance"
+	Update:	"View.InteractiveSnapUpdate"
+	Label:	"Snap to Vertex"
+	Click:	"View.SnapToVertex"
+	Shortcut:	"Keys.None"
+)
+
+(Choice.841
+	Disabled:	1
+	Invisible:	1
+	Help:	"Snaps the next entered point to the nearest line segment"
+	Update:	"View.InteractiveSnapUpdate"
+	Label:	"Snap to Boundary"
+	Click:	"View.SnapToBoundary"
+	Shortcut:	"Keys.None"
+)
+
+(Choice.842
+	Disabled:	1
+	Invisible:	1
+	Help:	"Snaps the next entered point to the nearest node common to two or more features"
+	Update:	"View.InteractiveSnapUpdate"
+	Label:	"Snap to Intersection"
+	Click:	"View.SnapToIntersection"
+	Shortcut:	"Keys.None"
+)
+
+(Choice.843
+	Disabled:	1
+	Invisible:	1
+	Help:	"Snaps the next entered point to the nearest endpoint of an existing line"
+	Update:	"View.SnapToEndPointUpdate"
+	Label:	"Snap to Endpoint"
+	Click:	"View.SnapToEndPoint"
+	Shortcut:	"Keys.None"
+)
+
+(Space.844
+)
+
+(Choice.845
+	Disabled:	1
+	Help:	"Unselects the selected features in all active themes"
+	Update:	"View.AttributeThemesUpdate"
+	Label:	"Clear Selection"
+	Click:	"View.ClearSelect"
+	Shortcut:	"Keys.None"
+)
+
+(Choice.846
+	Disabled:	1
+	Help:	"Zooms in at point where you click to bring up popup menu"
+	Update:	"View.HasDataUpdate"
+	Label:	"Zoom In"
+	Click:	"View.PopupZoomIn"
+	Shortcut:	"Keys.None"
+)
+
+(Choice.847
+	Disabled:	1
+	Help:	"Zooms out from point where you click to bring up popup menu"
+	Update:	"View.HasDataUpdate"
+	Label:	"Zoom Out"
+	Click:	"View.PopupZoomOut"
+	Shortcut:	"Keys.None"
+)
+
+(Choice.848
+	Disabled:	1
+	Help:	"Zooms to the extent of the selected features"
+	Update:	"View.SelectableThemesUpdate"
+	Label:	"Zoom to Selected"
+	Click:	"View.ZoomToSelected"
+	Shortcut:	"Keys.None"
+)
+
+(Choice.849
+	Disabled:	1
+	Help:	"Centers display on point where you click to bring up popup"
+	Update:	"View.HasDataUpdate"
+	Label:	"Pan"
+	Click:	"View.PopupPan"
+	Shortcut:	"Keys.None"
+)
+
+(Space.850
+)
+
+(Choice.851
+	Disabled:	1
+	Help:	"Opens the shape properties window for editing vertex locations"
+	Update:	"ShapeWin.PopUp Update"
+	Label:	"Shape Properties"
+	Click:	"ShapeWin.PopUp Open"
+	Shortcut:	"Keys.None"
+)
+
+(ToolBar.852
+	Child:	853
+	Child:	855
+	Child:	857
+	Child:	859
+	Child:	861
+	Child:	863
+	Child:	865
+	Child:	867
+	Child:	869
+	Child:	871
+	Child:	873
+	Child:	892
+	Child:	905
+	Child:	924
+)
+
+(Tool.853
+	Help:	"Identify//Provides information about a feature"
+	HelpTopic:	"Identify_tool"
+	Update:	"View.IdentifyUpdate"
+	Icon:	854
+	Cursor:	"Cursors.ID"
+	Apply:	"View.Identify"
+)
+
+(AVIcon.854
+	Name:	"ID"
+	Res:	"Icons.ID"
+
+)
+
+(Tool.855
+	Help:	"Pointer//Selects, moves, and resizes graphics"
+	HelpTopic:	"Pointer_tool"
+	Update:	"View.HasDataUpdate"
+	Icon:	856
+	Cursor:	"Cursors.Select"
+	Apply:	"View.Select"
+	Click:	"View.SelectTool"
+)
+
+(AVIcon.856
+	Name:	"Select"
+	Res:	"Icons.Select"
+
+)
+
+(Tool.857
+	Disabled:	1
+	Help:	"Vertex Edit//Adds, moves, and deletes vertices of features and graphics"
+	HelpTopic:	"Vertex_Edit_tool"
+	Update:	"View.SelectToEditUpdate"
+	Icon:	858
+	Cursor:	"Cursors.SelectEdit"
+	Apply:	"View.SelectToEdit"
+	Click:	"View.SelectToEditTool"
+)
+
+(AVIcon.858
+	Name:	"SelectEdit"
+	Res:	"Icons.SelectEdit"
+
+)
+
+(Tool.859
+	Help:	"Select Feature//Selects features in the active themes by pointing or dragging"
+	HelpTopic:	"Select_Feature_tool"
+	Update:	"View.SelectableThemesUpdate"
+	Icon:	860
+	Cursor:	"Cursors.Default"
+	Apply:	"View.SelectPoint"
+)
+
+(AVIcon.860
+	Name:	"FeatureSelect"
+	Res:	"Icons.FeatureSelect"
+
+)
+
+(Tool.861
+	Help:	"Zoom In//Zooms in at a point you click or zooms in on a rectangle you drag"
+	HelpTopic:	"Zoom_In_tool"
+	Update:	"View.HasDataUpdate"
+	Icon:	862
+	Cursor:	"Cursors.ZoomIn"
+	Apply:	"View.ZoomInTool"
+)
+
+(AVIcon.862
+	Name:	"ZoomInTool"
+	Res:	"Icons.ZoomInTool"
+
+)
+
+(Tool.863
+	Help:	"Zoom Out//Zooms out from a point you click or zooms out to include a rectangle you drag"
+	HelpTopic:	"Zoom_Out_tool"
+	Update:	"View.HasDataUpdate"
+	Icon:	864
+	Cursor:	"Cursors.ZoomOut"
+	Apply:	"View.ZoomOutTool"
+)
+
+(AVIcon.864
+	Name:	"ZoomOutTool"
+	Res:	"Icons.ZoomOutTool"
+
+)
+
+(Tool.865
+	Help:	"Pan//Drags the display in the direction you move the cursor"
+	HelpTopic:	"Pan_tool"
+	Update:	"View.HasDataUpdate"
+	Icon:	866
+	Cursor:	"Cursors.Pan"
+	Apply:	"View.Pan"
+)
+
+(AVIcon.866
+	Name:	"Pan"
+	Res:	"Icons.Pan"
+
+)
+
+(Tool.867
+	Help:	"Measure//Measures distance"
+	HelpTopic:	"Measure_tool"
+	Update:	"View.HasDataUpdate"
+	Icon:	868
+	Cursor:	"Cursors.Measure"
+	Apply:	"View.Measure"
+)
+
+(AVIcon.868
+	Name:	"Measure"
+	Res:	"Icons.Measure"
+
+)
+
+(Tool.869
+	Disabled:	1
+	Help:	"Hot Link//Follows a hot link in the active themes"
+	HelpTopic:	"Hot_Link_tool"
+	Update:	"View.HotLinkUpdate"
+	Icon:	870
+	Cursor:	"Cursors.Media"
+	Apply:	"View.HotLink"
+)
+
+(AVIcon.870
+	Name:	"Media"
+	Res:	"Icons.Media"
+
+)
+
+(Tool.871
+	Disabled:	1
+	Help:	"Area of Interest//Sets the view's Area Of Interest for library-based themes"
+	HelpTopic:	"Area_Of_Interest_tool"
+	Update:	"View.AOIToolUpdate"
+	Icon:	872
+	Cursor:	"Cursors.Default"
+	Apply:	"View.AOITool"
+)
+
+(AVIcon.872
+	Name:	"AOI"
+	Res:	"Icons.AOI"
+
+)
+
+(ToolMenu.873
+	Help:	"Label//Labels a feature in the active theme with data from its table"
+	HelpTopic:	"Label_Tool"
+	Update:	"View.LabelToolUpdate"
+	Icon:	874
+	Cursor:	"Cursors.Tag"
+	Apply:	"View.LabelTool"
+	Child:	875
+	Child:	876
+	Child:	878
+	Child:	880
+	Child:	882
+	Child:	884
+	Child:	886
+	Child:	888
+	Child:	890
+)
+
+(AVIcon.874
+	Name:	"Tag"
+	Res:	"Icons.Tag"
+
+)
+
+(Tool.875
+	Help:	"Label//Labels a feature in the active theme with data from its table"
+	HelpTopic:	"Label_Tool"
+	Update:	"View.LabelToolUpdate"
+	Icon:	874
+	Cursor:	"Cursors.Tag"
+	Apply:	"View.LabelTool"
+)
+
+(Tool.876
+	Help:	"Callout Label//Click on a feature and drag in the direction you want the label to appear"
+	HelpTopic:	"Label_Tool"
+	Update:	"View.CalloutUpdate"
+	Icon:	877
+	Cursor:	"Cursors.Tag"
+	Apply:	"View.CalloutLabelTool"
+)
+
+(AVIcon.877
+	Name:	"CallOutLabel1"
+	Res:	"Icons.CallOutLabel1"
+
+)
+
+(Tool.878
+	Help:	"Bullet Leader Label//Click on a feature and drag in the direction you want the label to appear"
+	HelpTopic:	"Label_Tool"
+	Update:	"View.CalloutUpdate"
+	Icon:	879
+	Cursor:	"Cursors.Tag"
+	Apply:	"View.BulletLeaderLabelTool"
+)
+
+(AVIcon.879
+	Name:	"CallOutLabel2"
+	Res:	"Icons.CallOutLabel2"
+
+)
+
+(Tool.880
+	Help:	"Banner Label//Click on a feature you want to label"
+	HelpTopic:	"Label_Tool"
+	Update:	"View.CalloutUpdate"
+	Icon:	881
+	Cursor:	"Cursors.Tag"
+	Apply:	"View.ShadowBoxLabelTool"
+)
+
+(AVIcon.881
+	Name:	"CallOutLabel3"
+	Res:	"Icons.CallOutLabel3"
+
+)
+
+(Tool.882
+	Help:	"U.S. Interstate//Click where you want to place a highway shield"
+	HelpTopic:	"Label_Tool"
+	Update:	"View.CalloutUpdate"
+	Icon:	883
+	Cursor:	"Cursors.Tag"
+	Apply:	"View.Highway1 Apply"
+)
+
+(AVIcon.883
+	Name:	"BW US Interstate"
+	Res:	"Icons.BW US Interstate"
+
+)
+
+(Tool.884
+	Help:	"U.S. Route//Click where you want to place a highway shield"
+	HelpTopic:	"Label_Tool"
+	Update:	"View.CalloutUpdate"
+	Icon:	885
+	Cursor:	"Cursors.Tag"
+	Apply:	"View.Highway2 Apply"
+)
+
+(AVIcon.885
+	Name:	"USRoute"
+	Res:	"Icons.USRoute"
+
+)
+
+(Tool.886
+	Help:	"Generic State Hwy//Click where you want to place a highway shield"
+	HelpTopic:	"Label_Tool"
+	Update:	"View.CalloutUpdate"
+	Icon:	887
+	Cursor:	"Cursors.Tag"
+	Apply:	"View.Highway3 Apply"
+)
+
+(AVIcon.887
+	Name:	"GenericStateHighway"
+	Res:	"Icons.GenericStateHighway"
+
+)
+
+(Tool.888
+	Help:	"Generic Square Hwy//Click where you want to place a highway shield"
+	HelpTopic:	"Label_Tool"
+	Update:	"View.CalloutUpdate"
+	Icon:	889
+	Cursor:	"Cursors.Tag"
+	Apply:	"View.Highway4 Apply"
+)
+
+(AVIcon.889
+	Name:	"GenericHighway1"
+	Res:	"Icons.GenericHighway1"
+
+)
+
+(Tool.890
+	Help:	"Generic Oval Hwy//Click where you want to place a highway shield"
+	Update:	"View.CalloutUpdate"
+	Icon:	891
+	Cursor:	"Cursors.Tag"
+	Apply:	"View.Highway5 Apply"
+)
+
+(AVIcon.891
+	Name:	"GenericHighway2"
+	Res:	"Icons.GenericHighway2"
+
+)
+
+(ToolMenu.892
+	Help:	"Text//Creates text on the display"
+	HelpTopic:	"Text_tool"
+	Update:	"View.TextToolUpdate"
+	Icon:	893
+	Cursor:	"Cursors.Text"
+	Apply:	"View.TextTool"
+	Click:	"SymWin.DisplayFontPanel"
+	Child:	894
+	Child:	895
+	Child:	897
+	Child:	899
+	Child:	901
+	Child:	903
+)
+
+(AVIcon.893
+	Name:	"Text"
+	Res:	"Icons.Text"
+
+)
+
+(Tool.894
+	Help:	"Text//Creates text on the display"
+	HelpTopic:	"Text_tool"
+	Update:	"View.TextToolUpdate"
+	Icon:	893
+	Cursor:	"Cursors.Text"
+	Apply:	"View.TextTool"
+	Click:	"SymWin.DisplayFontPanel"
+)
+
+(Tool.895
+	Help:	"Callout Text//Click and drag to where you want your text to appear, then enter the text"
+	HelpTopic:	"Text_tool"
+	Update:	"View.TextToolUpdate"
+	Icon:	896
+	Cursor:	"Cursors.Bullseye"
+	Apply:	"View.CalloutTextTool"
+)
+
+(AVIcon.896
+	Name:	"CallOutText1"
+	Res:	"Icons.CallOutText1"
+
+)
+
+(Tool.897
+	Help:	"Bullet Leader Text//Click and drag to where you want your text to appear, then enter the text"
+	HelpTopic:	"Text_tool"
+	Update:	"View.TextToolUpdate"
+	Icon:	898
+	Cursor:	"Cursors.Bullseye"
+	Apply:	"View.BulletLeaderTextTool"
+)
+
+(AVIcon.898
+	Name:	"CallOutText2"
+	Res:	"Icons.CallOutText2"
+
+)
+
+(Tool.899
+	Help:	"Banner Text//Click where you want your label to appear and enter your text"
+	HelpTopic:	"Text_tool"
+	Update:	"View.TextToolUpdate"
+	Icon:	900
+	Cursor:	"Cursors.Bullseye"
+	Apply:	"View.ShadowBoxTextTool"
+)
+
+(AVIcon.900
+	Name:	"CallOutText3"
+	Res:	"Icons.CallOutText3"
+
+)
+
+(Tool.901
+	Help:	"Drop-Shadow Text//Click where you want your text to appear and enter your text"
+	HelpTopic:	"Text_tool"
+	Update:	"View.TextToolUpdate"
+	Icon:	902
+	Cursor:	"Cursors.Target"
+	Apply:	"View.CreateDropShadowText"
+)
+
+(AVIcon.902
+	Name:	"DropShadowText"
+	Res:	"Icons.DropShadowText"
+
+)
+
+(Tool.903
+	Help:	"Spline Text//Adds text that is aligned to a splined baseline"
+	HelpTopic:	"Text_tool"
+	Update:	"View.TextToolUpdate"
+	Icon:	904
+	Cursor:	"Cursors.Bullseye"
+	Apply:	"View.SplineText"
+)
+
+(AVIcon.904
+	Name:	"TextAligned"
+	Res:	"Icons.TextAligned"
+
+)
+
+(ToolMenu.905
+	Help:	"Draw Point//Creates a point on the display"
+	HelpTopic:	"Draw_tool"
+	Update:	"View.PointToolUpdate"
+	Icon:	906
+	Cursor:	"Cursors.CrossHair"
+	Apply:	"View.PointTool"
+	Click:	"SymWin.DisplayMarkerPanel"
+	Child:	907
+	Child:	908
+	Child:	910
+	Child:	912
+	Child:	914
+	Child:	916
+	Child:	918
+	Child:	920
+	Child:	922
+)
+
+(AVIcon.906
+	Name:	"Point"
+	Res:	"Icons.Point"
+
+)
+
+(Tool.907
+	Help:	"Draw Point//Creates a point on the display"
+	HelpTopic:	"Draw_tool"
+	Update:	"View.PointToolUpdate"
+	Icon:	906
+	Cursor:	"Cursors.CrossHair"
+	Apply:	"View.PointTool"
+	Click:	"SymWin.DisplayMarkerPanel"
+)
+
+(Tool.908
+	Help:	"Draw Straight Line//Creates a line on the display"
+	HelpTopic:	"Draw_tool"
+	Update:	"View.GraphicToolUpdate"
+	Icon:	909
+	Cursor:	"Cursors.CrossHair"
+	Apply:	"View.LineTool"
+	Click:	"SymWin.DisplayPenPanel"
+)
+
+(AVIcon.909
+	Name:	"SelectLine"
+	Res:	"Icons.SelectLine"
+
+)
+
+(Tool.910
+	Help:	"Draw Line//Creates a line with two or more points on the display"
+	HelpTopic:	"Draw_tool"
+	Update:	"View.PolyLineToolUpdate"
+	Icon:	911
+	Cursor:	"Cursors.CrossHair"
+	Apply:	"View.PolyLineTool"
+	Click:	"SymWin.DisplayPenPanel"
+)
+
+(AVIcon.911
+	Name:	"Lines"
+	Res:	"Icons.Lines"
+
+)
+
+(Tool.912
+	Help:	"Draw Rectangle//Creates a rectangle on the display"
+	HelpTopic:	"Draw_tool"
+	Update:	"View.PolyToolUpdate"
+	Icon:	913
+	Cursor:	"Cursors.CrossHair"
+	Apply:	"View.RectTool"
+	Click:	"SymWin.DisplayFillPanel"
+)
+
+(AVIcon.913
+	Name:	"Rect"
+	Res:	"Icons.Rect"
+
+)
+
+(Tool.914
+	Help:	"Draw Circle//Creates a circle on the display"
+	HelpTopic:	"Draw_tool"
+	Update:	"View.PolyToolUpdate"
+	Icon:	915
+	Cursor:	"Cursors.CrossHair"
+	Apply:	"View.CircleTool"
+	Click:	"SymWin.DisplayFillPanel"
+)
+
+(AVIcon.915
+	Name:	"Disk"
+	Res:	"Icons.Disk"
+
+)
+
+(Tool.916
+	Help:	"Draw Polygon//Creates a polygon on the display"
+	HelpTopic:	"Draw_tool"
+	Update:	"View.PolyToolUpdate"
+	Icon:	917
+	Cursor:	"Cursors.CrossHair"
+	Apply:	"View.PolyTool"
+	Click:	"SymWin.DisplayFillPanel"
+)
+
+(AVIcon.917
+	Name:	"Poly"
+	Res:	"Icons.Poly"
+
+)
+
+(Tool.918
+	Disabled:	1
+	Help:	"Draw Line to Split Feature//Creates a line to split line features"
+	HelpTopic:	"Draw_tool"
+	Update:	"View.SplitLineToolUpdate"
+	Icon:	919
+	Cursor:	"Cursors.CrossHair"
+	Apply:	"View.SplitTool"
+)
+
+(AVIcon.919
+	Name:	"SplitLine"
+	Res:	"Icons.SplitLine"
+
+)
+
+(Tool.920
+	Disabled:	1
+	Help:	"Draw Line to Split Polygon//Creates a line to split polygon features"
+	HelpTopic:	"Draw_tool"
+	Update:	"View.SplitPolyToolUpdate"
+	Icon:	921
+	Cursor:	"Cursors.CrossHair"
+	Apply:	"View.SplitTool"
+)
+
+(AVIcon.921
+	Name:	"SplitPoly"
+	Res:	"Icons.SplitPoly"
+
+)
+
+(Tool.922
+	Disabled:	1
+	Help:	"Draw Line to Append Polygon//Appends a new polygon adjacent to other polygons"
+	HelpTopic:	"Draw_tool"
+	Update:	"View.AutoCompleteUpdate"
+	Icon:	923
+	Cursor:	"Cursors.CrossHair"
+	Apply:	"View.AutoCompleteTool"
+)
+
+(AVIcon.923
+	Name:	"AutoComplete"
+	Res:	"Icons.AutoComplete"
+
+)
+
+(ToolMenu.924
+	Disabled:	1
+	Invisible:	1
+	Help:	"Snap//Sets the general snapping tolerance for the editable theme"
+	HelpTopic:	"Snap_tools"
+	Update:	"View.SnapToolUpdate"
+	Icon:	925
+	Cursor:	"Cursors.Default"
+	Apply:	"View.SnapTool"
+	Child:	926
+	Child:	927
+)
+
+(AVIcon.925
+	Name:	"SnapTool"
+	Res:	"Icons.SnapTool"
+
+)
+
+(Tool.926
+	Disabled:	1
+	Invisible:	1
+	Help:	"Snap//Sets the general snapping tolerance for the editable theme"
+	HelpTopic:	"Snap_tools"
+	Update:	"View.SnapToolUpdate"
+	Icon:	925
+	Cursor:	"Cursors.Default"
+	Apply:	"View.SnapTool"
+)
+
+(Tool.927
+	Disabled:	1
+	Invisible:	1
+	Help:	"Snap//Sets the interactive snapping tolerance for the editable theme"
+	HelpTopic:	"Snap_tools"
+	Update:	"View.InteractiveSnapToolUpdate"
+	Icon:	928
+	Cursor:	"Cursors.Default"
+	Apply:	"View.InteractiveSnapTool"
+)
+
+(AVIcon.928
+	Name:	"SnapFeatureTool"
+	Res:	"Icons.SnapFeatureTool"
+
+)
+
+(AVIcon.929
+	Name:	"Icon"
+	Res:	"View.Icon"
+
+)
+
+(DocGUI.930
+	Name:	"Table"
+	Type:	"Table"
+	Modified:	1
+	Visible:	1
+	MenuBar:	931
+	ButnBar:	1005
+	Popups:	1048
+	ToolBar:	1049
+	NewScript:	"Table.New"
+	OpenScript:	"Doc.Open"
+	ActionScript:	"Table.Action"
+	NewUpdateScript:	"Doc.NewUpdate"
+	OpenUpdateScript:	"Doc.OpenUpdate"
+	ActionUpdateScript:	"Table.ActionUpdate"
+	Title:	"Tables"
+	Icon:	1056
+)
+
+(MenuBar.931
+	Child:	932
+	Child:	946
+	Child:	962
+	Child:	981
+	Child:	990
+	Child:	1000
+)
+
+(PMenu.932
+	InternalName:	"File"
+	Child:	933
+	Child:	934
+	Child:	935
+	Child:	936
+	Child:	937
+	Child:	938
+	Child:	939
+	Child:	940
+	Child:	941
+	Child:	942
+	Child:	943
+	Child:	944
+	Child:	945
+	Label:	"&File"
+)
+
+(Choice.933
+	Help:	"Closes the active component"
+	HelpTopic:	"Close"
+	Label:	"&Close"
+	Click:	"Project.CloseDoc"
+	Shortcut:	"Keys.None"
+)
+
+(Choice.934
+	Help:	"Closes all components"
+	HelpTopic:	"Close_All"
+	Label:	"Close &All"
+	Click:	"Project.CloseAll"
+	Shortcut:	"Keys.None"
+)
+
+(Space.935
+)
+
+(Choice.936
+	Help:	"Saves the current project"
+	HelpTopic:	"Save_Project"
+	Label:	"&Save Project"
+	Click:	"Project.Save"
+	Shortcut:	"Keys.Ctrl+S"
+)
+
+(Choice.937
+	Help:	"Saves the current project with a new name"
+	HelpTopic:	"Save_Project_As"
+	Label:	"Save Project As..."
+	Click:	"Project.SaveAs"
+	Shortcut:	"Keys.None"
+)
+
+(Space.938
+)
+
+(Choice.939
+	Help:	"Displays the Extensions Dialog"
+	HelpTopic:	"Extensions"
+	Label:	"Extensions..."
+	Click:	"Appl.GetExtensionWin"
+	Shortcut:	"Keys.None"
+)
+
+(Space.940
+)
+
+(Choice.941
+	Help:	"Prints the table"
+	HelpTopic:	"Print"
+	Label:	"&Print..."
+	Click:	"Doc.Print"
+	Shortcut:	"Keys.None"
+)
+
+(Choice.942
+	Help:	"Edits the printer and the printing options"
+	HelpTopic:	"Print_Setup"
+	Update:	"PrintSetupUpdate"
+	Label:	"P&rint Setup..."
+	Click:	"Project.PrintSetup"
+	Shortcut:	"Keys.None"
+)
+
+(Choice.943
+	Help:	"Exports the current table to a dBASE, INFO, or text file"
+	HelpTopic:	"Export_Table"
+	Update:	"DB.ExportUpdate"
+	Label:	"&Export..."
+	Click:	"DB.Export"
+	Shortcut:	"Keys.None"
+)
+
+(Space.944
+)
+
+(Choice.945
+	Help:	"Exits ArcView"
+	HelpTopic:	"Exit"
+	Label:	"E&xit"
+	Click:	"Project.Exit"
+	Shortcut:	"Keys.None"
+)
+
+(PMenu.946
+	InternalName:	"Edit"
+	Child:	947
+	Child:	948
+	Child:	949
+	Child:	950
+	Child:	951
+	Child:	952
+	Child:	953
+	Child:	954
+	Child:	955
+	Child:	956
+	Child:	957
+	Child:	958
+	Child:	959
+	Child:	960
+	Child:	961
+	Label:	"&Edit"
+)
+
+(Choice.947
+	Disabled:	1
+	Help:	"Cuts the selected cell to the clipboard"
+	HelpTopic:	"Cut"
+	Update:	"DB.CutUpdate"
+	Label:	"Cu&t"
+	Click:	"Table.Cut"
+	Shortcut:	"Keys.Ctrl+X"
+)
+
+(Choice.948
+	Disabled:	1
+	Help:	"Copies the selected cell to the clipboard"
+	HelpTopic:	"Copy"
+	Update:	"DB.CutUpdate"
+	Label:	"&Copy"
+	Click:	"Table.Copy"
+	Shortcut:	"Keys.Ctrl+C"
+)
+
+(Choice.949
+	Disabled:	1
+	Help:	"Inserts the contents of the Clipboard into the active cell"
+	HelpTopic:	"Paste"
+	Update:	"DB.CutUpdate"
+	Label:	"&Paste"
+	Click:	"Table.Paste"
+	Shortcut:	"Keys.Ctrl+V"
+)
+
+(Space.950
+)
+
+(Choice.951
+	Disabled:	1
+	Help:	"Undo the last edit operation on the Table"
+	HelpTopic:	"Undo_Edit_on_a_table"
+	Update:	"DB.EditUpdate"
+	Label:	"&Undo Edit"
+	Click:	"Table.UndoEdit"
+	Shortcut:	"Keys.Ctrl+Z"
+)
+
+(Choice.952
+	Disabled:	1
+	Help:	"Redo the last undone operation on the Table"
+	HelpTopic:	"Redo_Edit_on_a_table"
+	Update:	"DB.EditUpdate"
+	Label:	"Red&o Edit"
+	Click:	"Table.RedoEdit"
+	Shortcut:	"Keys.Ctrl+Y"
+)
+
+(Space.953
+)
+
+(Choice.954
+	Disabled:	1
+	Help:	"Adds a new field to the table"
+	HelpTopic:	"Add_Field"
+	Update:	"DB.AddFieldUpdate"
+	Label:	"Add &Field..."
+	Click:	"Table.AddField"
+	Shortcut:	"Keys.None"
+)
+
+(Choice.955
+	Disabled:	1
+	Help:	"Adds a new record at the bottom of the table"
+	HelpTopic:	"Add_Record"
+	Update:	"DB.AddRecordUpdate"
+	Label:	"Add &Record"
+	Click:	"Table.AddRecord"
+	Shortcut:	"Keys.Ctrl+A"
+)
+
+(Choice.956
+	Disabled:	1
+	Help:	"Deletes the active field from the table"
+	HelpTopic:	"Delete_Field"
+	Update:	"DB.DeleteFieldUpdate"
+	Label:	"&Delete Field"
+	Click:	"Table.DeleteField"
+	Shortcut:	"Keys.None"
+)
+
+(Choice.957
+	Disabled:	1
+	Help:	"Deletes the selected records from the table"
+	HelpTopic:	"Delete_Records"
+	Update:	"DB.DeleteRecordsUpdate"
+	Label:	"D&elete Records"
+	Click:	"Table.DeleteRecords"
+	Shortcut:	"Keys.None"
+)
+
+(Space.958
+)
+
+(Choice.959
+	Help:	"Selects all records in the table"
+	HelpTopic:	"Select_All"
+	Update:	"DB.DBTableUpdate"
+	Label:	"Select &All"
+	Click:	"Table.SelectAll"
+	Shortcut:	"Keys.None"
+)
+
+(Choice.960
+	Help:	"Unselects all records in the table"
+	HelpTopic:	"Select_None_in_a_table"
+	Update:	"DB.DBTableUpdate"
+	Label:	"Select &None"
+	Click:	"Table.UnselectAll"
+	Shortcut:	"Keys.None"
+)
+
+(Choice.961
+	Help:	"Toggles selected and unselected records in the table"
+	HelpTopic:	"Switch_Selection"
+	Update:	"DB.DBTableUpdate"
+	Label:	"&Switch Selection"
+	Click:	"Table.SwitchSelection"
+	Shortcut:	"Keys.None"
+)
+
+(PMenu.962
+	InternalName:	"Table"
+	Child:	963
+	Child:	964
+	Child:	965
+	Child:	966
+	Child:	967
+	Child:	968
+	Child:	969
+	Child:	970
+	Child:	971
+	Child:	972
+	Child:	973
+	Child:	974
+	Child:	975
+	Child:	976
+	Child:	977
+	Child:	978
+	Child:	979
+	Child:	980
+	Label:	"&Table"
+)
+
+(Choice.963
+	Help:	"Displays the dialog box to edit properties of the table"
+	HelpTopic:	"Table_Properties"
+	Label:	"&Properties..."
+	Click:	"Table.Properties"
+	Shortcut:	"Keys.None"
+)
+
+(Space.964
+)
+
+(Choice.965
+	Help:	"Creates a chart from the table"
+	HelpTopic:	"Create_Chart"
+	Update:	"DB.ChartUpdate"
+	Label:	"&Chart..."
+	Click:	"Table.Chart"
+	Shortcut:	"Keys.None"
+)
+
+(Choice.966
+	Help:	"Starts or stops editing of table values"
+	HelpTopic:	"Start_Stop_Editing"
+	Update:	"DB.ToggleEditingUpdate"
+	Label:	"Start &Editing"
+	Click:	"Table.ToggleEditing"
+	Shortcut:	"Keys.None"
+)
+
+(Choice.967
+	Disabled:	1
+	Help:	"Saves edits to the source file"
+	HelpTopic:	"Save_edits_table"
+	Update:	"DB.EditUpdate"
+	Label:	"Save Ed&its"
+	Click:	"Table.SaveEdits"
+	Shortcut:	"Keys.None"
+)
+
+(Choice.968
+	Disabled:	1
+	Help:	"Save edits to a new source file"
+	HelpTopic:	"Save_edits_as_table"
+	Update:	"DB.EditUpdate"
+	Label:	"Save E&dits As..."
+	Click:	"Table.SaveEditsAs"
+	Shortcut:	"Keys.None"
+)
+
+(Space.969
+)
+
+(Choice.970
+	Help:	"Finds the row in the table using the text you enter"
+	HelpTopic:	"Find"
+	Label:	"&Find..."
+	Click:	"DB.Find"
+	Shortcut:	"Keys.Ctrl+F"
+)
+
+(Choice.971
+	Help:	"Displays the Query Builder to select records with a logical expression"
+	HelpTopic:	"Query_Builder"
+	Update:	"DB.DBTableUpdate"
+	Label:	"&Query..."
+	Click:	"Table.Query"
+	Shortcut:	"Keys.Ctrl+Q"
+)
+
+(Choice.972
+	Disabled:	1
+	Help:	"Promotes selected rows to the top of the table"
+	HelpTopic:	"Promote"
+	Update:	"DB.PromoteUpdate"
+	Label:	"Pr&omote"
+	Click:	"Table.Promote"
+	Shortcut:	"Keys.None"
+)
+
+(Space.973
+)
+
+(Choice.974
+	Disabled:	1
+	Help:	"Appends the fields of another table to the active table based on a common field"
+	HelpTopic:	"Join"
+	Update:	"DB.JoinUpdate"
+	Label:	"&Join"
+	Click:	"DB.Join"
+	Shortcut:	"Keys.Ctrl+J"
+)
+
+(Choice.975
+	Disabled:	1
+	Help:	"Removes any fields joined to the table"
+	HelpTopic:	"Remove_All_Joins"
+	Update:	"DB.HasJoinsUpdate"
+	Label:	"&Remove All Joins"
+	Click:	"Table.RemoveAllJoins"
+	Shortcut:	"Keys.None"
+)
+
+(Choice.976
+	Disabled:	1
+	Help:	"Associates the selection of the active table with another table"
+	HelpTopic:	"Link"
+	Update:	"DB.LinkUpdate"
+	Label:	"&Link"
+	Click:	"Table.Link"
+	Shortcut:	"Keys.None"
+)
+
+(Choice.977
+	Disabled:	1
+	Help:	"Removes the association between the active table and its linked tables"
+	HelpTopic:	"Remove_All_Links"
+	Update:	"DB.HasLinksUpdate"
+	Label:	"Re&move All Links"
+	Click:	"Table.RemoveAllLinks"
+	Shortcut:	"Keys.None"
+)
+
+(Space.978
+)
+
+(Choice.979
+	InternalName:	"DB"
+	Disabled:	1
+	Help:	"Gets the next set of records from the database that satisfy the query, and adds them to the database table"
+	HelpTopic:	"Get_More_Rows@dbaccess.hlp"
+	Update:	"DB.GetMoreUpdate"
+	Label:	"&Get More Rows"
+	Click:	"DB.GetMore"
+	Shortcut:	"Keys.Ctrl+R"
+)
+
+(Choice.980
+	Help:	"Refreshes the table"
+	HelpTopic:	"Refresh"
+	Label:	"Refres&h"
+	Click:	"DB.Refresh"
+	Shortcut:	"Keys.None"
+)
+
+(PMenu.981
+	InternalName:	"Field"
+	Child:	982
+	Child:	983
+	Child:	984
+	Child:	985
+	Child:	986
+	Child:	987
+	Child:	988
+	Child:	989
+	Label:	"F&ield"
+)
+
+(Choice.982
+	Disabled:	1
+	Help:	"Sorts rows in ascending order (A-Z), (0-9)"
+	HelpTopic:	"Sort_table"
+	Update:	"Table.SortUpdate"
+	Label:	"Sort &Ascending"
+	Click:	"Table.SortAscending"
+	Shortcut:	"Keys.None"
+)
+
+(Choice.983
+	Disabled:	1
+	Help:	"Sorts rows in descending order (Z-A), (9-0)"
+	HelpTopic:	"Sort_table"
+	Update:	"Table.SortUpdate"
+	Label:	"Sort &Descending"
+	Click:	"Table.SortDescending"
+	Shortcut:	"Keys.None"
+)
+
+(Space.984
+)
+
+(Choice.985
+	Disabled:	1
+	Help:	"Creates or removes an index on the active field"
+	HelpTopic:	"Create_Remove_Index"
+	Update:	"Table.IndexUpdate"
+	Label:	"Create &Index"
+	Click:	"Table.Index"
+	Shortcut:	"Keys.None"
+)
+
+(Space.986
+)
+
+(Choice.987
+	Disabled:	1
+	Help:	"Creates a summary table grouped by the active field"
+	HelpTopic:	"Summarize"
+	Update:	"DB.SummarizeUpdate"
+	Label:	"&Summarize..."
+	Click:	"Table.Summarize"
+	Shortcut:	"Keys.None"
+)
+
+(Choice.988
+	Disabled:	1
+	Help:	"Calculates the value of a field"
+	HelpTopic:	"Calculate"
+	Update:	"DB.CalculateUpdate"
+	Label:	"&Calculate..."
+	Click:	"Table.Calculate"
+	Shortcut:	"Keys.None"
+)
+
+(Choice.989
+	Disabled:	1
+	Help:	"Generates a report of statistics for data in the active, numeric field"
+	HelpTopic:	"Statistics"
+	Update:	"DB.StatisticsUpdate"
+	Label:	"S&tatistics..."
+	Click:	"DB.Statistics"
+	Shortcut:	"Keys.None"
+)
+
+(PMenu.990
+	InternalName:	"Window"
+	Child:	991
+	Child:	992
+	Child:	993
+	Child:	994
+	Child:	995
+	Child:	996
+	Child:	998
+	Child:	999
+	Label:	"&Window"
+)
+
+(Choice.991
+	Help:	"Arranges windows as non-overlapping tiles"
+	HelpTopic:	"Tile"
+	Label:	"&Tile"
+	Click:	"Project.Tile"
+	Shortcut:	"Keys.None"
+)
+
+(Choice.992
+	Help:	"Arranges windows"
+	HelpTopic:	"Cascade"
+	Label:	"&Cascade"
+	Click:	"Project.Cascade"
+	Shortcut:	"Keys.None"
+)
+
+(Choice.993
+	Help:	"Arranges iconified windows"
+	HelpTopic:	"Arrange_Icons"
+	Label:	"&Arrange Icons"
+	Click:	"Project.ArrangeIcons"
+	Shortcut:	"Keys.None"
+)
+
+(Space.994
+)
+
+(Choice.995
+	Help:	"Shows the symbol window"
+	HelpTopic:	"Show_Symbol_Window"
+	Label:	"Show Symbol Window..."
+	Click:	"Project.ShowHideSymWin"
+	Shortcut:	"Keys.Ctrl+P"
+)
+
+(Space.996
+	ObjectTag:	997
+	Update:	"WindowMenuUpdate"
+)
+
+(AVStr.997
+	S:	"Untitled grid.dbf"
+)
+
+(Choice.998
+	Help:	"Activates Untitled"
+	Label:	"&1 Untitled"
+	Click:	"WindowActivate"
+	Shortcut:	"Keys.None"
+)
+
+(Choice.999
+	Help:	"Activates grid.dbf"
+	Label:	"&2 grid.dbf"
+	Click:	"WindowActivate"
+	Shortcut:	"Keys.None"
+)
+
+(PMenu.1000
+	InternalName:	"Help"
+	Child:	1001
+	Child:	1002
+	Child:	1003
+	Child:	1004
+	Label:	"&Help"
+)
+
+(Choice.1001
+	Help:	"Displays the dialog for browsing and searching ArcView's help system"
+	HelpTopic:	"Help_on_Help_Topics"
+	Label:	"Help &Topics..."
+	Click:	"Project.HelpTopics"
+	Shortcut:	"Keys.None"
+)
+
+(Choice.1002
+	Help:	"Provides instructions for how to obtain help from ArcView"
+	HelpTopic:	"Help_on_How_to_Get_Help"
+	Label:	"&How to Get Help..."
+	Click:	"Project.HelpHelp"
+	Shortcut:	"Keys.None"
+)
+
+(Space.1003
+)
+
+(Choice.1004
+	Help:	"Provides information about ArcView"
+	HelpTopic:	"About"
+	Label:	"&About ArcView..."
+	Click:	"Project.About"
+	Shortcut:	"Keys.None"
+)
+
+(ButnBar.1005
+	Child:	1006
+	Child:	1008
+	Child:	1009
+	Child:	1011
+	Child:	1013
+	Child:	1015
+	Child:	1016
+	Child:	1018
+	Child:	1020
+	Child:	1022
+	Child:	1023
+	Child:	1025
+	Child:	1026
+	Child:	1028
+	Child:	1030
+	Child:	1032
+	Child:	1033
+	Child:	1035
+	Child:	1036
+	Child:	1038
+	Child:	1040
+	Child:	1041
+	Child:	1043
+	Child:	1045
+	Child:	1046
+)
+
+(Butn.1006
+	Help:	"Save Project//Saves the current project"
+	HelpTopic:	"Save_Project"
+	Icon:	1007
+	Click:	"Project.Save"
+)
+
+(AVIcon.1007
+	Name:	"Save"
+	Res:	"Icons.Save"
+
+)
+
+(Space.1008
+)
+
+(Butn.1009
+	Disabled:	1
+	Help:	"Cut//Cuts the selected cell to the clipboard"
+	HelpTopic:	"Cut"
+	Update:	"DB.CutUpdate"
+	Icon:	1010
+	Click:	"Table.Cut"
+)
+
+(AVIcon.1010
+	Name:	"Cut"
+	Res:	"Icons.Cut"
+
+)
+
+(Butn.1011
+	Disabled:	1
+	Help:	"Copy//Copies the selected cell to the clipboard"
+	HelpTopic:	"Copy"
+	Update:	"DB.CutUpdate"
+	Icon:	1012
+	Click:	"Table.Copy"
+)
+
+(AVIcon.1012
+	Name:	"Copy"
+	Res:	"Icons.Copy"
+
+)
+
+(Butn.1013
+	Disabled:	1
+	Help:	"Paste//Inserts the contents of the Clipboard into the active cell"
+	HelpTopic:	"Paste"
+	Update:	"DB.CutUpdate"
+	Icon:	1014
+	Click:	"Table.Paste"
+)
+
+(AVIcon.1014
+	Name:	"Paste"
+	Res:	"Icons.Paste"
+
+)
+
+(Space.1015
+)
+
+(Butn.1016
+	Help:	"Select All//Selects all records in the table"
+	HelpTopic:	"Select_All"
+	Update:	"DB.DBTableUpdate"
+	Icon:	1017
+	Click:	"Table.SelectAll"
+)
+
+(AVIcon.1017
+	Name:	"SelectAll"
+	Res:	"Icons.SelectAll"
+
+)
+
+(Butn.1018
+	Help:	"Select None//Unselects all records in the table"
+	HelpTopic:	"Select_None_in_a_table"
+	Update:	"DB.DBTableUpdate"
+	Icon:	1019
+	Click:	"Table.UnselectAll"
+)
+
+(AVIcon.1019
+	Name:	"SelectNone"
+	Res:	"Icons.SelectNone"
+
+)
+
+(Butn.1020
+	Help:	"Switch Selection//Toggles selected and unselected records in the table"
+	HelpTopic:	"Switch_Selection"
+	Update:	"DB.DBTableUpdate"
+	Icon:	1021
+	Click:	"Table.SwitchSelection"
+)
+
+(AVIcon.1021
+	Name:	"SwitchSelect"
+	Res:	"Icons.SwitchSelect"
+
+)
+
+(Space.1022
+)
+
+(Butn.1023
+	Help:	"Create Chart//Creates a chart from the table"
+	HelpTopic:	"Create_Chart"
+	Update:	"DB.ChartUpdate"
+	Icon:	1024
+	Click:	"Table.Chart"
+)
+
+(AVIcon.1024
+	Name:	"MakeChart"
+	Res:	"Icons.MakeChart"
+
+)
+
+(Space.1025
+)
+
+(Butn.1026
+	Help:	"Find//Finds the row in the table using the text you enter"
+	HelpTopic:	"Find"
+	Icon:	1027
+	Click:	"DB.Find"
+)
+
+(AVIcon.1027
+	Name:	"Find"
+	Res:	"Icons.Find"
+
+)
+
+(Butn.1028
+	Help:	"Query Builder//Displays the Query Builder to select records with a logical expression"
+	HelpTopic:	"Query_Builder"
+	Update:	"DB.DBTableUpdate"
+	Icon:	1029
+	Click:	"Table.Query"
+)
+
+(AVIcon.1029
+	Name:	"QueryBuilder"
+	Res:	"Icons.QueryBuilder"
+
+)
+
+(Butn.1030
+	Disabled:	1
+	Help:	"Promote//Promotes selected rows to the top of the table"
+	HelpTopic:	"Promote"
+	Update:	"DB.PromoteUpdate"
+	Icon:	1031
+	Click:	"Table.Promote"
+)
+
+(AVIcon.1031
+	Name:	"Promote"
+	Res:	"Icons.Promote"
+
+)
+
+(Space.1032
+)
+
+(Butn.1033
+	Disabled:	1
+	Help:	"Join//Appends the fields of another table to the active table based on a common field"
+	HelpTopic:	"Join"
+	Update:	"DB.JoinUpdate"
+	Icon:	1034
+	Click:	"DB.Join"
+)
+
+(AVIcon.1034
+	Name:	"Join"
+	Res:	"Icons.Join"
+
+)
+
+(Space.1035
+)
+
+(Butn.1036
+	Disabled:	1
+	Help:	"Summarize//Creates a summary table grouped by the active field"
+	HelpTopic:	"Summarize"
+	Update:	"DB.SummarizeUpdate"
+	Icon:	1037
+	Click:	"Table.Summarize"
+)
+
+(AVIcon.1037
+	Name:	"Summarize"
+	Res:	"Icons.Summarize"
+
+)
+
+(Butn.1038
+	Disabled:	1
+	Help:	"Calculate//Calculates the value of a field"
+	HelpTopic:	"Calculate"
+	Update:	"DB.CalculateUpdate"
+	Icon:	1039
+	Click:	"Table.Calculate"
+)
+
+(AVIcon.1039
+	Name:	"Calculator"
+	Res:	"Icons.Calculator"
+
+)
+
+(Space.1040
+)
+
+(Butn.1041
+	Disabled:	1
+	Help:	"Sort Ascending//Sorts rows in ascending order (A-Z), (0-9)"
+	HelpTopic:	"Sort_table"
+	Update:	"Table.SortUpdate"
+	Icon:	1042
+	Click:	"Table.SortAscending"
+)
+
+(AVIcon.1042
+	Name:	"SortAscending"
+	Res:	"Icons.SortAscending"
+
+)
+
+(Butn.1043
+	Disabled:	1
+	Help:	"Sort Descending//Sorts rows in descending order (Z-A), (9-0)"
+	HelpTopic:	"Sort_table"
+	Update:	"Table.SortUpdate"
+	Icon:	1044
+	Click:	"Table.SortDescending"
+)
+
+(AVIcon.1044
+	Name:	"SortDescending"
+	Res:	"Icons.SortDescending"
+
+)
+
+(Space.1045
+)
+
+(Butn.1046
+	Help:	"Help//Gets help about the next button, tool, or menu choice you click"
+	HelpTopic:	"Help_button"
+	Icon:	1047
+	Click:	"Help.Tool"
+)
+
+(AVIcon.1047
+	Name:	"HelpTool"
+	Res:	"Icons.HelpTool"
+
+)
+
+(PopupSet.1048
+)
+
+(ToolBar.1049
+	Child:	1050
+	Child:	1052
+	Child:	1054
+)
+
+(Tool.1050
+	Help:	"Select//Selects records in the table"
+	HelpTopic:	"Select_tool"
+	Update:	"DB.DBTableUpdate"
+	Icon:	1051
+	Cursor:	"Cursors.Default"
+	Apply:	"Table.Select"
+	Click:	"Table.StopEditing"
+)
+
+(AVIcon.1051
+	Name:	"Select"
+	Res:	"Icons.Select"
+
+)
+
+(Tool.1052
+	Disabled:	1
+	Help:	"Edit//Changes cell values"
+	HelpTopic:	"Edit_tool"
+	Update:	"DB.IsEditableUpdate"
+	Icon:	1053
+	Cursor:	"Cursors.Finger"
+	Apply:	"Table.Edit"
+)
+
+(AVIcon.1053
+	Name:	"Edit"
+	Res:	"Icons.Edit"
+
+)
+
+(Tool.1054
+	Help:	"Identify//Provides information about a record"
+	HelpTopic:	"Identify_tool"
+	Update:	"DB.TableIdentifyUpdate"
+	Icon:	1055
+	Cursor:	"Cursors.ID"
+	Apply:	"DB.TableIdentify"
+	Click:	"DB.StopEditing"
+)
+
+(AVIcon.1055
+	Name:	"ID"
+	Res:	"Icons.ID"
+
+)
+
+(AVIcon.1056
+	Name:	"Icon"
+	Res:	"Table.Icon"
+
+)
+
+(DocGUI.1435
+	Name:	"Project"
+	Type:	"Project"
+	Modified:	1
+	MenuBar:	1436
+	ButnBar:	1477
+	Popups:	1483
+	ToolBar:	1484
+	Icon:	1485
+)
+
+(MenuBar.1436
+	Child:	1437
+	Child:	1448
+	Child:	1460
+	Child:	1472
+)
+
+(PMenu.1437
+	InternalName:	"File"
+	Child:	1438
+	Child:	1439
+	Child:	1440
+	Child:	1441
+	Child:	1442
+	Child:	1443
+	Child:	1444
+	Child:	1445
+	Child:	1446
+	Child:	1447
+	Label:	"&File"
+)
+
+(Choice.1438
+	Help:	"Creates a new project"
+	HelpTopic:	"New_Project"
+	Label:	"&New Project"
+	Click:	"Project.New"
+	Shortcut:	"Keys.Ctrl+N"
+)
+
+(Choice.1439
+	Help:	"Opens an existing project"
+	HelpTopic:	"Open_Project"
+	Label:	"&Open Project..."
+	Click:	"Project.Open"
+	Shortcut:	"Keys.None"
+)
+
+(Choice.1440
+	Help:	"Closes the project window"
+	HelpTopic:	"Close_Project"
+	Label:	"&Close Project"
+	Click:	"Project.Close"
+	Shortcut:	"Keys.None"
+)
+
+(Space.1441
+)
+
+(Choice.1442
+	Help:	"Saves the current project"
+	HelpTopic:	"Save_Project"
+	Label:	"&Save Project"
+	Click:	"Project.Save"
+	Shortcut:	"Keys.Ctrl+S"
+)
+
+(Choice.1443
+	Help:	"Saves the current project with a new name"
+	HelpTopic:	"Save_Project_As"
+	Label:	"Save Project &As..."
+	Click:	"Project.SaveAs"
+	Shortcut:	"Keys.None"
+)
+
+(Space.1444
+)
+
+(Choice.1445
+	Help:	"Displays the Extensions dialog"
+	HelpTopic:	"Extensions"
+	Label:	"&Extensions..."
+	Click:	"Appl.GetExtensionWin"
+	Shortcut:	"Keys.None"
+)
+
+(Space.1446
+)
+
+(Choice.1447
+	Help:	"Exits ArcView"
+	HelpTopic:	"Exit"
+	Label:	"E&xit"
+	Click:	"Project.Exit"
+	Shortcut:	"Keys.None"
+)
+
+(PMenu.1448
+	InternalName:	"Project"
+	Child:	1449
+	Child:	1450
+	Child:	1451
+	Child:	1452
+	Child:	1453
+	Child:	1454
+	Child:	1455
+	Child:	1456
+	Child:	1457
+	Child:	1458
+	Child:	1459
+	Label:	"&Project"
+)
+
+(Choice.1449
+	Help:	"Displays the dialog box to edit properties of the project"
+	HelpTopic:	"Project_Properties"
+	Label:	"&Properties..."
+	Click:	"Project.Properties"
+	Shortcut:	"Keys.None"
+)
+
+(Choice.1450
+	InternalName:	"DB"
+	Help:	"Changes properties that apply to all database tables in your project"
+	HelpTopic:	"Database_Table_Preferences@dbaccess.hlp"
+	Label:	"Data&base Table Preferences..."
+	Click:	"DB.DBTableProperties"
+	Shortcut:	"Keys.None"
+)
+
+(Choice.1451
+	Help:	"Customizes the active project"
+	HelpTopic:	"Customize"
+	Update:	"Project.CustomizeUpdate"
+	Label:	"&Customize..."
+	Click:	"Project.Customize"
+	Shortcut:	"Keys.None"
+)
+
+(Space.1452
+)
+
+(Choice.1453
+	Help:	"Renames the selected project component"
+	HelpTopic:	"Rename"
+	Update:	"Project.RenameUpdate"
+	Label:	"&Rename 'BATAS ADMNISTRASI/KECAMATAN'..."
+	Click:	"Project.Rename"
+	Shortcut:	"Keys.Ctrl+R"
+)
+
+(Choice.1454
+	Help:	"Deletes the selected component from the project"
+	HelpTopic:	"Delete_Component"
+	Update:	"Project.DeleteUpdate"
+	Label:	"&Delete 'BATAS ADMNISTRASI/KECAMATAN'..."
+	Click:	"DB.ProjectDelete"
+	Shortcut:	"Keys.Del"
+)
+
+(Space.1455
+)
+
+(Choice.1456
+	Help:	"Adds a table to the project"
+	HelpTopic:	"Add_Table"
+	Update:	"Project.AddTableUpdate"
+	Label:	"&Add Table..."
+	Click:	"Project.AddTable"
+	Shortcut:	"Keys.None"
+)
+
+(Choice.1457
+	InternalName:	"DB"
+	Help:	"Adds a database table to your project"
+	HelpTopic:	"Add_Database_Table@dbaccess.hlp"
+	Label:	"Add Database &Table..."
+	Click:	"DB.AddTable"
+	Shortcut:	"Keys.None"
+)
+
+(Choice.1458
+	Help:	"Creates a new project component from an external source"
+	HelpTopic:	"Import"
+	Update:	"Project.ImportUpdate"
+	Label:	"&Import..."
+	Click:	"Project.Import"
+	Shortcut:	"Keys.None"
+)
+
+(Choice.1459
+	Help:	"Opens the SQL Connection manager"
+	HelpTopic:	"SQL_Connect"
+	Update:	"Project.HasSQL"
+	Label:	"&SQL Connect..."
+	Click:	"Project.SQLConnect"
+	Shortcut:	"Keys.None"
+)
+
+(PMenu.1460
+	InternalName:	"Window"
+	Child:	1461
+	Child:	1462
+	Child:	1463
+	Child:	1464
+	Child:	1465
+	Child:	1466
+	Child:	1468
+	Child:	1469
+	Child:	1470
+	Child:	1471
+	Label:	"&Window"
+)
+
+(Choice.1461
+	Help:	"Arranges windows as non-overlapping tiles"
+	HelpTopic:	"Tile"
+	Label:	"&Tile"
+	Click:	"Project.Tile"
+	Shortcut:	"Keys.None"
+)
+
+(Choice.1462
+	Help:	"Arranges windows"
+	HelpTopic:	"Cascade"
+	Label:	"&Cascade"
+	Click:	"Project.Cascade"
+	Shortcut:	"Keys.None"
+)
+
+(Choice.1463
+	Help:	"Arranges iconified windows"
+	HelpTopic:	"Arrange_Icons"
+	Label:	"&Arrange Icons"
+	Click:	"Project.ArrangeIcons"
+	Shortcut:	"Keys.None"
+)
+
+(Space.1464
+)
+
+(Choice.1465
+	Help:	"Shows the symbol window"
+	HelpTopic:	"Show_Symbol_Window"
+	Label:	"Show Symbol Window..."
+	Click:	"Project.ShowHideSymWin"
+	Shortcut:	"Keys.Ctrl+P"
+)
+
+(Space.1466
+	ObjectTag:	1467
+	Update:	"WindowMenuUpdate"
+)
+
+(AVStr.1467
+	S:	"kepadatan.apr Attributes of KECAMATAN BATAS ADMNISTRASI/KECAMATAN Kepadatan Penduduk"
+)
+
+(Choice.1468
+	Help:	"Activates kepadatan.apr"
+	Label:	"&1 kepadatan.apr"
+	Click:	"WindowActivate"
+	Shortcut:	"Keys.None"
+)
+
+(Choice.1469
+	Help:	"Activates Attributes of KECAMATAN"
+	Label:	"&2 Attributes of KECAMATAN"
+	Click:	"WindowActivate"
+	Shortcut:	"Keys.None"
+)
+
+(Choice.1470
+	Help:	"Activates BATAS ADMNISTRASI/KECAMATAN"
+	Label:	"&3 BATAS ADMNISTRASI/KECAMATAN"
+	Click:	"WindowActivate"
+	Shortcut:	"Keys.None"
+)
+
+(Choice.1471
+	Help:	"Activates Kepadatan Penduduk"
+	Label:	"&4 Kepadatan Penduduk"
+	Click:	"WindowActivate"
+	Shortcut:	"Keys.None"
+)
+
+(PMenu.1472
+	InternalName:	"Help"
+	Child:	1473
+	Child:	1474
+	Child:	1475
+	Child:	1476
+	Label:	"&Help"
+)
+
+(Choice.1473
+	Help:	"Displays the dialog for browsing and searching ArcView's help system"
+	HelpTopic:	"Help_on_Help_Topics"
+	Label:	"Help &Topics..."
+	Click:	"Project.HelpTopics"
+	Shortcut:	"Keys.None"
+)
+
+(Choice.1474
+	Help:	"Provides instructions for how to obtain help from ArcView"
+	HelpTopic:	"Help_on_How_to_Get_Help"
+	Label:	"&How to Get Help..."
+	Click:	"Project.HelpHelp"
+	Shortcut:	"Keys.None"
+)
+
+(Space.1475
+)
+
+(Choice.1476
+	Help:	"Provides information about ArcView"
+	HelpTopic:	"About"
+	Label:	"&About ArcView..."
+	Click:	"Project.About"
+	Shortcut:	"Keys.None"
+)
+
+(ButnBar.1477
+	Update:	"Project.UpdateButtons"
+	Child:	1478
+	Child:	1480
+	Child:	1481
+)
+
+(Butn.1478
+	Help:	"Save Project//Saves the current project"
+	HelpTopic:	"Save_Project"
+	Icon:	1479
+	Click:	"Project.Save"
+)
+
+(AVIcon.1479
+	Name:	"Save"
+	Res:	"Icons.Save"
+
+)
+
+(Space.1480
+)
+
+(Butn.1481
+	Help:	"Help//Gets help about the next button, tool, or menu choice you click"
+	HelpTopic:	"Help_button"
+	Icon:	1482
+	Click:	"Help.Tool"
+)
+
+(AVIcon.1482
+	Name:	"HelpTool"
+	Res:	"Icons.HelpTool"
+
+)
+
+(PopupSet.1483
+)
+
+(ToolBar.1484
+)
+
+(AVIcon.1485
+	Name:	"Icon"
+	Res:	"Project.Icon"
+
+)
+
+(FN.1504
+	Path:	"$HOME"
+)
+
+(TClr.1505
+	Red:	0xffff
+	Green:	0xffff
+)
+
+(AVStr.1506
+	S:	"View"
+)
+
+(AVStr.1507
+	S:	"Table"
+)
+
+(AVStr.1508
+	S:	"Chart"
+)
+
+(AVStr.1509
+	S:	"Layout"
+)
+
+(AVStr.1510
+	S:	"Script"
+)
+
+(AVStr.1511
+	S:	"Project"
+)
+
+(AVStr.1512
+	S:	"Appl"
+)
+

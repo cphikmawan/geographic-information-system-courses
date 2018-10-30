@@ -1,0 +1,5887 @@
+/3.1
+(ODB.1
+	Dependencies:	"$AVEXT/cadrg.avx\n$AVEXT/cadview.avx\n"
+	FirstRootClassName:	"Project"
+	Roots:	2
+	Version:	31
+)
+
+(Project.2
+	Name:	"kepadatan penduduk.apr"
+	CreationDate:	"Wednesday, November 21, 2001 11:09:59 AM"
+	GUIName:	"Project"
+	Win:	3
+	CSMgr:	4
+	DocExts:	5
+	VisGUIWidth:	70
+	Doc:	6
+	Doc:	419
+	Doc:	201
+	Doc:	443
+	Doc:	817
+	ActiveDoc:	443
+	Buttons:	830
+	Buttons:	831
+	Buttons:	832
+	Dependencies:	833
+	Dependencies:	834
+	Scripts:	835
+	Prefs:	836
+	WorkDir:	1666
+	WinX:	-4
+	WinY:	-3
+	WinW:	808
+	WinH:	579
+	SerialNumber:	"798481103576"
+	SelColor:	1667
+	GUINames:	1668
+	GUINames:	1669
+	GUINames:	1670
+	GUINames:	1671
+	GUINames:	1672
+	GUINames:	1673
+	GUINames:	1674
+	TocWidthScale:	1.00000000000000
+)
+
+(DocWin.3
+	Owner:	2
+	Open:	1
+	X:	401
+	Y:	233
+	W:	401
+	H:	233
+)
+
+(CSMgr.4
+)
+
+(DocAct.5
+	Doc:	2
+)
+
+(Table.6
+	Name:	"Attributes of KEPADATAN PENDUDUK"
+	CreationDate:	"Wednesday, November 21, 2001 11:43:42 AM"
+	GUIName:	"Table"
+	Win:	7
+	CSMgr:	8
+	DocExts:	418
+	VTab:	14
+)
+
+(DocWin.7
+	Owner:	6
+	Open:	1
+	X:	401
+	W:	401
+	H:	233
+)
+
+(CSMgr.8
+	Client:	9
+)
+
+(CSClient.9
+	Client:	10
+	ReqName:	"RespondTable"
+)
+
+(FTheme.10
+	Name:	"KECAMATAN"
+	Source:	11
+	Flags:	0x04
+	Legend:	31
+	Threshold:	200
+	View:	201
+	GSet:	412
+	LegEditScript:	"View.EditLegend"
+	TxPos:	413
+	LabelField:	17
+	Table:	6
+	AttrRules:	414
+	AttrRules:	415
+	AttrRules:	416
+	AttrRules:	417
+	SnapTolCursor:	1
+)
+
+(ShpSrc.11
+	Name:	12
+	FTab:	14
+)
+
+(SrcName.12
+	FileName:	13
+	Name:	"adm1.shp"
+	SubName:	"Polygon"
+	OwnerClass:	"ShpSrc"
+)
+
+(FN.13
+	Path:	"d:/tg-its/stal/administrasi/adm1.shp"
+)
+
+(FTab.14
+	Name:	"adm1.dbf"
+	Joins:	15
+	BTab:	16
+	BTab:	22
+	Fields:	29
+	Fields:	17
+	Fields:	18
+	Fields:	19
+	Fields:	20
+	Fields:	23
+	Fields:	24
+	Fields:	25
+	Fields:	26
+	Fields:	27
+	SelBits:	30
+	FSrc:	11
+)
+
+(Join.15
+	FromBtab:	16
+	FromField:	20
+	ToBtab:	22
+	ToField:	23
+)
+
+(dBASE.16
+	Name:	"adm1.dbf"
+	Fields:	17
+	Fields:	18
+	Fields:	19
+	Fields:	20
+	FileName:	21
+)
+
+(Field.17
+	Name:	"Entity"
+	Btab:	16
+	Alias:	"Entity"
+	Visible:	1
+	Type:	4
+	Order:	-1
+	Pixels:	89
+)
+
+(Field.18
+	Name:	"Layer"
+	Btab:	16
+	Alias:	"Layer"
+	Visible:	1
+	Type:	4
+	Order:	-1
+	Pixels:	102
+)
+
+(Field.19
+	Name:	"Color"
+	Btab:	16
+	Alias:	"Color"
+	Visible:	1
+	Type:	9
+	Order:	-1
+	Pixels:	41
+)
+
+(Field.20
+	Name:	"id"
+	Btab:	16
+	Alias:	"id"
+	Visible:	1
+	Type:	9
+	Order:	-1
+	Pixels:	38
+)
+
+(FN.21
+	Path:	"d:/tg-its/stal/administrasi/adm1.dbf"
+)
+
+(dBASE.22
+	Name:	"kepadatan-pend.dbf"
+	Fields:	23
+	Fields:	24
+	Fields:	25
+	Fields:	26
+	Fields:	27
+	FileName:	28
+)
+
+(Field.23
+	Name:	"No"
+	Btab:	22
+	Alias:	"No"
+	Type:	9
+	Order:	-1
+	Pixels:	35
+)
+
+(Field.24
+	Name:	"Kecamatan"
+	Btab:	22
+	Alias:	"Kecamatan"
+	Visible:	1
+	Type:	4
+	Order:	-1
+	Pixels:	101
+)
+
+(Field.25
+	Name:	"Luas_wilay"
+	Btab:	22
+	Alias:	"Luas_wilay"
+	Visible:	1
+	Type:	4
+	Order:	-1
+	Pixels:	113
+)
+
+(Field.26
+	Name:	"1980/jiwa"
+	Btab:	22
+	Alias:	"1980/jiwa"
+	Visible:	1
+	Type:	4
+	Order:	-1
+	Pixels:	150
+)
+
+(Field.27
+	Name:	"1990/jiwa"
+	Btab:	22
+	Alias:	"1990/jiwa"
+	Visible:	1
+	Type:	4
+	Order:	-1
+	Pixels:	113
+)
+
+(FN.28
+	Path:	"d:/tg-its/stal/kepadatan penduduk/excel/kepadatan-pend.dbf"
+)
+
+(Field.29
+	Name:	"Shape"
+	Alias:	"Shape"
+	Visible:	1
+	Type:	19
+	Order:	-1
+	Pixels:	53
+)
+
+(Bitmap.30
+	NumBits:	38
+	NumBitsSet:	1
+	Bits:	00000001 00000000 
+)
+
+(Legend.31
+	SymType:	0x02
+	LegType:	0x08
+	ClassType:	0x03
+	FieldNames:	32
+	Symbols:	33
+	Class:	162
+	Class:	163
+	Class:	164
+	Class:	165
+	Class:	166
+	Class:	167
+	Class:	168
+	Class:	169
+	Class:	170
+	Class:	171
+	Class:	172
+	Class:	173
+	Class:	174
+	Class:	175
+	Class:	176
+	Class:	177
+	Class:	178
+	Class:	179
+	Class:	180
+	Class:	181
+	Class:	182
+	Class:	183
+	Class:	184
+	Class:	185
+	Class:	186
+	Class:	187
+	Class:	188
+	Class:	189
+	Class:	190
+	Class:	191
+	Class:	192
+	Class:	193
+	StdDevs:	1.00000000000000
+	NullSym:	194
+	NullValues:	198
+	StatValues:	199
+	Precision:	-3
+)
+
+(AVStr.32
+	S:	"Color"
+)
+
+(SymList.33
+	Child:	34
+	Child:	38
+	Child:	42
+	Child:	46
+	Child:	50
+	Child:	54
+	Child:	58
+	Child:	62
+	Child:	66
+	Child:	70
+	Child:	74
+	Child:	78
+	Child:	82
+	Child:	86
+	Child:	90
+	Child:	94
+	Child:	98
+	Child:	102
+	Child:	106
+	Child:	110
+	Child:	114
+	Child:	118
+	Child:	122
+	Child:	126
+	Child:	130
+	Child:	134
+	Child:	138
+	Child:	142
+	Child:	146
+	Child:	150
+	Child:	154
+	Child:	158
+)
+
+(BShSym.34
+	Color:	35
+	Outline:	1
+	OutlineColor:	36
+	OutlineWidth:	0.10000000000000
+	BgColor:	37
+)
+
+(TClr.35
+	Red:	0xdfff
+	Green:	0xc765
+	Blue:	0xaa9f
+)
+
+(TClr.36
+)
+
+(TClr.37
+	Red:	0xffff
+	Green:	0xffff
+	Blue:	0xffff
+)
+
+(BShSym.38
+	Color:	39
+	Outline:	1
+	OutlineColor:	40
+	OutlineWidth:	0.10000000000000
+	BgColor:	41
+)
+
+(TClr.39
+	Red:	0xa1c6
+	Green:	0xd1ff
+	Blue:	0x97c1
+)
+
+(TClr.40
+)
+
+(TClr.41
+	Red:	0xffff
+	Green:	0xffff
+	Blue:	0xffff
+)
+
+(BShSym.42
+	Color:	43
+	Outline:	1
+	OutlineColor:	44
+	OutlineWidth:	0.10000000000000
+	BgColor:	45
+)
+
+(TClr.43
+	Red:	0xe2ff
+	Green:	0xa6b3
+	Blue:	0xa6b3
+)
+
+(TClr.44
+)
+
+(TClr.45
+	Red:	0xffff
+	Green:	0xffff
+	Blue:	0xffff
+)
+
+(BShSym.46
+	Color:	47
+	Outline:	1
+	OutlineColor:	48
+	OutlineWidth:	0.10000000000000
+	BgColor:	49
+)
+
+(TClr.47
+	Red:	0xcbb1
+	Green:	0xa68b
+	Blue:	0xcbff
+)
+
+(TClr.48
+)
+
+(TClr.49
+	Red:	0xffff
+	Green:	0xffff
+	Blue:	0xffff
+)
+
+(BShSym.50
+	Color:	51
+	Outline:	1
+	OutlineColor:	52
+	OutlineWidth:	0.10000000000000
+	BgColor:	53
+)
+
+(TClr.51
+	Red:	0xfeff
+	Green:	0xa45a
+	Blue:	0xa45a
+)
+
+(TClr.52
+)
+
+(TClr.53
+	Red:	0xffff
+	Green:	0xffff
+	Blue:	0xffff
+)
+
+(BShSym.54
+	Color:	55
+	Outline:	1
+	OutlineColor:	56
+	OutlineWidth:	0.10000000000000
+	BgColor:	57
+)
+
+(TClr.55
+	Red:	0xa829
+	Green:	0xacc0
+	Blue:	0xd1ff
+)
+
+(TClr.56
+)
+
+(TClr.57
+	Red:	0xffff
+	Green:	0xffff
+	Blue:	0xffff
+)
+
+(BShSym.58
+	Color:	59
+	Outline:	1
+	OutlineColor:	60
+	OutlineWidth:	0.10000000000000
+	BgColor:	61
+)
+
+(TClr.59
+	Red:	0xc858
+	Green:	0xd8ff
+	Blue:	0x9a45
+)
+
+(TClr.60
+)
+
+(TClr.61
+	Red:	0xffff
+	Green:	0xffff
+	Blue:	0xffff
+)
+
+(BShSym.62
+	Color:	63
+	Outline:	1
+	OutlineColor:	64
+	OutlineWidth:	0.10000000000000
+	BgColor:	65
+)
+
+(TClr.63
+	Red:	0xf3ff
+	Green:	0xc457
+	Blue:	0xd877
+)
+
+(TClr.64
+)
+
+(TClr.65
+	Red:	0xffff
+	Green:	0xffff
+	Blue:	0xffff
+)
+
+(BShSym.66
+	Color:	67
+	Outline:	1
+	OutlineColor:	68
+	OutlineWidth:	0.10000000000000
+	BgColor:	69
+)
+
+(TClr.67
+	Red:	0xa610
+	Green:	0xff00
+	Blue:	0xa559
+)
+
+(TClr.68
+)
+
+(TClr.69
+	Red:	0xffff
+	Green:	0xffff
+	Blue:	0xffff
+)
+
+(BShSym.70
+	Color:	71
+	Outline:	1
+	OutlineColor:	72
+	OutlineWidth:	0.10000000000000
+	BgColor:	73
+)
+
+(TClr.71
+	Red:	0xee00
+	Green:	0xee00
+	Blue:	0xee00
+)
+
+(TClr.72
+)
+
+(TClr.73
+	Red:	0xffff
+	Green:	0xffff
+	Blue:	0xffff
+)
+
+(BShSym.74
+	Color:	75
+	Outline:	1
+	OutlineColor:	76
+	OutlineWidth:	0.10000000000000
+	BgColor:	77
+)
+
+(TClr.75
+	Red:	0xc0ff
+	Green:	0xabbb
+	Blue:	0x7960
+)
+
+(TClr.76
+)
+
+(TClr.77
+	Red:	0xffff
+	Green:	0xffff
+	Blue:	0xffff
+)
+
+(BShSym.78
+	Color:	79
+	Outline:	1
+	OutlineColor:	80
+	OutlineWidth:	0.10000000000000
+	BgColor:	81
+)
+
+(TClr.79
+	Red:	0xe2ff
+	Green:	0xe170
+	Blue:	0x7faf
+)
+
+(TClr.80
+)
+
+(TClr.81
+	Red:	0xffff
+	Green:	0xffff
+	Blue:	0xffff
+)
+
+(BShSym.82
+	Color:	83
+	Outline:	1
+	OutlineColor:	84
+	OutlineWidth:	0.10000000000000
+	BgColor:	85
+)
+
+(TClr.83
+	Red:	0xb400
+	Green:	0xe100
+	Blue:	0xfe00
+)
+
+(TClr.84
+)
+
+(TClr.85
+	Red:	0xffff
+	Green:	0xffff
+	Blue:	0xffff
+)
+
+(BShSym.86
+	Color:	87
+	Outline:	1
+	OutlineColor:	88
+	OutlineWidth:	0.10000000000000
+	BgColor:	89
+)
+
+(TClr.87
+	Red:	0xffff
+	Green:	0xffff
+)
+
+(TClr.88
+)
+
+(TClr.89
+	Red:	0xffff
+	Green:	0xffff
+	Blue:	0xffff
+)
+
+(BShSym.90
+	Color:	91
+	Outline:	1
+	OutlineColor:	92
+	OutlineWidth:	0.10000000000000
+	BgColor:	93
+)
+
+(TClr.91
+	Red:	0xe100
+	Green:	0xfe00
+	Blue:	0xeb00
+)
+
+(TClr.92
+)
+
+(TClr.93
+	Red:	0xffff
+	Green:	0xffff
+	Blue:	0xffff
+)
+
+(BShSym.94
+	Color:	95
+	Outline:	1
+	OutlineColor:	96
+	OutlineWidth:	0.10000000000000
+	BgColor:	97
+)
+
+(TClr.95
+	Red:	0xfe00
+	Green:	0xf700
+	Blue:	0x8200
+)
+
+(TClr.96
+)
+
+(TClr.97
+	Red:	0xffff
+	Green:	0xffff
+	Blue:	0xffff
+)
+
+(BShSym.98
+	Color:	99
+	Outline:	1
+	OutlineColor:	100
+	OutlineWidth:	0.10000000000000
+	BgColor:	101
+)
+
+(TClr.99
+	Red:	0xc300
+	Green:	0xff00
+	Blue:	0xc300
+)
+
+(TClr.100
+)
+
+(TClr.101
+	Red:	0xffff
+	Green:	0xffff
+	Blue:	0xffff
+)
+
+(BShSym.102
+	Color:	103
+	Outline:	1
+	OutlineColor:	104
+	OutlineWidth:	0.10000000000000
+	BgColor:	105
+)
+
+(TClr.103
+	Red:	0xce00
+	Green:	0xfe00
+	Blue:	0x8700
+)
+
+(TClr.104
+)
+
+(TClr.105
+	Red:	0xffff
+	Green:	0xffff
+	Blue:	0xffff
+)
+
+(BShSym.106
+	Color:	107
+	Outline:	1
+	OutlineColor:	108
+	OutlineWidth:	0.10000000000000
+	BgColor:	109
+)
+
+(TClr.107
+	Red:	0x8c00
+	Green:	0xfe00
+	Blue:	0xb300
+)
+
+(TClr.108
+)
+
+(TClr.109
+	Red:	0xffff
+	Green:	0xffff
+	Blue:	0xffff
+)
+
+(BShSym.110
+	Color:	111
+	Outline:	1
+	OutlineColor:	112
+	OutlineWidth:	0.10000000000000
+	BgColor:	113
+)
+
+(TClr.111
+	Red:	0xd2d2
+	Green:	0xd2d2
+	Blue:	0xd2d2
+)
+
+(TClr.112
+)
+
+(TClr.113
+	Red:	0xffff
+	Green:	0xffff
+	Blue:	0xffff
+)
+
+(BShSym.114
+	Color:	115
+	Outline:	1
+	OutlineColor:	116
+	OutlineWidth:	0.10000000000000
+	BgColor:	117
+)
+
+(TClr.115
+	Red:	0x9d90
+	Green:	0xc0ff
+	Blue:	0xc0fd
+)
+
+(TClr.116
+)
+
+(TClr.117
+	Red:	0xffff
+	Green:	0xffff
+	Blue:	0xffff
+)
+
+(BShSym.118
+	Color:	119
+	Outline:	1
+	OutlineColor:	120
+	OutlineWidth:	0.10000000000000
+	BgColor:	121
+)
+
+(TClr.119
+	Red:	0xdfff
+	Green:	0xc765
+	Blue:	0xaa9f
+)
+
+(TClr.120
+)
+
+(TClr.121
+	Red:	0xffff
+	Green:	0xffff
+	Blue:	0xffff
+)
+
+(BShSym.122
+	Color:	123
+	Outline:	1
+	OutlineColor:	124
+	OutlineWidth:	0.10000000000000
+	BgColor:	125
+)
+
+(TClr.123
+	Red:	0xa1c6
+	Green:	0xd1ff
+	Blue:	0x97c1
+)
+
+(TClr.124
+)
+
+(TClr.125
+	Red:	0xffff
+	Green:	0xffff
+	Blue:	0xffff
+)
+
+(BShSym.126
+	Color:	127
+	Outline:	1
+	OutlineColor:	128
+	OutlineWidth:	0.10000000000000
+	BgColor:	129
+)
+
+(TClr.127
+	Red:	0xe2ff
+	Green:	0xa6b3
+	Blue:	0xa6b3
+)
+
+(TClr.128
+)
+
+(TClr.129
+	Red:	0xffff
+	Green:	0xffff
+	Blue:	0xffff
+)
+
+(BShSym.130
+	Color:	131
+	Outline:	1
+	OutlineColor:	132
+	OutlineWidth:	0.10000000000000
+	BgColor:	133
+)
+
+(TClr.131
+	Red:	0xcbb1
+	Green:	0xa68b
+	Blue:	0xcbff
+)
+
+(TClr.132
+)
+
+(TClr.133
+	Red:	0xffff
+	Green:	0xffff
+	Blue:	0xffff
+)
+
+(BShSym.134
+	Color:	135
+	Outline:	1
+	OutlineColor:	136
+	OutlineWidth:	0.10000000000000
+	BgColor:	137
+)
+
+(TClr.135
+	Red:	0xfeff
+	Green:	0xa45a
+	Blue:	0xa45a
+)
+
+(TClr.136
+)
+
+(TClr.137
+	Red:	0xffff
+	Green:	0xffff
+	Blue:	0xffff
+)
+
+(BShSym.138
+	Color:	139
+	Outline:	1
+	OutlineColor:	140
+	OutlineWidth:	0.10000000000000
+	BgColor:	141
+)
+
+(TClr.139
+	Red:	0xa829
+	Green:	0xacc0
+	Blue:	0xd1ff
+)
+
+(TClr.140
+)
+
+(TClr.141
+	Red:	0xffff
+	Green:	0xffff
+	Blue:	0xffff
+)
+
+(BShSym.142
+	Color:	143
+	Outline:	1
+	OutlineColor:	144
+	OutlineWidth:	0.10000000000000
+	BgColor:	145
+)
+
+(TClr.143
+	Red:	0xc858
+	Green:	0xd8ff
+	Blue:	0x9a45
+)
+
+(TClr.144
+)
+
+(TClr.145
+	Red:	0xffff
+	Green:	0xffff
+	Blue:	0xffff
+)
+
+(BShSym.146
+	Color:	147
+	Outline:	1
+	OutlineColor:	148
+	OutlineWidth:	0.10000000000000
+	BgColor:	149
+)
+
+(TClr.147
+	Red:	0xf3ff
+	Green:	0xc457
+	Blue:	0xd877
+)
+
+(TClr.148
+)
+
+(TClr.149
+	Red:	0xffff
+	Green:	0xffff
+	Blue:	0xffff
+)
+
+(BShSym.150
+	Color:	151
+	Outline:	1
+	OutlineColor:	152
+	OutlineWidth:	0.10000000000000
+	BgColor:	153
+)
+
+(TClr.151
+	Red:	0xe9ff
+	Green:	0xe13f
+	Blue:	0x5e25
+)
+
+(TClr.152
+)
+
+(TClr.153
+	Red:	0xffff
+	Green:	0xffff
+	Blue:	0xffff
+)
+
+(BShSym.154
+	Color:	155
+	Outline:	1
+	OutlineColor:	156
+	OutlineWidth:	0.10000000000000
+	BgColor:	157
+)
+
+(TClr.155
+	Red:	0xee00
+	Green:	0xee00
+	Blue:	0xee00
+)
+
+(TClr.156
+)
+
+(TClr.157
+	Red:	0xffff
+	Green:	0xffff
+	Blue:	0xffff
+)
+
+(BShSym.158
+	Color:	159
+	Outline:	1
+	OutlineColor:	160
+	OutlineWidth:	0.10000000000000
+	BgColor:	161
+)
+
+(TClr.159
+	Name:	"Transparent"
+)
+
+(TClr.160
+	Name:	"Transparent"
+)
+
+(TClr.161
+	Red:	0xffff
+	Green:	0xffff
+	Blue:	0xffff
+)
+
+(LClass.162
+	Label:	"Pakal"
+	MinNum:	10.00000000000000
+	MaxNum:	10.00000000000000
+	Precision:	-3
+)
+
+(LClass.163
+	Label:	"Benowo"
+	MinNum:	11.00000000000000
+	MaxNum:	11.00000000000000
+	Precision:	-3
+)
+
+(LClass.164
+	Label:	"Asemrowo"
+	MinNum:	12.00000000000000
+	MaxNum:	12.00000000000000
+	Precision:	-3
+)
+
+(LClass.165
+	Label:	"Krembangan"
+	MinNum:	13.00000000000000
+	MaxNum:	13.00000000000000
+	Precision:	-3
+)
+
+(LClass.166
+	Label:	"Pabean Cantikan"
+	MinNum:	14.00000000000000
+	MaxNum:	14.00000000000000
+	Precision:	-3
+)
+
+(LClass.167
+	Label:	"Semampir"
+	MinNum:	15.00000000000000
+	MaxNum:	15.00000000000000
+	Precision:	-3
+)
+
+(LClass.168
+	Label:	"Kenjeran"
+	MinNum:	16.00000000000000
+	MaxNum:	16.00000000000000
+	Precision:	-3
+)
+
+(LClass.169
+	Label:	"Bulak"
+	MinNum:	17.00000000000000
+	MaxNum:	17.00000000000000
+	Precision:	-3
+)
+
+(LClass.170
+	Label:	"Sambikerep"
+	MinNum:	18.00000000000000
+	MaxNum:	18.00000000000000
+	Precision:	-3
+)
+
+(LClass.171
+	Label:	"Tandes"
+	MinNum:	19.00000000000000
+	MaxNum:	19.00000000000000
+	Precision:	-3
+)
+
+(LClass.172
+	Label:	"Sukomanunggal"
+	MinNum:	20.00000000000000
+	MaxNum:	20.00000000000000
+	Precision:	-3
+)
+
+(LClass.173
+	Label:	"Bubutan"
+	MinNum:	21.00000000000000
+	MaxNum:	21.00000000000000
+	Precision:	-3
+)
+
+(LClass.174
+	Label:	"Simokerto"
+	MinNum:	22.00000000000000
+	MaxNum:	22.00000000000000
+	Precision:	-3
+)
+
+(LClass.175
+	Label:	"Lakarsantri"
+	MinNum:	23.00000000000000
+	MaxNum:	23.00000000000000
+	Precision:	-3
+)
+
+(LClass.176
+	Label:	"Dukuh Pakis"
+	MinNum:	24.00000000000000
+	MaxNum:	24.00000000000000
+	Precision:	-3
+)
+
+(LClass.177
+	Label:	"Sawahan"
+	MinNum:	26.00000000000000
+	MaxNum:	26.00000000000000
+	Precision:	-3
+)
+
+(LClass.178
+	Label:	"Tegalsari"
+	MinNum:	27.00000000000000
+	MaxNum:	27.00000000000000
+	Precision:	-3
+)
+
+(LClass.179
+	Label:	"Genteng"
+	MinNum:	28.00000000000000
+	MaxNum:	28.00000000000000
+	Precision:	-3
+)
+
+(LClass.180
+	Label:	"Gubeng"
+	MinNum:	29.00000000000000
+	MaxNum:	29.00000000000000
+	Precision:	-3
+)
+
+(LClass.181
+	Label:	"Mulyorejo"
+	MinNum:	30.00000000000000
+	MaxNum:	30.00000000000000
+	Precision:	-3
+)
+
+(LClass.182
+	Label:	"Wiyung"
+	MinNum:	31.00000000000000
+	MaxNum:	31.00000000000000
+	Precision:	-3
+)
+
+(LClass.183
+	Label:	"Wonokromo"
+	MinNum:	32.00000000000000
+	MaxNum:	32.00000000000000
+	Precision:	-3
+)
+
+(LClass.184
+	Label:	"Sukolilo"
+	MinNum:	33.00000000000000
+	MaxNum:	33.00000000000000
+	Precision:	-3
+)
+
+(LClass.185
+	Label:	"Karangpilang"
+	MinNum:	34.00000000000000
+	MaxNum:	34.00000000000000
+	Precision:	-3
+)
+
+(LClass.186
+	Label:	"Jambangan"
+	MinNum:	35.00000000000000
+	MaxNum:	35.00000000000000
+	Precision:	-3
+)
+
+(LClass.187
+	Label:	"Gayungan"
+	MinNum:	36.00000000000000
+	MaxNum:	36.00000000000000
+	Precision:	-3
+)
+
+(LClass.188
+	Label:	"Wonocolo"
+	MinNum:	37.00000000000000
+	MaxNum:	37.00000000000000
+	Precision:	-3
+)
+
+(LClass.189
+	Label:	"Tenggilis Mejoyo"
+	MinNum:	38.00000000000000
+	MaxNum:	38.00000000000000
+	Precision:	-3
+)
+
+(LClass.190
+	Label:	"Rungkut"
+	MinNum:	39.00000000000000
+	MaxNum:	39.00000000000000
+	Precision:	-3
+)
+
+(LClass.191
+	Label:	"Gunung anyar"
+	MinNum:	40.00000000000000
+	MaxNum:	40.00000000000000
+	Precision:	-3
+)
+
+(LClass.192
+	Label:	"Tambaksari"
+	MinNum:	41.00000000000000
+	MaxNum:	41.00000000000000
+	Precision:	-3
+)
+
+(LClass.193
+	IsNoData:	1
+	Label:	"No Data"
+	MaxNum:	-1.00000000000000
+	Precision:	-3
+)
+
+(BShSym.194
+	Color:	195
+	Outline:	1
+	OutlineColor:	196
+	OutlineWidth:	0.10000000000000
+	BgColor:	197
+)
+
+(TClr.195
+	Name:	"Transparent"
+)
+
+(TClr.196
+	Name:	"Transparent"
+)
+
+(TClr.197
+	Red:	0xffff
+	Green:	0xffff
+	Blue:	0xffff
+)
+
+(NameDict.198
+)
+
+(NameDict.199
+)
+
+(Thresh.200
+)
+
+(View.201
+	Name:	"KEPADATAN PENDUDUK"
+	CreationDate:	"Wednesday, November 21, 2001 11:10:15 AM"
+	GUIName:	"View"
+	Win:	202
+	CSMgr:	203
+	DocExts:	205
+	DocExts:	237
+	Graphics:	238
+	Theme:	245
+	Theme:	303
+	Theme:	356
+	Theme:	10
+	Dpy:	239
+	TOCWidth:	150
+	CoordPrecision:	2
+)
+
+(DocWin.202
+	Owner:	201
+	Open:	1
+	Y:	233
+	W:	401
+	H:	233
+)
+
+(CSMgr.203
+	Client:	204
+	Client:	206
+)
+
+(CSClient.204
+	Client:	205
+	ReqName:	"ClientNfy"
+)
+
+(PanMgr.205
+	Doc:	201
+)
+
+(CSClient.206
+	Client:	207
+	ReqName:	"ViewChangedCB"
+)
+
+(GView.207
+	Name:	"ViewFrame1"
+	Bounds:	208
+	Sym:	209
+	Flags:	0x01
+	UserBounds:	213
+	Refresh:	2
+	Quality:	1
+	View:	201
+	LiveLink:	1
+	MapDpy:	214
+	CSMgr:	219
+)
+
+(RectD.208
+	Left:	745.24440691043628
+	Top:	753.32526427592154
+	Right:	752.34061903164843
+	Bottom:	747.79585251121568
+)
+
+(BShSym.209
+	Color:	210
+	OutlineColor:	211
+	BgColor:	212
+)
+
+(TClr.210
+)
+
+(TClr.211
+)
+
+(TClr.212
+	Red:	0xffff
+	Green:	0xffff
+	Blue:	0xffff
+)
+
+(RectD.213
+	Left:	745.24440691043628
+	Top:	753.32526427592154
+	Right:	752.34061903164843
+	Bottom:	747.79585251121568
+)
+
+(MapDpy.214
+	Left:	675357.58330144396000
+	Bottom:	9185187.48364931530000
+	Top:	9205804.03657582400000
+	Right:	704125.75640975859000
+	Scale:	215
+	FrameLeft:	745.24440691043628
+	FrameBottom:	747.79585251121568
+	FrameTop:	753.32526427592154
+	FrameRight:	752.34061903164843
+	PageDpy:	216
+	MouseLoc:	218
+)
+
+(Numb.215
+	N:	0.00024666884805
+)
+
+(PageDpy.216
+	Top:	1500.00000000000000
+	Right:	1500.00000000000000
+	ReportUnits:	1
+	Units:	1
+	Scale:	217
+	Type:	1
+	ZoomLeft:	743.57049999999992
+	ZoomRight:	756.42950000000008
+	ZoomTop:	754.54849999999999
+	ZoomBottom:	745.45150000000001
+	PageLeft:	744.15499999999997
+	PageRight:	755.84500000000003
+	PageTop:	754.13499999999999
+	PageBottom:	745.86500000000001
+	GridSpacingX:	0.25000000196750
+	GridSpacingY:	0.25000000196750
+	MarginLeft:	0.40666666666667
+	MarginRight:	0.33666666666667
+	MarginTop:	0.16666666666667
+	MarginBottom:	0.25000000000000
+	UsePrtMargins:	69
+	UsePrtPageSize:	69
+	Options:	55
+)
+
+(Numb.217
+	N:	49.46685720567231
+)
+
+(PointD.218
+)
+
+(CSMgr.219
+	Client:	220
+)
+
+(CSClient.220
+	Client:	221
+	ReqName:	"RespondViewFrameChanged"
+)
+
+(GLegend.221
+	Name:	"LegendFrame1"
+	Bounds:	222
+	Sym:	223
+	Flags:	0x01
+	UserBounds:	227
+	Refresh:	2
+	Quality:	1
+	GView:	207
+	TextSym:	228
+)
+
+(RectD.222
+	Left:	753.08176967733039
+	Top:	751.44498526367431
+	Right:	754.64285496067953
+	Bottom:	749.35055555555516
+)
+
+(BShSym.223
+	Color:	224
+	OutlineColor:	225
+	BgColor:	226
+	Style:	0x01
+)
+
+(TClr.224
+)
+
+(TClr.225
+)
+
+(TClr.226
+	Red:	0xffff
+	Green:	0xffff
+	Blue:	0xffff
+)
+
+(RectD.227
+	Left:	753.08176967733039
+	Top:	751.43944444444401
+	Right:	754.63871412177480
+	Bottom:	749.35055555555516
+)
+
+(TxSym.228
+	Color:	229
+	Font:	230
+	BgColor:	235
+	OlColor:	236
+	Size:	10.02659593230510
+)
+
+(TClr.229
+)
+
+(NFont.230
+	Family:	231
+	Name:	232
+	Style:	233
+	CommonFamily:	234
+	Bold:	1
+	Weight:	1
+	Wideness:	1
+)
+
+(AVStr.231
+	S:	"Arial"
+)
+
+(AVStr.232
+	S:	"Arial Bold"
+)
+
+(AVStr.233
+	S:	"Bold"
+)
+
+(AVStr.234
+	S:	"Helvetica"
+)
+
+(TClr.235
+	Red:	0xff
+	Green:	0xff
+	Blue:	0xff
+)
+
+(TClr.236
+	Red:	0xff
+	Green:	0xff
+	Blue:	0xff
+)
+
+(DocAct.237
+	Doc:	201
+)
+
+(GList.238
+	Dpy:	239
+	FormatNumb:	244
+)
+
+(MapDpy.239
+	Left:	674075.83301443991000
+	Bottom:	9184268.92436051180000
+	Top:	9206722.59586462750000
+	Right:	705407.50669676263000
+	Scale:	240
+	FrameTop:	2.10416666666667
+	FrameRight:	2.45833333333333
+	PageDpy:	241
+	FitToPage:	1
+	MouseLoc:	243
+)
+
+(Numb.240
+	N:	0.00007846160273
+)
+
+(PageDpy.241
+	Top:	2.10416666666667
+	Right:	2.45833333333333
+	ReportUnits:	1
+	Units:	1
+	Scale:	242
+	ZoomRight:	2.45833333333333
+	ZoomTop:	2.10416666666667
+	GridSpacingX:	0.25000000000000
+	GridSpacingY:	0.25000000000000
+)
+
+(Numb.242
+	N:	96.00000000000000
+)
+
+(PointD.243
+	x:	683767.41004329396000
+	y:	9206647.71176221040000
+)
+
+(Numb.244
+)
+
+(FTheme.245
+	Name:	"Text"
+	Source:	246
+	Flags:	0x06
+	Legend:	266
+	Threshold:	300
+	View:	201
+	GSet:	301
+	LegEditScript:	"View.EditLegend"
+	TxPos:	302
+	LabelField:	251
+	SnapTolCursor:	1
+)
+
+(DwgSrc.246
+	Name:	247
+	FTab:	249
+)
+
+(SrcName.247
+	FileName:	248
+	Name:	"text-admin.dwg"
+	SubName:	"annotation"
+	OwnerClass:	"DwgSrc"
+)
+
+(FN.248
+	Path:	"d:/tg-its/stal/administrasi/text-admin.dwg"
+)
+
+(FTab.249
+	Name:	"text-admin.dwg"
+	BTab:	250
+	Fields:	264
+	Fields:	251
+	Fields:	252
+	Fields:	253
+	Fields:	254
+	Fields:	255
+	Fields:	256
+	Fields:	257
+	Fields:	258
+	Fields:	259
+	Fields:	260
+	SelBits:	265
+	FSrc:	246
+)
+
+(DwgTbl.250
+	Name:	"text-admin.dwg"
+	Fields:	251
+	Fields:	252
+	Fields:	253
+	Fields:	254
+	Fields:	255
+	Fields:	256
+	Fields:	257
+	Fields:	258
+	Fields:	259
+	Fields:	260
+	Drawing:	261
+)
+
+(Field.251
+	Name:	"Entity"
+	Btab:	250
+	Alias:	"Entity"
+	Visible:	1
+	Type:	4
+	Order:	-1
+)
+
+(Field.252
+	Name:	"Handle"
+	Btab:	250
+	Alias:	"Handle"
+	Type:	4
+	Order:	-1
+)
+
+(Field.253
+	Name:	"Layer"
+	Btab:	250
+	Alias:	"Layer"
+	Visible:	1
+	Type:	4
+	Order:	-1
+)
+
+(Field.254
+	Name:	"Elevation"
+	Btab:	250
+	Alias:	"Elevation"
+	Visible:	1
+	Type:	7
+	Order:	-1
+)
+
+(Field.255
+	Name:	"Thickness"
+	Btab:	250
+	Alias:	"Thickness"
+	Visible:	1
+	Type:	7
+	Order:	-1
+)
+
+(Field.256
+	Name:	"Color"
+	Btab:	250
+	Alias:	"Color"
+	Visible:	1
+	Type:	2
+	Order:	-1
+)
+
+(Field.257
+	Name:	"Linetype"
+	Btab:	250
+	Alias:	"Linetype"
+	Type:	4
+	Order:	-1
+)
+
+(Field.258
+	Name:	"Linewidth"
+	Btab:	250
+	Alias:	"Linewidth"
+	Type:	7
+	Order:	-1
+)
+
+(Field.259
+	Name:	"Style"
+	Btab:	250
+	Alias:	"Style"
+	Type:	4
+	Order:	-1
+)
+
+(Field.260
+	Name:	"Text"
+	Btab:	250
+	Alias:	"Text"
+	Type:	4
+	Order:	-1
+)
+
+(DwgFile.261
+	FName:	262
+	SelectedLayers:	263
+	Blocks:	1
+	RootClass:	0x04
+)
+
+(FN.262
+	Path:	"d:/tg-its/stal/administrasi/text-admin.dwg"
+)
+
+(AVStr.263
+	S:	"text"
+)
+
+(Field.264
+	Name:	"Shape"
+	Alias:	"Shape"
+	Visible:	1
+	Type:	18
+	Order:	-1
+)
+
+(Bitmap.265
+	NumBits:	33
+
+)
+
+(Legend.266
+	SymType:	0x03
+	LegType:	0x08
+	ClassType:	0x03
+	FieldNames:	267
+	Symbols:	268
+	Class:	287
+	Class:	288
+	StdDevs:	1.00000000000000
+	NullSym:	289
+	NullValues:	298
+	StatValues:	299
+	Precision:	-3
+)
+
+(AVStr.267
+	S:	"Color"
+)
+
+(SymList.268
+	Child:	269
+	Child:	278
+)
+
+(TxSym.269
+	Color:	270
+	Font:	271
+	BgColor:	276
+	OlColor:	277
+	Size:	12.00000000000000
+)
+
+(TClr.270
+)
+
+(NFont.271
+	Family:	272
+	Name:	273
+	Style:	274
+	CommonFamily:	275
+	Weight:	1
+	Wideness:	1
+)
+
+(AVStr.272
+	S:	"Arial"
+)
+
+(AVStr.273
+	S:	"Arial"
+)
+
+(AVStr.274
+	S:	"Normal"
+)
+
+(AVStr.275
+	S:	"Helvetica"
+)
+
+(TClr.276
+	Red:	0xff
+	Green:	0xff
+	Blue:	0xff
+)
+
+(TClr.277
+	Red:	0xff
+	Green:	0xff
+	Blue:	0xff
+)
+
+(TxSym.278
+	Color:	279
+	Font:	280
+	BgColor:	285
+	OlColor:	286
+	Size:	12.00000000000000
+)
+
+(TClr.279
+	Name:	"Transparent"
+)
+
+(NFont.280
+	Family:	281
+	Name:	282
+	Style:	283
+	CommonFamily:	284
+	Weight:	1
+	Wideness:	1
+)
+
+(AVStr.281
+	S:	"Arial"
+)
+
+(AVStr.282
+	S:	"Arial"
+)
+
+(AVStr.283
+	S:	"Normal"
+)
+
+(AVStr.284
+	S:	"Helvetica"
+)
+
+(TClr.285
+	Red:	0xff
+	Green:	0xff
+	Blue:	0xff
+)
+
+(TClr.286
+	Red:	0xff
+	Green:	0xff
+	Blue:	0xff
+)
+
+(LClass.287
+	Label:	"7"
+	MinNum:	7.00000000000000
+	MaxNum:	7.00000000000000
+	Precision:	-3
+)
+
+(LClass.288
+	IsNoData:	1
+	Label:	"No Data"
+	MaxNum:	-1.00000000000000
+	Precision:	-3
+)
+
+(TxSym.289
+	Color:	290
+	Font:	291
+	BgColor:	296
+	OlColor:	297
+	Size:	12.00000000000000
+)
+
+(TClr.290
+	Name:	"Transparent"
+)
+
+(NFont.291
+	Family:	292
+	Name:	293
+	Style:	294
+	CommonFamily:	295
+	Weight:	1
+	Wideness:	1
+)
+
+(AVStr.292
+	S:	"Arial"
+)
+
+(AVStr.293
+	S:	"Arial"
+)
+
+(AVStr.294
+	S:	"Normal"
+)
+
+(AVStr.295
+	S:	"Helvetica"
+)
+
+(TClr.296
+	Red:	0xff
+	Green:	0xff
+	Blue:	0xff
+)
+
+(TClr.297
+	Red:	0xff
+	Green:	0xff
+	Blue:	0xff
+)
+
+(NameDict.298
+)
+
+(NameDict.299
+)
+
+(Thresh.300
+)
+
+(GSet.301
+)
+
+(TxPosArc.302
+	HAlign:	3
+	VAlign:	1
+)
+
+(FTheme.303
+	Name:	"BATAS ADMINISTRASI"
+	Source:	304
+	Flags:	0x06
+	Legend:	317
+	Threshold:	348
+	View:	201
+	GSet:	349
+	LegEditScript:	"View.EditLegend"
+	TxPos:	350
+	LabelField:	309
+	AttrRules:	351
+	AttrRules:	352
+	AttrRules:	353
+	AttrRules:	354
+	AttrRules:	355
+	SnapTolCursor:	1
+)
+
+(ShpSrc.304
+	Name:	305
+	FTab:	307
+)
+
+(SrcName.305
+	FileName:	306
+	Name:	"adm.shp"
+	SubName:	"Arc"
+	OwnerClass:	"ShpSrc"
+)
+
+(FN.306
+	Path:	"d:/tg-its/stal/administrasi/adm.shp"
+)
+
+(FTab.307
+	Name:	"adm.dbf"
+	BTab:	308
+	Fields:	315
+	Fields:	309
+	Fields:	310
+	Fields:	311
+	Fields:	312
+	Fields:	313
+	SelBits:	316
+	FSrc:	304
+)
+
+(dBASE.308
+	Name:	"adm.dbf"
+	Fields:	309
+	Fields:	310
+	Fields:	311
+	Fields:	312
+	Fields:	313
+	FileName:	314
+)
+
+(Field.309
+	Name:	"Entity"
+	Btab:	308
+	Alias:	"Entity"
+	Visible:	1
+	Type:	4
+	Order:	-1
+)
+
+(Field.310
+	Name:	"Layer"
+	Btab:	308
+	Alias:	"Layer"
+	Visible:	1
+	Type:	4
+	Order:	-1
+)
+
+(Field.311
+	Name:	"Elevation"
+	Btab:	308
+	Alias:	"Elevation"
+	Visible:	1
+	Type:	9
+	Order:	-1
+)
+
+(Field.312
+	Name:	"Thickness"
+	Btab:	308
+	Alias:	"Thickness"
+	Visible:	1
+	Type:	9
+	Order:	-1
+)
+
+(Field.313
+	Name:	"Color"
+	Btab:	308
+	Alias:	"Color"
+	Visible:	1
+	Type:	9
+	Order:	-1
+)
+
+(FN.314
+	Path:	"d:/tg-its/stal/administrasi/adm.dbf"
+)
+
+(Field.315
+	Name:	"Shape"
+	Alias:	"Shape"
+	Visible:	1
+	Type:	18
+	Order:	-1
+)
+
+(Bitmap.316
+	NumBits:	561
+
+)
+
+(Legend.317
+	SymType:	0x01
+	LegType:	0x08
+	ClassType:	0x03
+	FieldNames:	318
+	Symbols:	319
+	Class:	336
+	Class:	337
+	Class:	338
+	Class:	339
+	Class:	340
+	Class:	341
+	Class:	342
+	Class:	343
+	StdDevs:	1.00000000000000
+	NullSym:	344
+	NullValues:	346
+	StatValues:	347
+	Precision:	-3
+)
+
+(AVStr.318
+	S:	"Color"
+)
+
+(SymList.319
+	Child:	320
+	Child:	322
+	Child:	324
+	Child:	326
+	Child:	328
+	Child:	330
+	Child:	332
+	Child:	334
+)
+
+(BLnSym.320
+	Color:	321
+	Width:	0.10000000000000
+	Pattern:	3.00000000000000
+	Pattern:	1.00000000000000
+	Pattern:	1.00000000000000
+	Pattern:	1.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+)
+
+(TClr.321
+	Red:	0xdc00
+	Green:	0xdb
+	Blue:	0xdb
+)
+
+(BLnSym.322
+	Color:	323
+	Width:	0.10000000000000
+	Pattern:	2.00000000000000
+	Pattern:	2.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+)
+
+(TClr.323
+	Red:	0xffff
+)
+
+(BLnSym.324
+	Color:	325
+	Width:	0.10000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+)
+
+(TClr.325
+	Green:	0xffff
+)
+
+(BLnSym.326
+	Color:	327
+	Width:	0.10000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+)
+
+(TClr.327
+	Green:	0xffff
+	Blue:	0xffff
+)
+
+(BLnSym.328
+	Color:	329
+	Width:	0.10000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+)
+
+(TClr.329
+	Red:	0x170b
+	Green:	0xdb
+	Blue:	0xdc00
+)
+
+(BLnSym.330
+	Color:	331
+	Width:	1.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+)
+
+(TClr.331
+)
+
+(BLnSym.332
+	Color:	333
+	Width:	0.10000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+)
+
+(TClr.333
+	Red:	0xa5a5
+	Green:	0xa5a5
+	Blue:	0xa5a5
+)
+
+(BLnSym.334
+	Color:	335
+	Width:	0.10000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+)
+
+(TClr.335
+	Name:	"Transparent"
+)
+
+(LClass.336
+	Label:	"Batas Kota"
+	MinNum:	1.00000000000000
+	MaxNum:	1.00000000000000
+	Precision:	-3
+)
+
+(LClass.337
+	Label:	"Batas Kecamatan"
+	MinNum:	2.00000000000000
+	MaxNum:	2.00000000000000
+	Precision:	-3
+)
+
+(LClass.338
+	Label:	"Rel Kereta Api"
+	MinNum:	3.00000000000000
+	MaxNum:	3.00000000000000
+	Precision:	-3
+)
+
+(LClass.339
+	Label:	"Sungai"
+	MinNum:	4.00000000000000
+	MaxNum:	4.00000000000000
+	Precision:	-3
+)
+
+(LClass.340
+	Label:	"Garis pantai"
+	MinNum:	5.00000000000000
+	MaxNum:	5.00000000000000
+	Precision:	-3
+)
+
+(LClass.341
+	Label:	"Jalan Tol"
+	MinNum:	6.00000000000000
+	MaxNum:	6.00000000000000
+	Precision:	-3
+)
+
+(LClass.342
+	Label:	"Jalan"
+	MinNum:	9.00000000000000
+	MaxNum:	9.00000000000000
+	Precision:	-3
+)
+
+(LClass.343
+	IsNoData:	1
+	Label:	"No Data"
+	MaxNum:	-1.00000000000000
+	Precision:	-3
+)
+
+(BLnSym.344
+	Color:	345
+	Width:	0.10000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+)
+
+(TClr.345
+	Name:	"Transparent"
+)
+
+(NameDict.346
+)
+
+(NameDict.347
+)
+
+(Thresh.348
+)
+
+(GSet.349
+)
+
+(TxPosArc.350
+	HAlign:	3
+	VAlign:	1
+)
+
+(AttrSingle.351
+	FTab:	307
+	Field:	309
+	UnionRule:	1
+	SplitRule:	1
+)
+
+(AttrSingle.352
+	FTab:	307
+	Field:	310
+	UnionRule:	1
+	SplitRule:	1
+)
+
+(AttrSingle.353
+	FTab:	307
+	Field:	311
+	UnionRule:	1
+	SplitRule:	1
+)
+
+(AttrSingle.354
+	FTab:	307
+	Field:	312
+	UnionRule:	1
+	SplitRule:	1
+)
+
+(AttrSingle.355
+	FTab:	307
+	Field:	313
+	UnionRule:	1
+	SplitRule:	1
+)
+
+(FTheme.356
+	Name:	"KEPADATAAN PENDUDUK"
+	Source:	357
+	Flags:	0x07
+	Legend:	370
+	Threshold:	404
+	View:	201
+	GSet:	405
+	LegEditScript:	"View.EditLegend"
+	TxPos:	406
+	LabelField:	362
+	AttrRules:	407
+	AttrRules:	408
+	AttrRules:	409
+	AttrRules:	410
+	AttrRules:	411
+	SnapTolCursor:	1
+)
+
+(ShpSrc.357
+	Name:	358
+	FTab:	360
+)
+
+(SrcName.358
+	FileName:	359
+	Name:	"kepadatan.shp"
+	SubName:	"Polygon"
+	OwnerClass:	"ShpSrc"
+)
+
+(FN.359
+	Path:	"d:/tg-its/stal/kepadatan penduduk/view/kepadatan.shp"
+)
+
+(FTab.360
+	Name:	"kepadatan.dbf"
+	BTab:	361
+	Fields:	368
+	Fields:	362
+	Fields:	363
+	Fields:	364
+	Fields:	365
+	Fields:	366
+	SelBits:	369
+	FSrc:	357
+)
+
+(dBASE.361
+	Name:	"kepadatan.dbf"
+	Fields:	362
+	Fields:	363
+	Fields:	364
+	Fields:	365
+	Fields:	366
+	FileName:	367
+)
+
+(Field.362
+	Name:	"Entity"
+	Btab:	361
+	Alias:	"Entity"
+	Visible:	1
+	Type:	4
+	Order:	-1
+)
+
+(Field.363
+	Name:	"Layer"
+	Btab:	361
+	Alias:	"Layer"
+	Visible:	1
+	Type:	4
+	Order:	-1
+)
+
+(Field.364
+	Name:	"Elevation"
+	Btab:	361
+	Alias:	"Elevation"
+	Visible:	1
+	Type:	9
+	Order:	-1
+)
+
+(Field.365
+	Name:	"Thickness"
+	Btab:	361
+	Alias:	"Thickness"
+	Visible:	1
+	Type:	9
+	Order:	-1
+)
+
+(Field.366
+	Name:	"Color"
+	Btab:	361
+	Alias:	"Color"
+	Visible:	1
+	Type:	9
+	Order:	-1
+)
+
+(FN.367
+	Path:	"d:/tg-its/stal/kepadatan penduduk/view/kepadatan.dbf"
+)
+
+(Field.368
+	Name:	"Shape"
+	Alias:	"Shape"
+	Visible:	1
+	Type:	19
+	Order:	-1
+)
+
+(Bitmap.369
+	NumBits:	39
+
+)
+
+(Legend.370
+	SymType:	0x02
+	LegType:	0x08
+	ClassType:	0x03
+	FieldNames:	371
+	Symbols:	372
+	Class:	393
+	Class:	394
+	Class:	395
+	Class:	396
+	Class:	397
+	StdDevs:	1.00000000000000
+	NullSym:	398
+	NullValues:	402
+	StatValues:	403
+	Precision:	-3
+)
+
+(AVStr.371
+	S:	"Layer"
+)
+
+(SymList.372
+	Child:	373
+	Child:	377
+	Child:	381
+	Child:	385
+	Child:	389
+)
+
+(BShSym.373
+	Color:	374
+	Outline:	1
+	OutlineColor:	375
+	OutlineWidth:	0.10000000000000
+	BgColor:	376
+)
+
+(TClr.374
+	Red:	0xff00
+	Green:	0xa559
+	Blue:	0xa559
+)
+
+(TClr.375
+)
+
+(TClr.376
+	Red:	0xffff
+	Green:	0xffff
+	Blue:	0xffff
+)
+
+(BShSym.377
+	Color:	378
+	Outline:	1
+	OutlineColor:	379
+	OutlineWidth:	0.10000000000000
+	BgColor:	380
+)
+
+(TClr.378
+	Red:	0xa610
+	Green:	0xff00
+	Blue:	0xa559
+)
+
+(TClr.379
+)
+
+(TClr.380
+	Red:	0xffff
+	Green:	0xffff
+	Blue:	0xffff
+)
+
+(BShSym.381
+	Color:	382
+	Outline:	1
+	OutlineColor:	383
+	OutlineWidth:	0.10000000000000
+	BgColor:	384
+)
+
+(TClr.382
+	Red:	0xff00
+	Green:	0xf963
+	Blue:	0xa559
+)
+
+(TClr.383
+)
+
+(TClr.384
+	Red:	0xffff
+	Green:	0xffff
+	Blue:	0xffff
+)
+
+(BShSym.385
+	Color:	386
+	Outline:	1
+	OutlineColor:	387
+	OutlineWidth:	0.10000000000000
+	BgColor:	388
+)
+
+(TClr.386
+	Red:	0xfe
+	Green:	0xdb57
+	Blue:	0xff00
+)
+
+(TClr.387
+)
+
+(TClr.388
+	Red:	0xffff
+	Green:	0xffff
+	Blue:	0xffff
+)
+
+(BShSym.389
+	Color:	390
+	Outline:	1
+	OutlineColor:	391
+	OutlineWidth:	0.10000000000000
+	BgColor:	392
+)
+
+(TClr.390
+	Name:	"Transparent"
+)
+
+(TClr.391
+	Name:	"Transparent"
+)
+
+(TClr.392
+	Red:	0xffff
+	Green:	0xffff
+	Blue:	0xffff
+)
+
+(LClass.393
+	IsText:	1
+	Label:	"150-250 Jiwa/ha"
+	MinStr:	"150-250-JIWA"
+	MaxStr:	"150-250-JIWA"
+	Precision:	-3
+)
+
+(LClass.394
+	IsText:	1
+	Label:	"350-450 jiwa/ha"
+	MinStr:	"350-450-JIWA"
+	MaxStr:	"350-450-JIWA"
+	Precision:	-3
+)
+
+(LClass.395
+	IsText:	1
+	Label:	"50-150 Jiwa/ha"
+	MinStr:	"50-150-JIWA"
+	MaxStr:	"50-150-JIWA"
+	Precision:	-3
+)
+
+(LClass.396
+	IsText:	1
+	Label:	"Lebih dari 450 jiwa/ha"
+	MinStr:	"LEBIHDARI450"
+	MaxStr:	"LEBIHDARI450"
+	Precision:	-3
+)
+
+(LClass.397
+	IsNoData:	1
+	IsText:	1
+	Label:	"No Data"
+	Precision:	-3
+)
+
+(BShSym.398
+	Color:	399
+	Outline:	1
+	OutlineColor:	400
+	OutlineWidth:	0.10000000000000
+	BgColor:	401
+)
+
+(TClr.399
+	Name:	"Transparent"
+)
+
+(TClr.400
+	Name:	"Transparent"
+)
+
+(TClr.401
+	Red:	0xffff
+	Green:	0xffff
+	Blue:	0xffff
+)
+
+(NameDict.402
+)
+
+(NameDict.403
+)
+
+(Thresh.404
+)
+
+(GSet.405
+)
+
+(TxPosPly.406
+	HAlign:	3
+	VAlign:	3
+)
+
+(AttrSingle.407
+	FTab:	360
+	Field:	362
+	UnionRule:	1
+	SplitRule:	1
+)
+
+(AttrSingle.408
+	FTab:	360
+	Field:	363
+	UnionRule:	1
+	SplitRule:	1
+)
+
+(AttrSingle.409
+	FTab:	360
+	Field:	364
+	UnionRule:	1
+	SplitRule:	1
+)
+
+(AttrSingle.410
+	FTab:	360
+	Field:	365
+	UnionRule:	1
+	SplitRule:	1
+)
+
+(AttrSingle.411
+	FTab:	360
+	Field:	366
+	UnionRule:	1
+	SplitRule:	1
+)
+
+(GSet.412
+)
+
+(TxPosPly.413
+	HAlign:	3
+	VAlign:	3
+)
+
+(AttrSingle.414
+	FTab:	14
+	Field:	17
+	UnionRule:	1
+	SplitRule:	1
+)
+
+(AttrSingle.415
+	FTab:	14
+	Field:	18
+	UnionRule:	1
+	SplitRule:	1
+)
+
+(AttrSingle.416
+	FTab:	14
+	Field:	19
+	UnionRule:	1
+	SplitRule:	1
+)
+
+(AttrSingle.417
+	FTab:	14
+	Field:	20
+	UnionRule:	1
+	SplitRule:	1
+)
+
+(DocAct.418
+	Doc:	6
+)
+
+(Table.419
+	Name:	"Attributes of Text"
+	CreationDate:	"Wednesday, November 21, 2001 11:43:35 AM"
+	GUIName:	"Table"
+	Win:	420
+	CSMgr:	421
+	DocExts:	422
+	VTab:	423
+)
+
+(DocWin.420
+	Owner:	419
+	X:	80
+	Y:	80
+	W:	365
+	H:	248
+)
+
+(CSMgr.421
+)
+
+(DocAct.422
+	Doc:	419
+)
+
+(FTab.423
+	Name:	"text-admin.dwg"
+	BTab:	424
+	Fields:	438
+	Fields:	425
+	Fields:	426
+	Fields:	427
+	Fields:	428
+	Fields:	429
+	Fields:	430
+	Fields:	431
+	Fields:	432
+	Fields:	433
+	Fields:	434
+	SelBits:	439
+	FSrc:	440
+)
+
+(DwgTbl.424
+	Name:	"text-admin.dwg"
+	Fields:	425
+	Fields:	426
+	Fields:	427
+	Fields:	428
+	Fields:	429
+	Fields:	430
+	Fields:	431
+	Fields:	432
+	Fields:	433
+	Fields:	434
+	Drawing:	435
+)
+
+(Field.425
+	Name:	"Entity"
+	Btab:	424
+	Alias:	"Entity"
+	Visible:	1
+	Type:	4
+	Order:	-1
+	Pixels:	89
+)
+
+(Field.426
+	Name:	"Handle"
+	Btab:	424
+	Alias:	"Handle"
+	Type:	4
+	Order:	-1
+)
+
+(Field.427
+	Name:	"Layer"
+	Btab:	424
+	Alias:	"Layer"
+	Visible:	1
+	Type:	4
+	Order:	-1
+	Pixels:	150
+)
+
+(Field.428
+	Name:	"Elevation"
+	Btab:	424
+	Alias:	"Elevation"
+	Visible:	1
+	Type:	7
+	Order:	-1
+	Pixels:	113
+)
+
+(Field.429
+	Name:	"Thickness"
+	Btab:	424
+	Alias:	"Thickness"
+	Visible:	1
+	Type:	7
+	Order:	-1
+	Pixels:	113
+)
+
+(Field.430
+	Name:	"Color"
+	Btab:	424
+	Alias:	"Color"
+	Visible:	1
+	Type:	2
+	Order:	-1
+	Pixels:	30
+)
+
+(Field.431
+	Name:	"Linetype"
+	Btab:	424
+	Alias:	"Linetype"
+	Type:	4
+	Order:	-1
+)
+
+(Field.432
+	Name:	"Linewidth"
+	Btab:	424
+	Alias:	"Linewidth"
+	Type:	7
+	Order:	-1
+)
+
+(Field.433
+	Name:	"Style"
+	Btab:	424
+	Alias:	"Style"
+	Type:	4
+	Order:	-1
+)
+
+(Field.434
+	Name:	"Text"
+	Btab:	424
+	Alias:	"Text"
+	Type:	4
+	Order:	-1
+)
+
+(DwgFile.435
+	FName:	436
+	SelectedLayers:	437
+	Blocks:	1
+	RootClass:	0x04
+)
+
+(FN.436
+	Path:	"d:/tg-its/stal/administrasi/text-admin.dwg"
+)
+
+(AVStr.437
+	S:	"text"
+)
+
+(Field.438
+	Name:	"Shape"
+	Alias:	"Shape"
+	Visible:	1
+	Type:	18
+	Order:	-1
+	Pixels:	59
+)
+
+(Bitmap.439
+	NumBits:	33
+
+)
+
+(DwgSrc.440
+	Name:	441
+	FTab:	423
+)
+
+(SrcName.441
+	FileName:	442
+	Name:	"text-admin.dwg"
+	SubName:	"annotation"
+	OwnerClass:	"DwgSrc"
+)
+
+(FN.442
+	Path:	"d:/tg-its/stal/administrasi/text-admin.dwg"
+)
+
+(Layout.443
+	Name:	"KEPADATAN PENDUDUK"
+	CreationDate:	"Friday, November 23, 2001 09:54:24 AM"
+	GUIName:	"Layout"
+	Win:	444
+	CSMgr:	445
+	DocExts:	447
+	DocExts:	448
+	Graphics:	449
+	Dpy:	216
+)
+
+(DocWin.444
+	Owner:	443
+	Open:	1
+	X:	-4
+	Y:	-4
+	W:	810
+	H:	475
+)
+
+(CSMgr.445
+	Client:	446
+)
+
+(CSClient.446
+	Client:	447
+	ReqName:	"ClientNfy"
+)
+
+(PanMgr.447
+	Doc:	443
+)
+
+(DocAct.448
+	Doc:	443
+)
+
+(GList.449
+	Child:	207
+	Child:	221
+	Child:	450
+	Child:	573
+	Child:	584
+	Child:	589
+	Child:	594
+	Child:	599
+	Child:	604
+	Child:	609
+	Child:	614
+	Child:	619
+	Child:	624
+	Child:	629
+	Child:	634
+	Child:	639
+	Child:	644
+	Child:	649
+	Child:	660
+	Child:	665
+	Child:	670
+	Child:	675
+	Child:	680
+	Child:	685
+	Child:	696
+	Child:	707
+	Child:	718
+	Child:	729
+	Child:	740
+	Child:	751
+	Child:	762
+	Child:	773
+	Child:	780
+	Child:	794
+	Child:	805
+	Dpy:	216
+	FormatNumb:	816
+)
+
+(GNorth.450
+	Name:	"NorthArrow1"
+	Bounds:	451
+	Graphic:	452
+	UserBounds:	572
+	Index:	2
+)
+
+(RectD.451
+	Left:	751.62106102547557
+	Top:	748.12035044307481
+	Right:	752.60714535768659
+	Bottom:	747.11919651734354
+)
+
+(GNorth.452
+	Bounds:	453
+	Selected:	0x01
+	Graphic:	454
+	Graphic:	526
+	Graphic:	538
+	Graphic:	549
+	Graphic:	560
+	UserBounds:	571
+	Index:	-1
+)
+
+(RectD.453
+	Left:	751.62106102547557
+	Top:	748.12035044307481
+	Right:	752.60714535768659
+	Bottom:	747.11919651734354
+)
+
+(GGroup.454
+	Bounds:	455
+	Selected:	0x01
+	Graphic:	456
+	Graphic:	462
+	Graphic:	470
+	Graphic:	478
+	Graphic:	486
+	Graphic:	494
+	Graphic:	502
+	Graphic:	510
+	Graphic:	518
+)
+
+(RectD.455
+	Left:	751.78895411279780
+	Top:	747.90958233618596
+	Right:	752.46052056283065
+	Bottom:	747.27727236194460
+)
+
+(GShape.456
+	Bounds:	457
+	Sym:	458
+	Selected:	0x01
+	Shape:	460
+)
+
+(RectD.457
+	Left:	751.78895413913369
+	Top:	747.90958217914203
+	Right:	752.46052021387902
+	Bottom:	747.27727204785697
+)
+
+(BLnSym.458
+	Color:	459
+	Width:	0.50000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+)
+
+(TClr.459
+)
+
+(ArcD.460
+	Box:	461
+	Points:	751.78895413913369	747.59342577862753
+	Points:	752.01280878850582	747.64611984691862
+	Points:	751.95684583503919	747.75150531375675
+	Points:	752.06877174197245	747.69881124546578
+	Points:	752.12473753094457	747.90958217914203
+	Points:	752.18070048441132	747.69881124546578
+	Points:	752.29262922684995	747.75150531375675
+	Points:	752.23666627338343	747.64611984691862
+	Points:	752.46052021387902	747.59342577862753
+	Points:	752.23666627338343	747.54073438008038
+	Points:	752.29262922684995	747.43534891324225
+	Points:	752.18070048441132	747.48804298153323
+	Points:	752.12473753094457	747.27727204785697
+	Points:	752.06877174197245	747.48804298153323
+	Points:	751.95684583503919	747.43534891324225
+	Points:	752.01280878850582	747.54073438008038
+	Points:	751.78895413913369	747.59342577862753
+	Parts:	00000000 
+)
+
+(RectD.461
+	Left:	751.78895413913369
+	Top:	747.90958217914203
+	Right:	752.46052021387902
+	Bottom:	747.27727204785697
+)
+
+(GShape.462
+	Bounds:	463
+	Sym:	464
+	Selected:	0x01
+	Shape:	468
+)
+
+(RectD.463
+	Left:	752.12473753094423
+	Top:	747.90958217914226
+	Right:	752.18070048441098
+	Bottom:	747.59342577862776
+)
+
+(BShSym.464
+	Color:	465
+	Outline:	1
+	OutlineColor:	466
+	OutlineWidth:	1.00000000000000
+	BgColor:	467
+)
+
+(TClr.465
+)
+
+(TClr.466
+)
+
+(TClr.467
+	Name:	"Transparent"
+)
+
+(PolyD.468
+	Box:	469
+	Points:	752.12473753094423	747.90958217914226
+	Points:	752.12473753094423	747.59342577862776
+	Points:	752.18070048441098	747.69881124546589
+	Points:	752.12473753094423	747.90958217914226
+	Parts:	00000000 
+	RingTypes:	00000000 
+)
+
+(RectD.469
+	Left:	752.12473753094423
+	Top:	747.90958217914226
+	Right:	752.18070048441098
+	Bottom:	747.59342577862776
+)
+
+(GShape.470
+	Bounds:	471
+	Sym:	472
+	Selected:	0x01
+	Shape:	476
+)
+
+(RectD.471
+	Left:	752.12473753094423
+	Top:	747.59342577862765
+	Right:	752.46052021387879
+	Bottom:	747.54073438008049
+)
+
+(BShSym.472
+	Color:	473
+	Outline:	1
+	OutlineColor:	474
+	OutlineWidth:	1.00000000000000
+	BgColor:	475
+)
+
+(TClr.473
+)
+
+(TClr.474
+)
+
+(TClr.475
+	Name:	"Transparent"
+)
+
+(PolyD.476
+	Box:	477
+	Points:	752.12473753094423	747.59342577862765
+	Points:	752.46052021387879	747.59342577862765
+	Points:	752.23666627338287	747.54073438008049
+	Points:	752.12473753094423	747.59342577862765
+	Parts:	00000000 
+	RingTypes:	00000000 
+)
+
+(RectD.477
+	Left:	752.12473753094423
+	Top:	747.59342577862765
+	Right:	752.46052021387879
+	Bottom:	747.54073438008049
+)
+
+(GShape.478
+	Bounds:	479
+	Sym:	480
+	Selected:	0x01
+	Shape:	484
+)
+
+(RectD.479
+	Left:	752.06877174197257
+	Top:	747.59342577862787
+	Right:	752.12473753094457
+	Bottom:	747.27727204785731
+)
+
+(BShSym.480
+	Color:	481
+	Outline:	1
+	OutlineColor:	482
+	OutlineWidth:	1.00000000000000
+	BgColor:	483
+)
+
+(TClr.481
+)
+
+(TClr.482
+)
+
+(TClr.483
+	Name:	"Transparent"
+)
+
+(PolyD.484
+	Box:	485
+	Points:	752.12473753094457	747.59342577862787
+	Points:	752.12473753094457	747.27727204785731
+	Points:	752.06877174197257	747.48804298153345
+	Points:	752.12473753094457	747.59342577862787
+	Parts:	00000000 
+	RingTypes:	00000000 
+)
+
+(RectD.485
+	Left:	752.06877174197257
+	Top:	747.59342577862787
+	Right:	752.12473753094457
+	Bottom:	747.27727204785731
+)
+
+(GShape.486
+	Bounds:	487
+	Sym:	488
+	Selected:	0x01
+	Shape:	492
+)
+
+(RectD.487
+	Left:	751.78895413913381
+	Top:	747.64611984691862
+	Right:	752.12473753094469
+	Bottom:	747.59342577862753
+)
+
+(BShSym.488
+	Color:	489
+	Outline:	1
+	OutlineColor:	490
+	OutlineWidth:	1.00000000000000
+	BgColor:	491
+)
+
+(TClr.489
+)
+
+(TClr.490
+)
+
+(TClr.491
+	Name:	"Transparent"
+)
+
+(PolyD.492
+	Box:	493
+	Points:	752.12473753094469	747.59342577862753
+	Points:	751.78895413913381	747.59342577862753
+	Points:	752.01280878850605	747.64611984691862
+	Points:	752.12473753094469	747.59342577862753
+	Parts:	00000000 
+	RingTypes:	00000000 
+)
+
+(RectD.493
+	Left:	751.78895413913381
+	Top:	747.64611984691862
+	Right:	752.12473753094469
+	Bottom:	747.59342577862753
+)
+
+(GShape.494
+	Bounds:	495
+	Sym:	496
+	Selected:	0x01
+	Shape:	500
+)
+
+(RectD.495
+	Left:	752.12473753094491
+	Top:	747.75150531375709
+	Right:	752.29262922685041
+	Bottom:	747.59342577862787
+)
+
+(BShSym.496
+	Color:	497
+	Outline:	1
+	OutlineColor:	498
+	OutlineWidth:	1.00000000000000
+	BgColor:	499
+)
+
+(TClr.497
+)
+
+(TClr.498
+)
+
+(TClr.499
+	Name:	"Transparent"
+)
+
+(PolyD.500
+	Box:	501
+	Points:	752.12473753094491	747.59342577862787
+	Points:	752.29262922685041	747.75150531375709
+	Points:	752.23666627338366	747.64611984691885
+	Points:	752.12473753094491	747.59342577862787
+	Parts:	00000000 
+	RingTypes:	00000000 
+)
+
+(RectD.501
+	Left:	752.12473753094491
+	Top:	747.75150531375709
+	Right:	752.29262922685041
+	Bottom:	747.59342577862787
+)
+
+(GShape.502
+	Bounds:	503
+	Sym:	504
+	Selected:	0x01
+	Shape:	508
+)
+
+(RectD.503
+	Left:	752.12473753094491
+	Top:	747.59342577862765
+	Right:	752.29262922685041
+	Bottom:	747.43534891324236
+)
+
+(BShSym.504
+	Color:	505
+	Outline:	1
+	OutlineColor:	506
+	OutlineWidth:	1.00000000000000
+	BgColor:	507
+)
+
+(TClr.505
+)
+
+(TClr.506
+)
+
+(TClr.507
+	Name:	"Transparent"
+)
+
+(PolyD.508
+	Box:	509
+	Points:	752.12473753094491	747.59342577862765
+	Points:	752.29262922685041	747.43534891324236
+	Points:	752.18070048441166	747.48804298153334
+	Points:	752.12473753094491	747.59342577862765
+	Parts:	00000000 
+	RingTypes:	00000000 
+)
+
+(RectD.509
+	Left:	752.12473753094491
+	Top:	747.59342577862765
+	Right:	752.29262922685041
+	Bottom:	747.43534891324236
+)
+
+(GShape.510
+	Bounds:	511
+	Sym:	512
+	Selected:	0x01
+	Shape:	516
+)
+
+(RectD.511
+	Left:	751.95684583503930
+	Top:	747.59342577862765
+	Right:	752.12473753094469
+	Bottom:	747.43534891324236
+)
+
+(BShSym.512
+	Color:	513
+	Outline:	1
+	OutlineColor:	514
+	OutlineWidth:	1.00000000000000
+	BgColor:	515
+)
+
+(TClr.513
+)
+
+(TClr.514
+)
+
+(TClr.515
+	Name:	"Transparent"
+)
+
+(PolyD.516
+	Box:	517
+	Points:	752.12473753094469	747.59342577862765
+	Points:	751.95684583503930	747.43534891324236
+	Points:	752.01280878850594	747.54073438008049
+	Points:	752.12473753094469	747.59342577862765
+	Parts:	00000000 
+	RingTypes:	00000000 
+)
+
+(RectD.517
+	Left:	751.95684583503930
+	Top:	747.59342577862765
+	Right:	752.12473753094469
+	Bottom:	747.43534891324236
+)
+
+(GShape.518
+	Bounds:	519
+	Sym:	520
+	Selected:	0x01
+	Shape:	524
+)
+
+(RectD.519
+	Left:	751.95684583503930
+	Top:	747.75150531375709
+	Right:	752.12473753094469
+	Bottom:	747.59342577862787
+)
+
+(BShSym.520
+	Color:	521
+	Outline:	1
+	OutlineColor:	522
+	OutlineWidth:	1.00000000000000
+	BgColor:	523
+)
+
+(TClr.521
+)
+
+(TClr.522
+)
+
+(TClr.523
+	Name:	"Transparent"
+)
+
+(PolyD.524
+	Box:	525
+	Points:	752.12473753094469	747.59342577862787
+	Points:	751.95684583503930	747.75150531375709
+	Points:	752.06877174197268	747.69881124546612
+	Points:	752.12473753094469	747.59342577862787
+	Parts:	00000000 
+	RingTypes:	00000000 
+)
+
+(RectD.525
+	Left:	751.95684583503930
+	Top:	747.75150531375709
+	Right:	752.12473753094469
+	Bottom:	747.59342577862787
+)
+
+(GText.526
+	Name:	"GText1"
+	Bounds:	527
+	Sym:	528
+	Selected:	0x01
+	Text:	"N"
+	Spacing:	1.00000000000000
+)
+
+(RectD.527
+	Left:	752.07101155348278
+	Top:	748.12035044307481
+	Right:	752.17218079229349
+	Bottom:	747.96227350743300
+)
+
+(TxSym.528
+	Color:	529
+	Scale:	530
+	Font:	531
+	BgColor:	536
+	OlColor:	537
+	Size:	11.38153936621074
+)
+
+(TClr.529
+)
+
+(Numb.530
+	N:	1.00000000000000
+)
+
+(NFont.531
+	Family:	532
+	Name:	533
+	Style:	534
+	CommonFamily:	535
+	Serif:	1
+	Weight:	1
+	Wideness:	1
+)
+
+(AVStr.532
+	S:	"Times New Roman"
+)
+
+(AVStr.533
+	S:	"Times New Roman"
+)
+
+(AVStr.534
+	S:	"Normal"
+)
+
+(AVStr.535
+	S:	"Times"
+)
+
+(TClr.536
+	Red:	0xff
+	Green:	0xff
+	Blue:	0xff
+)
+
+(TClr.537
+	Red:	0xff
+	Green:	0xff
+	Blue:	0xff
+)
+
+(GText.538
+	Name:	"GText1"
+	Bounds:	539
+	Sym:	540
+	Selected:	0x01
+	Text:	"E"
+	Spacing:	1.00000000000000
+)
+
+(RectD.539
+	Left:	752.51648380160361
+	Top:	747.67246571456712
+	Right:	752.60184534685015
+	Bottom:	747.51438877892531
+)
+
+(TxSym.540
+	Color:	541
+	Scale:	530
+	Font:	542
+	BgColor:	547
+	OlColor:	548
+	Size:	11.38153936621074
+)
+
+(TClr.541
+)
+
+(NFont.542
+	Family:	543
+	Name:	544
+	Style:	545
+	CommonFamily:	546
+	Serif:	1
+	Weight:	1
+	Wideness:	1
+)
+
+(AVStr.543
+	S:	"Times New Roman"
+)
+
+(AVStr.544
+	S:	"Times New Roman"
+)
+
+(AVStr.545
+	S:	"Normal"
+)
+
+(AVStr.546
+	S:	"Times"
+)
+
+(TClr.547
+	Red:	0xff
+	Green:	0xff
+	Blue:	0xff
+)
+
+(TClr.548
+	Red:	0xff
+	Green:	0xff
+	Blue:	0xff
+)
+
+(GText.549
+	Name:	"GText1"
+	Bounds:	550
+	Sym:	551
+	Selected:	0x01
+	Text:	"W"
+	Spacing:	1.00000000000000
+)
+
+(RectD.550
+	Left:	751.62106102547557
+	Top:	747.67246571456712
+	Right:	751.75226488205828
+	Bottom:	747.51438877892531
+)
+
+(TxSym.551
+	Color:	552
+	Scale:	530
+	Font:	553
+	BgColor:	558
+	OlColor:	559
+	Size:	11.38153936621074
+)
+
+(TClr.552
+)
+
+(NFont.553
+	Family:	554
+	Name:	555
+	Style:	556
+	CommonFamily:	557
+	Serif:	1
+	Weight:	1
+	Wideness:	1
+)
+
+(AVStr.554
+	S:	"Times New Roman"
+)
+
+(AVStr.555
+	S:	"Times New Roman"
+)
+
+(AVStr.556
+	S:	"Normal"
+)
+
+(AVStr.557
+	S:	"Times"
+)
+
+(TClr.558
+	Red:	0xff
+	Green:	0xff
+	Blue:	0xff
+)
+
+(TClr.559
+	Red:	0xff
+	Green:	0xff
+	Blue:	0xff
+)
+
+(GText.560
+	Name:	"GText1"
+	Bounds:	561
+	Sym:	562
+	Selected:	0x01
+	Text:	"S"
+	Spacing:	1.00000000000000
+)
+
+(RectD.561
+	Left:	752.08360343627214
+	Top:	747.27727345298536
+	Right:	752.16106113473666
+	Bottom:	747.11919651734354
+)
+
+(TxSym.562
+	Color:	563
+	Scale:	530
+	Font:	564
+	BgColor:	569
+	OlColor:	570
+	Size:	11.38153936621074
+)
+
+(TClr.563
+)
+
+(NFont.564
+	Family:	565
+	Name:	566
+	Style:	567
+	CommonFamily:	568
+	Serif:	1
+	Weight:	1
+	Wideness:	1
+)
+
+(AVStr.565
+	S:	"Times New Roman"
+)
+
+(AVStr.566
+	S:	"Times New Roman"
+)
+
+(AVStr.567
+	S:	"Normal"
+)
+
+(AVStr.568
+	S:	"Times"
+)
+
+(TClr.569
+	Red:	0xff
+	Green:	0xff
+	Blue:	0xff
+)
+
+(TClr.570
+	Red:	0xff
+	Green:	0xff
+	Blue:	0xff
+)
+
+(RectD.571
+	Left:	751.62106102547557
+	Top:	748.12035044307481
+	Right:	752.60714535768659
+	Bottom:	747.11919651734354
+)
+
+(RectD.572
+	Left:	751.62106102547557
+	Top:	748.12035044307481
+	Right:	752.60714535768659
+	Bottom:	747.11919651734354
+)
+
+(GText.573
+	Name:	"GraphicText1"
+	Bounds:	574
+	Sym:	575
+	Text:	"KEPADATAN PENDUDUK"
+	Alignment:	0x01
+	Spacing:	1.00000000000000
+)
+
+(RectD.574
+	Left:	753.35755192721058
+	Top:	751.98693222669579
+	Right:	754.81866303832044
+	Bottom:	751.84804333780698
+)
+
+(TxSym.575
+	Color:	576
+	Scale:	530
+	Font:	577
+	BgColor:	582
+	OlColor:	583
+	Size:	9.99999999999181
+)
+
+(TClr.576
+)
+
+(NFont.577
+	Family:	578
+	Name:	579
+	Style:	580
+	CommonFamily:	581
+	Bold:	1
+	Weight:	1
+	Wideness:	1
+)
+
+(AVStr.578
+	S:	"Arial"
+)
+
+(AVStr.579
+	S:	"Arial Bold"
+)
+
+(AVStr.580
+	S:	"Bold"
+)
+
+(AVStr.581
+	S:	"Helvetica"
+)
+
+(TClr.582
+	Red:	0xff
+	Green:	0xff
+	Blue:	0xff
+)
+
+(TClr.583
+	Red:	0xff
+	Green:	0xff
+	Blue:	0xff
+)
+
+(GShape.584
+	Bounds:	585
+	Sym:	586
+	Shape:	588
+)
+
+(RectD.585
+	Left:	744.88573304965723
+	Top:	753.59943342222175
+	Right:	752.69099925925900
+	Bottom:	753.58921629629606
+)
+
+(BLnSym.586
+	Color:	587
+	Width:	4.00000000000000
+	CapStyle:	0x01
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+)
+
+(TClr.587
+)
+
+(LineD.588
+	X1:	744.88573304965723
+	Y1:	753.59943342222175
+	X2:	752.69099925925900
+	Y2:	753.58921629629606
+)
+
+(GShape.589
+	Bounds:	590
+	Sym:	591
+	Shape:	593
+)
+
+(RectD.590
+	Left:	752.68855209876540
+	Top:	753.56622222222165
+	Right:	752.69072222222223
+	Bottom:	747.05695999999955
+)
+
+(BLnSym.591
+	Color:	592
+	Width:	4.00000000000000
+	CapStyle:	0x01
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+)
+
+(TClr.592
+)
+
+(LineD.593
+	X1:	752.69072222222223
+	Y1:	753.56622222222165
+	X2:	752.68855209876540
+	Y2:	747.05695999999955
+)
+
+(GShape.594
+	Bounds:	595
+	Sym:	596
+	Shape:	598
+)
+
+(RectD.595
+	Left:	744.88363382716079
+	Top:	747.04236938271583
+	Right:	752.66994444444447
+	Bottom:	747.04199999999958
+)
+
+(BLnSym.596
+	Color:	597
+	Width:	4.00000000000000
+	CapStyle:	0x01
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+)
+
+(TClr.597
+)
+
+(LineD.598
+	X1:	752.66994444444447
+	Y1:	747.04199999999958
+	X2:	744.88363382716079
+	Y2:	747.04236938271583
+)
+
+(GShape.599
+	Bounds:	600
+	Sym:	601
+	Shape:	603
+)
+
+(RectD.600
+	Left:	744.88135565925938
+	Top:	753.58192386063070
+	Right:	744.88439567901241
+	Bottom:	747.05446666666626
+)
+
+(BLnSym.601
+	Color:	602
+	Width:	4.00000000000000
+	CapStyle:	0x01
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+)
+
+(TClr.602
+)
+
+(LineD.603
+	X1:	744.88439567901241
+	Y1:	747.05446666666626
+	X2:	744.88135565925938
+	Y2:	753.58192386063070
+)
+
+(GShape.604
+	Bounds:	605
+	Sym:	606
+	Shape:	608
+)
+
+(RectD.605
+	Left:	744.93766667060174
+	Top:	746.86777778761507
+	Right:	744.93766667060174
+	Bottom:	746.36777778367991
+)
+
+(BLnSym.606
+	Color:	607
+	Width:	4.00000000000000
+	CapStyle:	0x01
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+)
+
+(TClr.607
+)
+
+(LineD.608
+	X1:	744.93766667060174
+	Y1:	746.86777778761507
+	X2:	744.93766667060174
+	Y2:	746.36777778367991
+)
+
+(GShape.609
+	Bounds:	610
+	Sym:	611
+	Shape:	613
+)
+
+(RectD.610
+	Left:	744.94912404870638
+	Top:	746.36777778368003
+	Right:	752.68766673159416
+	Bottom:	746.35089954337877
+)
+
+(BLnSym.611
+	Color:	612
+	Width:	4.00000000000000
+	CapStyle:	0x01
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+)
+
+(TClr.612
+)
+
+(LineD.613
+	X1:	744.94912404870638
+	Y1:	746.35089954337877
+	X2:	752.68766673159416
+	Y2:	746.36777778368003
+)
+
+(GShape.614
+	Bounds:	615
+	Sym:	616
+	Shape:	618
+)
+
+(RectD.615
+	Left:	744.93766667060174
+	Top:	746.86777778761495
+	Right:	752.68766673159416
+	Bottom:	746.86777778761495
+)
+
+(BLnSym.616
+	Color:	617
+	Width:	4.00000000000000
+	CapStyle:	0x01
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+)
+
+(TClr.617
+)
+
+(LineD.618
+	X1:	752.68766673159416
+	Y1:	746.86777778761495
+	X2:	744.93766667060174
+	Y2:	746.86777778761495
+)
+
+(GShape.619
+	Bounds:	620
+	Sym:	621
+	Shape:	623
+)
+
+(RectD.620
+	Left:	744.93593713174369
+	Top:	746.80742760020246
+	Right:	744.93593713174369
+	Bottom:	746.79358885844715
+)
+
+(BLnSym.621
+	Color:	622
+	Width:	4.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+)
+
+(TClr.622
+)
+
+(LineD.623
+	X1:	744.93593713174369
+	Y1:	746.80742760020246
+	X2:	744.93593713174369
+	Y2:	746.79358885844715
+)
+
+(GShape.624
+	Bounds:	625
+	Sym:	626
+	Shape:	628
+)
+
+(RectD.625
+	Left:	752.68766673159416
+	Top:	746.86777778761507
+	Right:	752.68766673159416
+	Bottom:	746.36777778367991
+)
+
+(BLnSym.626
+	Color:	627
+	Width:	4.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+)
+
+(TClr.627
+)
+
+(LineD.628
+	X1:	752.68766673159416
+	Y1:	746.36777778367991
+	X2:	752.68766673159416
+	Y2:	746.86777778761507
+)
+
+(GShape.629
+	Bounds:	630
+	Sym:	631
+	Shape:	633
+)
+
+(RectD.630
+	Left:	752.93766673356163
+	Top:	753.61777784073740
+	Right:	755.18766675126903
+	Bottom:	753.61777784073740
+)
+
+(BLnSym.631
+	Color:	632
+	Width:	4.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+)
+
+(TClr.632
+)
+
+(LineD.633
+	X1:	752.93766673356163
+	Y1:	753.61777784073740
+	X2:	755.18766675126903
+	Y2:	753.61777784073740
+)
+
+(GShape.634
+	Bounds:	635
+	Sym:	636
+	Shape:	638
+)
+
+(RectD.635
+	Left:	752.93766673356163
+	Top:	746.36777778367991
+	Right:	755.18766675126903
+	Bottom:	746.36777778367991
+)
+
+(BLnSym.636
+	Color:	637
+	Width:	4.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+)
+
+(TClr.637
+)
+
+(LineD.638
+	X1:	752.93766673356163
+	Y1:	746.36777778367991
+	X2:	755.18766675126903
+	Y2:	746.36777778367991
+)
+
+(GShape.639
+	Bounds:	640
+	Sym:	641
+	Shape:	643
+)
+
+(RectD.640
+	Left:	755.18766675126915
+	Top:	753.61777784073740
+	Right:	755.18766675126915
+	Bottom:	746.36777778367991
+)
+
+(BLnSym.641
+	Color:	642
+	Width:	4.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+)
+
+(TClr.642
+)
+
+(LineD.643
+	X1:	755.18766675126915
+	Y1:	746.36777778367991
+	X2:	755.18766675126915
+	Y2:	753.61777784073740
+)
+
+(GShape.644
+	Bounds:	645
+	Sym:	646
+	Shape:	648
+)
+
+(RectD.645
+	Left:	752.93766673356174
+	Top:	753.61777784073740
+	Right:	752.93766673356174
+	Bottom:	746.36777778367991
+)
+
+(BLnSym.646
+	Color:	647
+	Width:	4.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+)
+
+(TClr.647
+)
+
+(LineD.648
+	X1:	752.93766673356174
+	Y1:	746.36777778367991
+	X2:	752.93766673356174
+	Y2:	753.61777784073740
+)
+
+(GText.649
+	Name:	"GraphicText1"
+	Bounds:	650
+	Sym:	651
+	Text:	"K O T A  S U R A B A Y A"
+	Spacing:	1.00000000000000
+)
+
+(RectD.650
+	Left:	747.04835276401138
+	Top:	746.85822044626218
+	Right:	750.56224165290143
+	Bottom:	746.51099822403989
+)
+
+(TxSym.651
+	Color:	652
+	Font:	653
+	BgColor:	658
+	OlColor:	659
+	Size:	25.00000000000818
+)
+
+(TClr.652
+)
+
+(NFont.653
+	Family:	654
+	Name:	655
+	Style:	656
+	CommonFamily:	657
+	Bold:	1
+	Weight:	1
+	Wideness:	1
+)
+
+(AVStr.654
+	S:	"Arial"
+)
+
+(AVStr.655
+	S:	"Arial Bold"
+)
+
+(AVStr.656
+	S:	"Bold"
+)
+
+(AVStr.657
+	S:	"Helvetica"
+)
+
+(TClr.658
+	Red:	0xff
+	Green:	0xff
+	Blue:	0xff
+)
+
+(TClr.659
+	Red:	0xff
+	Green:	0xff
+	Blue:	0xff
+)
+
+(GShape.660
+	Bounds:	661
+	Sym:	662
+	Shape:	664
+)
+
+(RectD.661
+	Left:	752.93766673356163
+	Top:	746.86777778761495
+	Right:	755.18766675126903
+	Bottom:	746.86777778761495
+)
+
+(BLnSym.662
+	Color:	663
+	Width:	2.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+)
+
+(TClr.663
+)
+
+(LineD.664
+	X1:	752.93766673356163
+	Y1:	746.86777778761495
+	X2:	755.18766675126903
+	Y2:	746.86777778761495
+)
+
+(GShape.665
+	Bounds:	666
+	Sym:	667
+	Shape:	669
+)
+
+(RectD.666
+	Left:	752.93766673356163
+	Top:	747.36777779154977
+	Right:	755.18766675126903
+	Bottom:	747.36777779154977
+)
+
+(BLnSym.667
+	Color:	668
+	Width:	2.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+)
+
+(TClr.668
+)
+
+(LineD.669
+	X1:	752.93766673356163
+	Y1:	747.36777779154977
+	X2:	755.18766675126903
+	Y2:	747.36777779154977
+)
+
+(GShape.670
+	Bounds:	671
+	Sym:	672
+	Shape:	674
+)
+
+(RectD.671
+	Left:	752.93766673356163
+	Top:	753.11777783680236
+	Right:	755.18766675126903
+	Bottom:	753.11777783680236
+)
+
+(BLnSym.672
+	Color:	673
+	Width:	2.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+)
+
+(TClr.673
+)
+
+(LineD.674
+	X1:	752.93766673356163
+	Y1:	753.11777783680236
+	X2:	755.18766675126903
+	Y2:	753.11777783680236
+)
+
+(GShape.675
+	Bounds:	676
+	Sym:	677
+	Shape:	679
+)
+
+(RectD.676
+	Left:	752.93766673356163
+	Top:	752.36777783089985
+	Right:	755.18766675126903
+	Bottom:	752.36777783089985
+)
+
+(BLnSym.677
+	Color:	678
+	Width:	2.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+)
+
+(TClr.678
+)
+
+(LineD.679
+	X1:	752.93766673356163
+	Y1:	752.36777783089985
+	X2:	755.18766675126903
+	Y2:	752.36777783089985
+)
+
+(GShape.680
+	Bounds:	681
+	Sym:	682
+	Shape:	684
+)
+
+(RectD.681
+	Left:	752.93766673356163
+	Top:	751.61777782499746
+	Right:	755.18766675126903
+	Bottom:	751.61777782499746
+)
+
+(BLnSym.682
+	Color:	683
+	Width:	2.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+)
+
+(TClr.683
+)
+
+(LineD.684
+	X1:	752.93766673356163
+	Y1:	751.61777782499746
+	X2:	755.18766675126903
+	Y2:	751.61777782499746
+)
+
+(GText.685
+	Name:	"GraphicText3"
+	Bounds:	686
+	Sym:	687
+	Text:	"PENGEMBANGAN PUSAT DATA \nPERENCANAAN DAN PENGENDALIAN\nPEMBANGUNAN DI KOTA SURABAYA\n( G I S )"
+	Alignment:	0x01
+	Spacing:	1.00000000000000
+)
+
+(RectD.686
+	Left:	753.07626543209904
+	Top:	753.01482049382651
+	Right:	755.06126543209859
+	Bottom:	752.51482049382662
+)
+
+(TxSym.687
+	Color:	688
+	Font:	689
+	BgColor:	694
+	OlColor:	695
+	Size:	8.99999999999796
+)
+
+(TClr.688
+)
+
+(NFont.689
+	Family:	690
+	Name:	691
+	Style:	692
+	CommonFamily:	693
+	Bold:	1
+	Weight:	1
+	Wideness:	1
+)
+
+(AVStr.690
+	S:	"Arial"
+)
+
+(AVStr.691
+	S:	"Arial Bold"
+)
+
+(AVStr.692
+	S:	"Bold"
+)
+
+(AVStr.693
+	S:	"Helvetica"
+)
+
+(TClr.694
+	Red:	0xff
+	Green:	0xff
+	Blue:	0xff
+)
+
+(TClr.695
+	Red:	0xff
+	Green:	0xff
+	Blue:	0xff
+)
+
+(GText.696
+	Name:	"GraphicText4"
+	Bounds:	697
+	Sym:	698
+	Text:	"PETA"
+	Spacing:	1.00000000000000
+)
+
+(RectD.697
+	Left:	753.82846716049380
+	Top:	752.28923061728358
+	Right:	754.26985604938295
+	Bottom:	752.09478617283901
+)
+
+(TxSym.698
+	Color:	699
+	Font:	700
+	BgColor:	705
+	OlColor:	706
+	Size:	14.00000000000818
+)
+
+(TClr.699
+)
+
+(NFont.700
+	Family:	701
+	Name:	702
+	Style:	703
+	CommonFamily:	704
+	Bold:	1
+	Weight:	1
+	Wideness:	1
+)
+
+(AVStr.701
+	S:	"Arial"
+)
+
+(AVStr.702
+	S:	"Arial Bold"
+)
+
+(AVStr.703
+	S:	"Bold"
+)
+
+(AVStr.704
+	S:	"Helvetica"
+)
+
+(TClr.705
+	Red:	0xff
+	Green:	0xff
+	Blue:	0xff
+)
+
+(TClr.706
+	Red:	0xff
+	Green:	0xff
+	Blue:	0xff
+)
+
+(GText.707
+	Name:	"GraphicText5"
+	Bounds:	708
+	Sym:	709
+	Text:	"Keterangan"
+	Spacing:	1.00000000000000
+)
+
+(RectD.708
+	Left:	753.79596148148141
+	Top:	751.54359407407355
+	Right:	754.32596148148139
+	Bottom:	751.43248296296247
+)
+
+(TxSym.709
+	Color:	710
+	Font:	711
+	BgColor:	716
+	OlColor:	717
+	Size:	8.00000000000000
+)
+
+(TClr.710
+)
+
+(NFont.711
+	Family:	712
+	Name:	713
+	Style:	714
+	CommonFamily:	715
+	Bold:	1
+	Weight:	1
+	Wideness:	1
+)
+
+(AVStr.712
+	S:	"Arial"
+)
+
+(AVStr.713
+	S:	"Arial Bold"
+)
+
+(AVStr.714
+	S:	"Bold"
+)
+
+(AVStr.715
+	S:	"Helvetica"
+)
+
+(TClr.716
+	Red:	0xff
+	Green:	0xff
+	Blue:	0xff
+)
+
+(TClr.717
+	Red:	0xff
+	Green:	0xff
+	Blue:	0xff
+)
+
+(GText.718
+	Name:	"GraphicText6"
+	Bounds:	719
+	Sym:	720
+	Text:	"Sumber  :\n           1. Peta Data Pokok\n           2. Surabaya Dalam Angka 1999\n           3. Hasil Survey"
+	Spacing:	1.00000000000000
+)
+
+(RectD.719
+	Left:	753.01988839506157
+	Top:	747.34371456790075
+	Right:	754.50641617283929
+	Bottom:	746.95482567901183
+)
+
+(TxSym.720
+	Color:	721
+	Font:	722
+	BgColor:	727
+	OlColor:	728
+	Size:	7.00000000000000
+)
+
+(TClr.721
+)
+
+(NFont.722
+	Family:	723
+	Name:	724
+	Style:	725
+	CommonFamily:	726
+	Weight:	1
+	Wideness:	1
+)
+
+(AVStr.723
+	S:	"Arial"
+)
+
+(AVStr.724
+	S:	"Arial"
+)
+
+(AVStr.725
+	S:	"Normal"
+)
+
+(AVStr.726
+	S:	"Helvetica"
+)
+
+(TClr.727
+	Red:	0xff
+	Green:	0xff
+	Blue:	0xff
+)
+
+(TClr.728
+	Red:	0xff
+	Green:	0xff
+	Blue:	0xff
+)
+
+(GText.729
+	Name:	"GraphicText7"
+	Bounds:	730
+	Sym:	731
+	Text:	"No. Peta"
+	Spacing:	1.00000000000000
+)
+
+(RectD.730
+	Left:	753.00769876543188
+	Top:	746.84652345678967
+	Right:	753.39325432098747
+	Bottom:	746.73541234567858
+)
+
+(TxSym.731
+	Color:	732
+	Font:	733
+	BgColor:	738
+	OlColor:	739
+	Size:	8.00000000000000
+)
+
+(TClr.732
+)
+
+(NFont.733
+	Family:	734
+	Name:	735
+	Style:	736
+	CommonFamily:	737
+	Bold:	1
+	Weight:	1
+	Wideness:	1
+)
+
+(AVStr.734
+	S:	"Arial"
+)
+
+(AVStr.735
+	S:	"Arial Bold"
+)
+
+(AVStr.736
+	S:	"Bold"
+)
+
+(AVStr.737
+	S:	"Helvetica"
+)
+
+(TClr.738
+	Red:	0xff
+	Green:	0xff
+	Blue:	0xff
+)
+
+(TClr.739
+	Red:	0xff
+	Green:	0xff
+	Blue:	0xff
+)
+
+(GText.740
+	Name:	"GraphicText8"
+	Bounds:	741
+	Sym:	742
+	Text:	"3.24"
+	Spacing:	1.00000000000000
+)
+
+(RectD.741
+	Left:	753.79596148148119
+	Top:	746.85464987654279
+	Right:	753.98262814814780
+	Bottom:	746.74353876543171
+)
+
+(TxSym.742
+	Color:	743
+	Font:	744
+	BgColor:	749
+	OlColor:	750
+	Size:	8.00000000000000
+)
+
+(TClr.743
+)
+
+(NFont.744
+	Family:	745
+	Name:	746
+	Style:	747
+	CommonFamily:	748
+	Bold:	1
+	Weight:	1
+	Wideness:	1
+)
+
+(AVStr.745
+	S:	"Arial"
+)
+
+(AVStr.746
+	S:	"Arial Bold"
+)
+
+(AVStr.747
+	S:	"Bold"
+)
+
+(AVStr.748
+	S:	"Helvetica"
+)
+
+(TClr.749
+	Red:	0xff
+	Green:	0xff
+	Blue:	0xff
+)
+
+(TClr.750
+	Red:	0xff
+	Green:	0xff
+	Blue:	0xff
+)
+
+(GText.751
+	Name:	"GraphicText9"
+	Bounds:	752
+	Sym:	753
+	Text:	"PEMERINTAH KOTA\nSURABAYA"
+	Alignment:	0x01
+	Spacing:	1.00000000000000
+)
+
+(RectD.752
+	Left:	753.47303272450529
+	Top:	753.58847260273933
+	Right:	755.10053272450534
+	Bottom:	753.19958371385042
+)
+
+(TxSym.753
+	Color:	754
+	Font:	755
+	BgColor:	760
+	OlColor:	761
+	Size:	14.00000000000000
+)
+
+(TClr.754
+)
+
+(NFont.755
+	Family:	756
+	Name:	757
+	Style:	758
+	CommonFamily:	759
+	Bold:	1
+	Weight:	1
+	Wideness:	1
+)
+
+(AVStr.756
+	S:	"Arial"
+)
+
+(AVStr.757
+	S:	"Arial Bold"
+)
+
+(AVStr.758
+	S:	"Bold"
+)
+
+(AVStr.759
+	S:	"Helvetica"
+)
+
+(TClr.760
+	Red:	0xff
+	Green:	0xff
+	Blue:	0xff
+)
+
+(TClr.761
+	Red:	0xff
+	Green:	0xff
+	Blue:	0xff
+)
+
+(GText.762
+	Name:	"GraphicText5"
+	Bounds:	763
+	Sym:	764
+	Text:	"Skala                     1 : 50.000"
+	Spacing:	1.00000000000000
+)
+
+(RectD.763
+	Left:	753.00180809881510
+	Top:	746.67378034899514
+	Right:	754.24625254325952
+	Bottom:	746.56266923788405
+)
+
+(TxSym.764
+	Color:	765
+	Font:	766
+	BgColor:	771
+	OlColor:	772
+	Size:	8.00000000000000
+)
+
+(TClr.765
+)
+
+(NFont.766
+	Family:	767
+	Name:	768
+	Style:	769
+	CommonFamily:	770
+	Bold:	1
+	Weight:	1
+	Wideness:	1
+)
+
+(AVStr.767
+	S:	"Arial"
+)
+
+(AVStr.768
+	S:	"Arial Bold"
+)
+
+(AVStr.769
+	S:	"Bold"
+)
+
+(AVStr.770
+	S:	"Helvetica"
+)
+
+(TClr.771
+	Red:	0xff
+	Green:	0xff
+	Blue:	0xff
+)
+
+(TClr.772
+	Red:	0xff
+	Green:	0xff
+	Blue:	0xff
+)
+
+(GShape.773
+	Bounds:	774
+	Sym:	775
+	Shape:	779
+)
+
+(RectD.774
+	Left:	753.05666666666673
+	Top:	751.47722222222171
+	Right:	753.50333333333333
+	Bottom:	751.18388888888842
+)
+
+(BShSym.775
+	Color:	776
+	OutlineColor:	777
+	OutlineWidth:	0.10000000000000
+	BgColor:	778
+)
+
+(TClr.776
+	Red:	0xffff
+	Green:	0xffff
+	Blue:	0xffff
+)
+
+(TClr.777
+)
+
+(TClr.778
+	Name:	"Transparent"
+)
+
+(RectD.779
+	Left:	753.05666666666673
+	Top:	751.47722222222171
+	Right:	753.50333333333333
+	Bottom:	751.18388888888842
+)
+
+(GPict.780
+	Name:	"PictureFrame19"
+	Bounds:	781
+	Sym:	782
+	Flags:	0x01
+	UserBounds:	786
+	Refresh:	2
+	Quality:	1
+	Pict:	787
+)
+
+(RectD.781
+	Left:	752.98015666666674
+	Top:	753.57979703703654
+	Right:	753.32983065608471
+	Bottom:	753.13695333333283
+)
+
+(BShSym.782
+	Color:	783
+	OutlineColor:	784
+	BgColor:	785
+	Style:	0x01
+)
+
+(TClr.783
+)
+
+(TClr.784
+)
+
+(TClr.785
+	Red:	0xffff
+	Green:	0xffff
+	Blue:	0xffff
+)
+
+(RectD.786
+	Left:	752.98015666666674
+	Top:	753.57979703703654
+	Right:	753.39751296296299
+	Bottom:	753.13695333333283
+)
+
+(ImgPict.787
+	Fn:	788
+	ISrc:	789
+)
+
+(FN.788
+	Path:	"d:/tg-its/stal/logokm~1.tif"
+)
+
+(ISrc.789
+	Name:	790
+	MapBox:	792
+	BandStats:	793
+)
+
+(SrcName.790
+	FileName:	791
+	Name:	"logokm~1.tif"
+	OwnerClass:	"ISrc"
+)
+
+(FN.791
+	Path:	"d:/tg-its/stal/logokm~1.tif"
+)
+
+(RectD.792
+	Left:	-0.00138888888889
+	Top:	0.00138888888889
+	Right:	0.84305555555556
+	Bottom:	-1.06805555555556
+)
+
+(BStat.793
+	Max:	1.00000000000000
+	Mean:	0.50000000000000
+	StDv:	0.25000000000000
+)
+
+(GText.794
+	Name:	"GraphicText20"
+	Bounds:	795
+	Sym:	796
+	Text:	"4.2.37 KEPADATAN PENDUDUK"
+	Angle:	270.00000000000000
+	Spacing:	1.00000000000000
+)
+
+(RectD.795
+	Left:	755.26402777777594
+	Top:	753.49386111111050
+	Right:	755.45847222222415
+	Bottom:	750.90969444444352
+)
+
+(TxSym.796
+	Color:	797
+	Font:	798
+	BgColor:	803
+	OlColor:	804
+	Size:	14.00000000000000
+)
+
+(TClr.797
+)
+
+(NFont.798
+	Family:	799
+	Name:	800
+	Style:	801
+	CommonFamily:	802
+	Weight:	1
+	Wideness:	1
+)
+
+(AVStr.799
+	S:	"Arial"
+)
+
+(AVStr.800
+	S:	"Arial"
+)
+
+(AVStr.801
+	S:	"Normal"
+)
+
+(AVStr.802
+	S:	"Helvetica"
+)
+
+(TClr.803
+	Red:	0xff
+	Green:	0xff
+	Blue:	0xff
+)
+
+(TClr.804
+	Red:	0xff
+	Green:	0xff
+	Blue:	0xff
+)
+
+(GText.805
+	Name:	"GraphicText22"
+	Bounds:	806
+	Sym:	807
+	Text:	"IV-22"
+	Angle:	270.00000000000000
+	Spacing:	1.00000000000000
+)
+
+(RectD.806
+	Left:	744.70972222222179
+	Top:	746.76944444444348
+	Right:	744.90416666666681
+	Bottom:	746.35722222222103
+)
+
+(TxSym.807
+	Color:	808
+	Font:	809
+	BgColor:	814
+	OlColor:	815
+	Size:	14.00000000000000
+)
+
+(TClr.808
+)
+
+(NFont.809
+	Family:	810
+	Name:	811
+	Style:	812
+	CommonFamily:	813
+	Weight:	1
+	Wideness:	1
+)
+
+(AVStr.810
+	S:	"Arial"
+)
+
+(AVStr.811
+	S:	"Arial"
+)
+
+(AVStr.812
+	S:	"Normal"
+)
+
+(AVStr.813
+	S:	"Helvetica"
+)
+
+(TClr.814
+	Red:	0xff
+	Green:	0xff
+	Blue:	0xff
+)
+
+(TClr.815
+	Red:	0xff
+	Green:	0xff
+	Blue:	0xff
+)
+
+(Numb.816
+)
+
+(Table.817
+	Name:	"kepadatan-pend.dbf"
+	CreationDate:	"Wednesday, November 21, 2001 03:26:14 PM"
+	GUIName:	"Table"
+	Win:	818
+	CSMgr:	819
+	DocExts:	820
+	VTab:	821
+)
+
+(DocWin.818
+	Owner:	817
+	X:	50
+	Y:	50
+	W:	365
+	H:	248
+)
+
+(CSMgr.819
+)
+
+(DocAct.820
+	Doc:	817
+)
+
+(VTab.821
+	Name:	"kepadatan-pend.dbf"
+	BTab:	822
+	Fields:	823
+	Fields:	824
+	Fields:	825
+	Fields:	826
+	Fields:	827
+	SelBits:	829
+)
+
+(dBASE.822
+	Name:	"kepadatan-pend.dbf"
+	Fields:	823
+	Fields:	824
+	Fields:	825
+	Fields:	826
+	Fields:	827
+	FileName:	828
+)
+
+(Field.823
+	Name:	"No"
+	Btab:	822
+	Alias:	"No"
+	Visible:	1
+	Type:	9
+	Order:	-1
+	Pixels:	35
+)
+
+(Field.824
+	Name:	"Kecamatan"
+	Btab:	822
+	Alias:	"Kecamatan"
+	Visible:	1
+	Type:	4
+	Order:	-1
+	Pixels:	101
+)
+
+(Field.825
+	Name:	"Luas_wilay"
+	Btab:	822
+	Alias:	"Luas_wilay"
+	Visible:	1
+	Type:	4
+	Order:	-1
+	Pixels:	113
+)
+
+(Field.826
+	Name:	"1980/jiwa"
+	Btab:	822
+	Alias:	"1980/jiwa"
+	Visible:	1
+	Type:	4
+	Order:	-1
+	Pixels:	150
+)
+
+(Field.827
+	Name:	"1990/jiwa"
+	Btab:	822
+	Alias:	"1990/jiwa"
+	Visible:	1
+	Type:	4
+	Order:	-1
+	Pixels:	113
+)
+
+(FN.828
+	Path:	"d:/tg-its/stal/kepadatan penduduk/excel/kepadatan-pend.dbf"
+)
+
+(Bitmap.829
+	NumBits:	28
+
+)
+
+(LButn.830
+	HelpTopic:	"New_button"
+	Update:	"Doc.NewUpdate"
+	Label:	"&New"
+	Click:	"View.New"
+)
+
+(LButn.831
+	HelpTopic:	"Open_button"
+	Update:	"Doc.OpenUpdate"
+	Label:	"&Open"
+	Click:	"Doc.Open"
+)
+
+(LButn.832
+	HelpTopic:	"Print_button"
+	Update:	"Doc.ActionUpdate"
+	Label:	"P&rint"
+	Click:	"Doc.Action"
+)
+
+(FN.833
+	Path:	"$AVEXT/cadrg.avx"
+)
+
+(FN.834
+	Path:	"$AVEXT/cadview.avx"
+)
+
+(NameDict.835
+)
+
+(NameDict.836
+	Obj:	837
+	Obj:	838
+)
+
+(AVDict.837
+	InternalName:	"Table of Contents Defaults Dialog"
+)
+
+(AVDict.838
+	InternalName:	"_Thor_"
+)
+
+(FN.1666
+	Path:	"$HOME"
+)
+
+(TClr.1667
+	Red:	0xffff
+	Green:	0xffff
+)
+
+(AVStr.1668
+	S:	"View"
+)
+
+(AVStr.1669
+	S:	"Table"
+)
+
+(AVStr.1670
+	S:	"Chart"
+)
+
+(AVStr.1671
+	S:	"Layout"
+)
+
+(AVStr.1672
+	S:	"Script"
+)
+
+(AVStr.1673
+	S:	"Project"
+)
+
+(AVStr.1674
+	S:	"Appl"
+)
+
