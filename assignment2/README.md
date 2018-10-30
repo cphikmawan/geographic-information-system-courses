@@ -80,7 +80,7 @@
     2. Select Layer -> Add Value -> Ok -> Close
         ![fill-value](assets/img/fill-value.png)
     3. The Result
-        ![the-result](assets/img/the-result.png)
+        ![the-result](assets/img/jalan-buffer.png)
 
 - After create buffer and get **result** like this
     ![the-result-buffer](assets/img/the-result-buffer.png)
@@ -91,10 +91,15 @@
     1. **Right Click** on The Buffer -> **Open Attribute Table**
         ![open-table](assets/img/open-table.png)
     2. **Toggle Editing Mode** (Click on Pencil Icon)
+
         - **Delete Inner Column**
+
             ![delete-inner](assets/img/delete-inner.png)
+
         - **Add Score Column and Add the Value**
+
             ![add-score](assets/img/add-score.png)
+
 
 >**Dont forget to save each created buffer**
 
@@ -126,10 +131,15 @@
 3. Then Double Click on **score**
 4. Click **Plus Notation "+"**
 5. And click **score_2**, then repeat until **score_5**.
+
 6. It will look like this.
+
     ![calculator2](assets/img/calculator2.png)
+
 7. Ok. it will create column named **total**
+
     ![calculator-result](assets/img/calculator-result.png)
+
 
 #### Step 5 - Set the Color
 
@@ -168,5 +178,16 @@
 **4. Run**
 
 ![clipped](assets/img/clipped.png)
+
+### Conclusion
+
+![conclusion](assets/img/conclusion.png)
+
+| Value | Rate |
+| --- | --- |
+| 1 - 3 | Bad |
+| 4 - 6 | Common |
+| 7 - 9 | Enaugh |
+| 10 - 11 | Best |
 
 ###### Created with <3 by Cloudy
